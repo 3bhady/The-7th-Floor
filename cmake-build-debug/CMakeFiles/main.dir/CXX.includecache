@@ -57,6 +57,8 @@ assimp/scene.h
 -
 assimp/postprocess.h
 -
+glm/gtc/type_ptr.hpp
+-
 
 /home/mohamed/Documents/Jung/Model.cpp
 Model.h

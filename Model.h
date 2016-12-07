@@ -43,7 +43,10 @@ public:
     void Draw(Shader* shader)
     {
         for(GLuint i = 0; i < this->meshes.size(); i++)
-            this->meshes[i].Draw(shader);
+        {
+            if(i==2)
+                meshes[i].Scale(2.f,2.f,2.f);
+            this->meshes[i].Draw(shader,modalMatrix);}
     }
 //mvp matrices
     glm::mat4 modalMatrix = glm::mat4(1.0);
@@ -243,8 +246,6 @@ public:
        // modalMatrix=
              //   translate(mat4(), position)*scalingMatrix*translate(mat4(), -position)*modalMatrix;
        modalMatrix=scalingMatrix*modalMatrix;
-
-
     }
     void SetLightPosition(float xpos,float ypos,float zpos){
 

@@ -13,1471 +13,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6689b8-ce50-4002-ac94-a64cfca400b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/.travis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/AssimpBuildTreeSettings.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/AssimpConfig.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/AssimpConfigVersion.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/CREDITS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/CodeConventions.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/appveyor.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/assimp-config-version.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/assimp-config.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/assimp.pc.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/AddGTest.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/DebSourcePPA.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/FindDirectX.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/FindPkgMacros.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/FindZLIB.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/Findassimp.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/MinGW_x86_64.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/PrecompiledHeader.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/cmake-modules/cmake_uninstall.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/3DSConverter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/3DSExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/3DSExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/3DSHelper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/3DSLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/3DSLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ACLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ACLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ASELoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ASELoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ASEParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ASEParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssbinExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssbinExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssbinLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssbinLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Assimp.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssimpCExport.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssxmlExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/AssxmlExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/B3DImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/B3DImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BVHLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BVHLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BaseImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BaseImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BaseProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BaseProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Bitmap.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Bitmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderBMesh.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderBMesh.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderDNA.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderDNA.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderDNA.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderIntermediate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderModifier.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderModifier.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderScene.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderScene.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderSceneGen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderTessellator.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlenderTessellator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/BlobIOSystem.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ByteSwapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/C4DImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/C4DImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/CInterfaceIOWrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/COBLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/COBLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/COBScene.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/CSMLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/CSMLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/CalcTangentsProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/CalcTangentsProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaHelper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ColladaParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ComputeUVMappingProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ComputeUVMappingProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ConvertToLHProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ConvertToLHProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/D3MFImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/D3MFImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/D3MFOpcPackage.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/D3MFOpcPackage.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DXFHelper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DXFLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DXFLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DeboneProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DeboneProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DefaultIOStream.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DefaultIOStream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DefaultIOSystem.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DefaultIOSystem.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DefaultLogger.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/DefaultProgressHandler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Defines.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Exceptional.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Exporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXAnimation.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXBinaryTokenizer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXCompileConfig.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXConverter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXConverter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXDeformer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXDocument.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXDocument.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXDocumentUtil.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXDocumentUtil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXImportSettings.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXMaterial.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXMeshGeometry.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXMeshGeometry.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXModel.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXNodeAttribute.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXProperties.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXProperties.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXTokenizer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXTokenizer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXUtil.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FBXUtil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FileLogStream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FileSystemFilter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FindDegenerates.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FindDegenerates.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FindInstancesProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FindInstancesProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FindInvalidDataProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FindInvalidDataProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FixNormalsStep.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/FixNormalsStep.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/GenFaceNormalsProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/GenFaceNormalsProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/GenVertexNormalsProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/GenVertexNormalsProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/GenericProperty.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/HMPFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/HMPLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/HMPLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/HalfLifeFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Hash.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCBoolean.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCCurve.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCGeometry.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCMaterial.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCOpenings.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCProfile.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCReaderGen.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCReaderGen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCUtil.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFCUtil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IFF.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IRRLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IRRLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IRRMeshLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IRRMeshLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IRRShared.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/IRRShared.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Importer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Importer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ImporterRegistry.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ImproveCacheLocality.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ImproveCacheLocality.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/JoinVerticesProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/JoinVerticesProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOAnimation.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOAnimation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOBLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWOMaterial.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWSLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LWSLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LimitBoneWeightsProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LimitBoneWeightsProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LineSplitter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/LogAux.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD2FileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD2Loader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD2Loader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD2NormalTable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD3FileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD3Loader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD3Loader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD4FileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD5Loader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD5Loader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD5Parser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MD5Parser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDCFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDCLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDCLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDCNormalTable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDLDefaultColorMap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDLFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDLLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDLLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MDLMaterialLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MS3DLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MS3DLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Macros.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MakeVerboseFormat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MakeVerboseFormat.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MaterialSystem.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MaterialSystem.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MathFunctions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/MemoryIOWrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/NDOLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/NDOLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/NFFLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/NFFLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OFFLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OFFLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileMtlImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileMtlImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjFileParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ObjTools.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreBinarySerializer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreBinarySerializer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreMaterial.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreParsingUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreStructs.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreStructs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreXmlSerializer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OgreXmlSerializer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OpenGEXExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OpenGEXExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OpenGEXImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OpenGEXImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OpenGEXStructs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OptimizeGraph.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OptimizeGraph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OptimizeMeshes.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/OptimizeMeshes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ParsingUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PlyExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PlyExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PlyLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PlyLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PlyParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PlyParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PolyTools.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PostStepRegistry.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PretransformVertices.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/PretransformVertices.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ProcessHelper.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ProcessHelper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Profiler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPFileData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPFileImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPFileImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPFileParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPFileParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPZipArchive.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3BSPZipArchive.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3DLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Q3DLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RawLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RawLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RemoveComments.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RemoveComments.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RemoveRedundantMaterials.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RemoveRedundantMaterials.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RemoveVCProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/RemoveVCProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SGSpatialSort.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SGSpatialSort.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SIBImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SIBImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SMDLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SMDLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STEPFile.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STEPFileEncoding.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STEPFileEncoding.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STEPFileReader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STEPFileReader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STLExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STLExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STLLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/STLLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SceneCombiner.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SceneCombiner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ScenePreprocessor.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ScenePreprocessor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ScenePrivate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SkeletonMeshBuilder.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SkeletonMeshBuilder.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SmoothingGroups.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SmoothingGroups.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SortByPTypeProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SortByPTypeProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SpatialSort.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SpatialSort.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SplitByBoneCountProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SplitByBoneCountProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SplitLargeMeshes.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/SplitLargeMeshes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StandardShapes.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StandardShapes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StdOStreamLogStream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StepExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StepExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StreamReader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StreamWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StringComparison.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/StringUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Subdivision.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Subdivision.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TargetAnimation.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TargetAnimation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TerragenLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TerragenLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TextureTransform.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TextureTransform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TinyFormatter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TriangulateProcess.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/TriangulateProcess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/UnrealLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/UnrealLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ValidateDataStructure.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/ValidateDataStructure.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Version.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Vertex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/VertexTriangleAdjacency.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/VertexTriangleAdjacency.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/Win32DebugLogStream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileHelper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XFileParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XGLLoader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XGLLoader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/XMLTools.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/assbin_chunks.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/fast_atof.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFAsset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFAsset.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFAssetWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFAssetWriter.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFExporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFExporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/glTFImporter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/irrXMLWrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/makefile.mingw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/qnan.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/res/assimp.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/code/res/resource.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/ConvertUTF/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/clipper/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/clipper/clipper.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/clipper/clipper.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/CXMLReaderImpl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/heapsort.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/irrArray.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/irrString.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/irrTypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/irrXML.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML/irrXML.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/irrXML_note.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/CREDITS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/code/DDLNode.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/code/OpenDDLCommon.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/code/OpenDDLExport.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/code/OpenDDLParser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/code/Value.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/include/openddlparser/DDLNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLExport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/openddlparser/include/openddlparser/Value.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/common/shapes.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/common/shapes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/common/utils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/poly2tri.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/advancing_front.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/advancing_front.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/cdt.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/cdt.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep_context.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/poly2tri_patch.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/allocators.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/document.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/encodedstream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/encodings.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/error/en.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/error/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/filereadstream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/filewritestream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/biginteger.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/diyfp.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/dtoa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/ieee754.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/itoa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/meta.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/pow10.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/strfunc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/strtod.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/internal/swap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/memorybuffer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/memorystream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/msinttypes/inttypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/msinttypes/stdint.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/pointer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/prettywriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/rapidjson.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/reader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/stringbuffer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/include/rapidjson/writer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/rapidjson/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/unzip/crypt.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/unzip/ioapi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/unzip/ioapi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/unzip/unzip.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/unzip/unzip.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/adler32.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/compress.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/crc32.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/crc32.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/deflate.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/deflate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/gzclose.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/gzguts.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/gzlib.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/gzread.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/gzwrite.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/infback.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inffast.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inffast.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inffixed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inflate.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inflate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inftrees.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/inftrees.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/trees.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/trees.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/uncompr.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/DLL_FAQ.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/Makefile.bor" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/Makefile.gcc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/Makefile.msc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/README-WIN32.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/VisualC.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/zlib.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/win32/zlib1.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zconf.h.cmakein" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zconf.h.included" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zconf.in.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zlib.pc.cmakein" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zutil.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib/zutil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/contrib/zlib_note.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/AssimpCmdDoc_Html/AssimpCmdDoc.chm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/AssimpCmdDoc_Html/dragonsplash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/AssimpDoc_Html/AnimationOverview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/AssimpDoc_Html/AnimationOverview.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/AssimpDoc_Html/AssimpDoc.chm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/AssimpDoc_Html/dragonsplash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/Doxyfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/Doxyfile_Cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/Preamble.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/datastructure.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/dox.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/doc/dox_cmd.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/Compiler/poppack1.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/Compiler/pstdint.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/Compiler/pushpack1.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/DefaultLogger.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/Exporter.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/IOStream.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/IOSystem.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/Importer.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/LogStream.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/Logger.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/NullLogger.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/ProgressHandler.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/ai_assert.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/anim.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/camera.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/cexport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/cfileio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/cimport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/color4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/color4.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/defs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/importerdesc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/light.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/material.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/material.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/matrix3x3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/matrix3x3.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/matrix4x4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/matrix4x4.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/mesh.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/metadata.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/port/AndroidJNI/AndroidJNIIOSystem.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/postprocess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/quaternion.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/quaternion.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/scene.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/texture.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/types.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/vector2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/vector2.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/vector3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/vector3.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/include/assimp/version.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/LICENSE.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/WEB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/howto-build-setup.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/readme_installer.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/readme_installer_vieweronly.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/script.iss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-innosetup/script_vieweronly.iss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-mkzip/bin_readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-mkzip/mkfinal.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/packaging/windows-mkzip/mkrev.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AndroidJNI/AndroidJNIIOSystem.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AndroidJNI/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AndroidJNI/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiColor4D.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiMaterial.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiMatrix3x3.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiMatrix4x4.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiMesh.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiQuaternion.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiScene.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiTexture.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiTypes.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiVector2D.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/aiVector3D.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpDelphi/assimp.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpNET/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/AssimpPascal/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/gen/structsgen.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/core.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/errors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/formats.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/helper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/postprocess.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/pyassimp/structs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/scripts/3d_viewer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/scripts/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/scripts/fixed_pipeline_3d_viewer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/scripts/quicktest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/scripts/sample.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/PyAssimp/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/animation.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/api.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/assimp.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/camera.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/config.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/fileIO.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/light.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/loader.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/material.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/math.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/mesh.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/postprocess.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/scene.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/texture.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/types.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/dAssimp/assimp/versionInfo.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/IPHONEOS_ARM64_TOOLCHAIN.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/IPHONEOS_ARMV6_TOOLCHAIN.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/IPHONEOS_ARMV7S_TOOLCHAIN.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/IPHONEOS_ARMV7_TOOLCHAIN.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/IPHONEOS_I386_TOOLCHAIN.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/IPHONEOS_X86_64_TOOLCHAIN.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/iOS/build.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp-native/Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp-native/src/jassimp.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp-native/src/jassimp.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiAnimBehavior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiAnimation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiBlendMode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiBone.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiBoneWeight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiBuiltInWrapperProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiCamera.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiColor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiConfigOptions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiLight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiLightType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiMaterial.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiMatrix4f.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiMesh.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiMeshAnim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiNodeAnim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiPostProcessSteps.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiPrimitiveType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiQuaternion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiScene.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiSceneFlag.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiShadingMode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiTextureInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiTextureMapMode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiTextureMapping.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiTextureOp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiTextureType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiVector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/AiWrapperProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/JaiDebug.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/Jassimp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/JassimpConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/jassimp/jassimp/src/jassimp/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/DONOTUSEYET" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/assimp.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/d/build.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/d/generate.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/DefaultLogger.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/IOStream.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/IOSystem.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/LogStream.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/Logger.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/NullLogger.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiAnim.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiAssert.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiCamera.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiColor4D.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiConfig.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiDefines.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiFileIO.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiLight.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiMaterial.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiMatrix3x3.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiMatrix4x4.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiMesh.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiPostProcess.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiQuaternion.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiScene.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiTexture.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiTypes.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiVector2D.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiVector3D.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/aiVersion.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/port/swig/interface/assimp.i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/revision.h.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/COPYING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/CREDITS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/ChangeLog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/DevIL Website.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/Libraries.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/README.win" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/config.h.win" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/devil_internal_exports.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/il.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/il_wrap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/ilu.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/ilu_region.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/ilut.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/DevIL/include/IL/ilut_config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/English.lproj/Credits.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/English.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/English.lproj/MainMenu.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/English.lproj/MyDocument.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/ModelLoaderHelperClasses.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/ModelLoaderHelperClasses.mm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/MyDocument.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/MyDocument.mm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/MyDocument.xcdatamodel/elements" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/MyDocument.xcdatamodel/layout" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/SimpleAssimpViewX-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/SimpleAssimpViewX.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/SimpleAssimpViewX.xcodeproj/vade.mode1v3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/SimpleAssimpViewX.xcodeproj/vade.pbxuser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/SimpleAssimpViewX_Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/include/copy_assimp_headers_here.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleAssimpViewX/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleOpenGL/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleOpenGL/Sample_SimpleOpenGL.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleTexturedOpenGL/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleTexturedOpenGL/SimpleTexturedOpenGL/include/boost_includes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/SimpleTexturedOpenGL/SimpleTexturedOpenGL/src/model_loading.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/glut/GL/glut.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/glut/README-win32.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/samples/glut/glut.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/BlenderImporter/BlenderScene.cpp.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/BlenderImporter/BlenderSceneGen.h.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/BlenderImporter/genblenddna.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/CppGenerator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/ExpressReader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/IFCReaderGen.cpp.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/IFCReaderGen.h.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/entitylist.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/genentitylist.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/IFCImporter/schema.exp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/OgreImporter/assimp.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/scripts/appveyor/compiler_setup.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/headercheck/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/headercheck/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/headercheck/headercheck.cpp.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3D/mar_rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3D/mar_rifle.uc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3D/mar_rifle_a.3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3D/mar_rifle_d.3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/Granate.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/cart_wheel.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/cart_wheel.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/jeep1.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/jeep1.3ds.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/jeep1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/m_rifl.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/mar_rifle.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/mar_rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/mp5_sil.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/mp5_sil.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/mp5sil.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/pyramob.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/3DS/pyramob.3ds.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/ASE/Rifle.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/ASE/Rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/ASE/Rifle2.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/ASE/Rifle2.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/axe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/dwarf.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/dwarf2.b3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/dwarf2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/turtle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/turtle1.b3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/B3D/turtle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/BLEND/Bob.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/BLEND/bob.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/BLEND/fleurOptonl.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/BLEND/fleurOptonl.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/DXF/rifle.dxf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/DXF/rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/COLLADA.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/Cinema4D.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/ConcavePolygon.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/Granate.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/cart_wheel.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/cube_with_2UVs.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/duck.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/duckCM.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/duck_sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/jeep1.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/jeep1.fbx.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/jeep1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/kwxport_test_vcolors.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/kwxport_test_vcolors.fbx.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/m_rifl.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/mar_rifle.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/mar_rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/mp5_sil.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/mp5_sil.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/mp5sil.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/pyramob.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_ASCII/pyramob.fbx.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/COLLADA.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/Cinema4D.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/ConcavePolygon.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/Granate.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/anims_with_full_rotations_between_keys.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/cart_wheel.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/cube_with_2UVs.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/duck.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/jeep1.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/jeep1.fbx.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/kwxport_test_vcolors.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/kwxport_test_vcolors.fbx.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/mar_rifle.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/mar_rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/mp5_sil.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/mp5_sil.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/multiple_animations_test.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/pyramob.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/FBX/2013_BINARY/pyramob.fbx.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/HMP/terrain_withtexture.hmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IFC/linklist.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/default_skybox0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/default_skybox1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/default_skybox2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/default_skybox3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/default_skyboxdn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/IRR/skybox/default_skyboxup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/MTL_ChromeUniversal.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Arm-ForeArm.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Arm-Shoulder.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Arm-Tip.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--CabinPortals.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Chasis.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--GP-Gun.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--GP-Lid.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--GP-Pod.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Laserbeam.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Standin-Driver.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Wheels-Back.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw--Wheels-Front.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/LWSReferences/QuickDraw.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/rifle.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWO/LWO2/rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWS/QuickDraw v.2.2.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/LWS/QuickDraw v2.2.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/M3/Bunker.m3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD2/dolphin.md2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD2/dolphin_f.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD2/flag.md2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD2/horse.md2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD2/source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/q3root/models/mapobjects/kt_kubalwagon/euro_frnt_2.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/q3root/models/mapobjects/kt_kubalwagon/european_fnt.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/q3root/models/mapobjects/kt_kubalwagon/european_fnt_v2.md3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/q3root/models/mapobjects/kt_kubalwagon/readme_kubalwagon.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/q3root/scripts/kt_kubalwagon.shader" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/readme_water.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/water_can.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/watercan.md3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD3/watercan_dmg.md3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/BoarMan.md5mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/BoarMan.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/Bob.md5anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/Bob.md5mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/bob.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/guard1_body.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/guard1_face.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/guard1_helmet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/iron_grill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MD5/round_grill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/IDPO (Quake1)/gijoe-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/IDPO (Quake1)/gijoe.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/IDPO (Quake1)/steg.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/IDPO (Quake1)/steg.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/IDPO (Quake1)/tekmechbot.MDL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/IDPO (Quake1)/tekmechbot.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/MDL7 (3DGS A7)/barkD_texture.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/MDL7 (3DGS A7)/branchD_texture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/MDL7 (3DGS A7)/broadleavedtreeD.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/MDL/MDL7 (3DGS A7)/broadleavedtreeD_readme.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/NFF/NFFSense8/HOME4.NFF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/NFF/NFFSense8/WithMaterial.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/NFF/NFFSense8/cokecan.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/NFF/NFFSense8/cokecan.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/NFF/NFFSense8/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/NFF/NFFSense8/teapot.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/OBJ/rifle.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/OBJ/rifle.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/OBJ/rifle.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/OBJ/segment.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/OBJ/segment.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/OBJ/segment.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/Scene.material" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/fish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/fish.mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/fish.mesh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/fish.skeleton" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/fish.skeleton.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/ninja.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/ninja.mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/ninja.mesh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/ninja.skeleton" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/ninja.skeleton.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/razor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/razor.mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/Ogre/OgreSDK/razor.mesh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/PK3/SGDTT3.pk3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/PLY/ant-half.ply" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/PLY/ant-half.ply.license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/X/axe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/X/dwarf-Read-Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/X/dwarf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models-nonbsd/X/dwarf.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3D/box.uc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3D/box_a.3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3D/box_d.3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/CWALL02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/CameraRollAnim.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/CameraRollAnimWithChildObject.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/IMAGE1.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/IMAGE2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/RotatingCube.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/TargetCameraAnim.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransformTestImg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_Cube.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_Cube_ScaleUV2x_clampUV.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_Normal.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_OffsetU0.56V0.5_ScaleU10V2_Rotate45.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_OffsetU0.5_ScaleUV2_Rotate45_clampUV.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_OffsetUV0.5-clampUV.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_OffsetUV0.5-mirrorUV.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_OffsetUV0.5.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_ScaleUV1-2_OffsetUV0-0.9_Rotate-72_mirrorU.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_ScaleUV10-2_OffsetUV10-mirrorUV.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_ScaleUV2x.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/UVTransform_ScaleUV2x_Rotate45.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/UVTransformTest/note.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/cube_with_diffuse_texture.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/cube_with_specular_texture.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/cubes_with_alpha.3DS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/fels.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/test1.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/testFormatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/3DS/textures.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/SphereWithLight.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/SphereWithLightUvScaling4X.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/SphereWithLight_UTF16LE.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/SphereWithLight_UTF8BOM.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/TestFormatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/Wuson.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/closedLine.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/nosurfaces.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/openLine.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/AC/sample_subdiv.ac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/CameraRollAnim.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/CameraRollAnimWithChildObject.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/MotionCaptureROM.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/MotionCaptureROM.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/RotatingCube.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/TargetCameraAnim.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/TestFormatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/TestUVTransform/UVTransform_Normal.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/TestUVTransform/UVTransform_ScaleUV1-2_OffsetUV0-0.9_Rotate-72_mirrorU.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/TestUVTransform/UVTransform_ScaleUV2x.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/TestUVTransform/UVTransform_ScaleUV2x_Rotate45.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/ThreeCubesGreen.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/ThreeCubesGreen_UTF16BE.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/ThreeCubesGreen_UTF16LE.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/anim.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ASE/anim2.ASE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/B3D/WusonBlitz.b3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/4Cubes4Mats_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/AreaLight_269.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderDefault_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderDefault_250.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderDefault_250_Compressed.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderDefault_262.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderDefault_269.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderDefault_271.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/BlenderMaterial_269.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/CubeHierarchy_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/HUMAN.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/HUMAN.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/MirroredCube_252.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/NoisyTexturedCube_VoronoiGlob_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/SmoothVsSolidCube_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/SuzanneSubdiv_252.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/Suzanne_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/TexturedCube_ImageGlob_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/TexturedPlane_ImageUvPacked_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/TexturedPlane_ImageUv_248.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/TorusLightsCams_250_compressed.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/blender_269_regress1.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BLEND/yxa_1.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BVH/01_01.bvh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BVH/01_03.bvh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BVH/01_nn.bvh.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/BVH/Boxing_Toes.bvh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/dwarf.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/dwarf_ascii.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/molecule.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/molecule_ascii.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/spider_4_3.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/spider_4_3_ascii.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/spider_6_6.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/COB/spider_6_6_ascii.cob" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/CSM/ThomasFechten.csm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/CSM/ThomasFechten.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/AsXML.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/COLLADA.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/COLLADA_triangulate.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/Cinema4D.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/Collada_Sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/ConcavePolygon.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/anims_with_full_rotations_between_keys.DAE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cameras.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_UTF16LE.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_UTF8BOM.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_emptyTags.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_triangulate.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_tristrips.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_with_2UVs.DAE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/cube_xmlspecialchars.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/duck.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/duckCM.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/duck_sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/duck_triangulate.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/earthCylindrical.DAE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/kwxport_test_vcolors.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/kwxport_test_vcolors.dae.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/library_animation_clips.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/lights.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/regr01.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/sphere.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/sphere_sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/sphere_triangulate.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/teapot_instancenodes.DAE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/teapots.DAE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Collada/teapots_reference.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/DXF/PinkEggFromLW.dxf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/DXF/lineTest.dxf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/DXF/wuson.dxf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/HMP/formatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/HMP/terrain.hmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IFC/AC14-FZK-Haus.ifc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IFC/AC14-FZK-Haus.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/EpisodeII_TheDwarfesStrikeBack.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/EpisodeI_ANewDwarf.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/animMesh.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/box.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/dawfInCellar_ChildOfCellar.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/dawfInCellar_SameHierarchy.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/instancing.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/multipleAnimators.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/scenegraphAnim.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/sphere.irr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRR/warn_dwarf_scaling_is_intended.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/brownground_1-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/cellar.irrmesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/crackedground_1-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/spider.irrmesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/IRRMesh/testFormatDetection.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earthCylindric.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earthCylindric.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earthSpherical.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earthSpherical.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_cylindrical_x.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_cylindrical_x_scale_222_wrap_21.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_cylindrical_y.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_cylindrical_y_scale_111.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_cylindrical_y_scale_111_wrap_21.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_cylindrical_z.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_planar_x.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_planar_y.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_planar_z.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_planar_z_scale_111.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_spherical_x.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_spherical_x_scale_222_wrap_22.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_spherical_y.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_spherical_z.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_spherical_z_wrap_22.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/MappingModes/earth_uv_cylindrical_y.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/ModoExport_vertNormals.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/Subdivision.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/UglyVertexColors.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/box_2uv_1unused.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/box_2vc_1unused.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/boxuv.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/boxuv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/concave_polygon.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/concave_self_intersecting.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/concrete.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/formatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/hierarchy.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/hierarchy_smoothed.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/nonplanar_polygon.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/shader_test/CellShader.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/shader_test/SuperCellShader.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/shader_test/fastFresnel.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/shader_test/realFresnel.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/sphere_with_gradient.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/sphere_with_mat_gloss_10pc.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/transparency.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/uvtest-source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/uvtest.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/uvtest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWO2/white.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWOB/ConcavePolygon.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWOB/MappingModes/bluewithcylindrictexz.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWOB/formatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWOB/sphere_with_mat_gloss_10pc.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LWOB/sphere_with_mat_gloss_50pc.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LXOB_Modo/CrazyEngine.lxo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWO/LXOB_Modo/sphereWithVertMap.lxo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_oldformat_56.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_oldformat_6.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_post_constant.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_post_linear.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_post_offset_repeat.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_post_repeat.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_x_post_reset.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_xz_bezier.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_xz_hermite.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_xz_linear.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_xz_spline.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_xz_stepped.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/move_y_pre_ofrep_post_osc.lws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/LWS/simple_cube.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD2/faerie-source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD2/faerie.md2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD2/faerie2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD2/sidney-source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD2/sydney.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD2/sydney.md2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD5/SimpleCube.md5mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MD5/SimpleCube.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL3 (3DGS A4)/minigun.MDL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL3 (3DGS A4)/minigun_readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL5 (3DGS A5)/PhosphoricAcid_MDl5.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL5 (3DGS A5)/minigun_mdl5.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL5 (3DGS A5)/minigun_mdl5_readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL7 (3DGS A7)/PhosphoricAcid_MDl7.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MDL/MDL7 (3DGS A7)/Sphere_DiffPinkBlueSpec_Alpha90.mdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MS3D/Wuson.ms3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MS3D/jeep1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MS3D/jeep1.ms3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MS3D/jeep1.readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MS3D/twospheres.ms3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/MS3D/twospheres_withmats.ms3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/ManyEarthsNotJustOne.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/WithCamera.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/cone.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/cylinder.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/dodecahedron.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/hexahedron.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/octahedron.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/positionTest.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/spheres.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/NFF/NFF/tetrahedron.nff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/SpiderTex.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/WusonOBJ.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/box.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/box_UTF16BE.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/box_longline.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/box_mat_with_spaces.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/box_spaces.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/box_without_lineending.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/concave_polygon.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/concave_polygon.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/cube_usemtl.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/cube_usemtl.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/drkwood2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/empty_mat.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/empty_mat.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/engineflare1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/multiple_spaces.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/number_formats.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/regr01.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/regr01.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/regr_3429812.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/regr_3429812.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/space_in_material_name.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/space_in_material_name.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/spider.mtl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/spider.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/testline.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/testmixed.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/testpoints.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/wal67ar_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OBJ/wal69ar_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OFF/Cube.off" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OFF/Wuson.off" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OFF/formatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OFF/invalid.off" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Ogre/TheThing/BlockMat.material" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Ogre/TheThing/Mesh.mesh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Ogre/TheThing/Reference.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Ogre/TheThing/Wrinkles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OpenGEX/Example.ogex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OpenGEX/animated.ogex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OpenGEX/camera.ogex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/OpenGEX/collada.ogex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/PLY/Wuson.ply" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/PLY/cube.ply" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/PLY/pond.0.ply" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Q3D/E-AT-AT.q3o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Q3D/E-AT-AT.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Q3D/WusonOrange.q3o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Q3D/WusonOrange.q3s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Q3D/earth.q3o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/Q3D/earth.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/RAW/WithColor.raw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/RAW/WithTexture.raw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/RAW/Wuson.raw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/MappingModes/cylindrical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/MappingModes/spherical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_Normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_OffsetUV0.5-clampUV.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_OffsetUV0.5-mirrorUV.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_OffsetUV0.5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_ScaleUV1-2_OffsetUV0-0.9_Rotate-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_ScaleUV1-2_OffsetUV0-0.9_Rotate-72_mirrorU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_ScaleUV10-2_OffsetUV10-mirrorUV.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_ScaleUV2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/ReferenceImages/UVTransform/UVTransform_ScaleUV2x_Rotate45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SIB/This Way Up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SIB/UV Mapping.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SIB/heffalump.sib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SIB/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SMD/WusonSMD.smd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SMD/triangle.smd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/3DSMaxExport.STL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/Spider_ascii.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/Spider_binary.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/Wuson.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/formatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/sphereWithHole.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/STL/triangle.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SourceFiles/CameraRollAnim.max" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SourceFiles/CameraRollAnimWithChildObject.max" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SourceFiles/RotatingCube.max" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/SourceFiles/TargetCameraAnim.max" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/TER/RealisticTerrain.ter" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/TER/RealisticTerrain_Large.ter" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/WRL/MotionCaptureROM.WRL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/WRL/Wuson.wrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/WRL/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/BCN_Epileptic.X" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/BCN_Epileptic.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/TestFormatDetection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/Testwuson.X" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/anim_test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/anim_test.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/bottom.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/fromtruespace_bin32.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/kwxport_test_cubewithvcolors.source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/kwxport_test_cubewithvcolors.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/test.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/test_cube_binary.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/test_cube_compressed.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/test_cube_text.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/top.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/X/updown.tga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/BCN_Epileptic.zgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/Spider_ascii.zgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/Wuson.zgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/cubes_with_alpha.zgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/sample_official.xgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/sample_official_asxml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/sphere_with_mat_gloss_10pc.zgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/XGL/wuson_dxf.zgl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF-Binary/BoxTextured.glb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF-Embedded/BoxTextured.gltf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF-MaterialsCommon/BoxTextured.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF-MaterialsCommon/BoxTextured.gltf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF-MaterialsCommon/CesiumLogoFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF/BoxTextured.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF/BoxTextured.gltf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF/BoxTextured0FS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF/BoxTextured0VS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/BoxTextured-glTF/CesiumLogoFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck.gltf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck0FS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck0VS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck1FS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/CesiumMilkTruck/CesiumMilkTruck1VS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/TwoBoxes/Box.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/TwoBoxes/Box0FS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/TwoBoxes/Box0VS.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/glTF/TwoBoxes/TwoBoxes.gltf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/OutOfMemory.off" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.3ds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.ase" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.lwo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.md5mesh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.off" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.ply" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.raw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.smd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/empty.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/emptyIrrMesh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/malformed.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/malformed2.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/models/invalid/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/other/streamload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/.pydevproject" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/ai_regression_ui.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/db.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/gen_db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/result_checker.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/regression/whitelist.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/AssimpAPITest.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/CCompilerTest.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/Main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/UnitTestPCH.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utBlendImportAreaLight.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utBlendImportMaterials.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utColladaExportCamera.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utColladaExportLight.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utExport.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utFastAtof.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utFindDegenerates.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utFindInvalidData.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utFixInfacingNormals.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utGenNormals.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utIOSystem.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utImporter.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utImproveCacheLocality.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utIssues.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utJoinVertices.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utLimitBoneWeights.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utMaterialSystem.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utMatrix3x3.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utMatrix4x4.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utNoBoostTest.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utPretransformVertices.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utRemoveComments.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utRemoveComponent.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utRemoveRedundantMaterials.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utScenePreprocessor.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utSharedPPData.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utSortByPType.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utSplitLargeMeshes.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utStringUtils.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utTargetAnimation.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utTextureTransform.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utTriangulate.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/test/unit/utVertexTriangleAdjacency.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/CompareDump.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/Export.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/ImageExtractor.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/Info.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/Main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/Main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/WriteDumb.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/assimp_cmd.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/generic_inserter.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_cmd/resource.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/AnimEvaluator.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/AnimEvaluator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/AssetHelper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Background.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Background.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Camera.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Display.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Display.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/HUD.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/HUDMask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/HelpDialog.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Input.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/LogDisplay.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/LogDisplay.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/LogWindow.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/LogWindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Material.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/MaterialManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/MeshRenderer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/MeshRenderer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/MessageProc.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/NOTE@help.rtf.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Normals.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/RenderOptions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/SceneAnimator.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/SceneAnimator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Shaders.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/Shaders.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/assimp_view.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/assimp_view.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/assimp_view.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/banner.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/banner_pure.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/base.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/base_anim.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/base_display.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/base_inter.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/base_rendering.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/base_stats.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/fx.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/help.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/n.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/resource.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/root.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/stdafx.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/stdafx.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/test.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/text1.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/tx.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/assimp_view/txi.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/shared/assimp_tools_icon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/shared/assimp_tools_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/shared/assimp_tools_icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/tools/shared/default_icon.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/Android-NDK/jni/Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/Android-NDK/jni/Application.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/xcode3/assimp.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/xcode3/info.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/xcode6/Assimp.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/xcode6/Assimp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assimp-3.3.1/workspaces/xcode6/Assimp.xcodeproj/xcshareddata/xcschemes/assimp.xcscheme" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/GameManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/GameManager.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/Model.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/Model.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/bin/main" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/main" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/7th" afterPath="$PROJECT_DIR$/objects/7th" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mesh.h" afterPath="$PROJECT_DIR$/Mesh.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model.h" afterPath="$PROJECT_DIR$/Model.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1506,16 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="shader.frag" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shader.frag">
           <provider selected="true" editor-type-id="text-editor">
@@ -1529,11 +63,11 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+            <state relative-caret-position="660">
+              <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#1941#2100#0" expanded="false" />
+                <element signature="e#2034#2193#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1551,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Camera.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Camera.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="330">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1574,30 +108,30 @@
       <file leaf-file-name="Model.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="283">
+              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
               <folding>
                 <element signature="e#30#47#0" expanded="true" />
                 <element signature="e#155#221#0" expanded="true" />
                 <element signature="e#1205#1373#0" expanded="false" />
-                <element signature="e#2264#3089#0" expanded="false" />
-                <element signature="e#3095#4035#0" expanded="false" />
-                <element signature="e#4041#8170#0" expanded="false" />
-                <element signature="e#8176#9699#0" expanded="false" />
-                <element signature="e#9765#10368#0" expanded="false" />
-                <element signature="e#10680#10788#0" expanded="false" />
-                <element signature="e#11034#11677#0" expanded="false" />
-                <element signature="e#11715#12082#0" expanded="false" />
+                <element signature="e#2354#3179#0" expanded="false" />
+                <element signature="e#3185#4125#0" expanded="false" />
+                <element signature="e#4131#8260#0" expanded="false" />
+                <element signature="e#8266#9789#0" expanded="false" />
+                <element signature="e#9855#10458#0" expanded="false" />
+                <element signature="e#10768#10876#0" expanded="false" />
+                <element signature="e#11122#11765#0" expanded="false" />
+                <element signature="e#11803#12170#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mesh.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mesh.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mesh.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
               <folding>
                 <element signature="e#160#226#0" expanded="true" />
               </folding>
@@ -1646,9 +180,9 @@
         <option value="$PROJECT_DIR$/GameManager.cpp" />
         <option value="$PROJECT_DIR$/Camera.h" />
         <option value="$PROJECT_DIR$/GameManager.h" />
-        <option value="$PROJECT_DIR$/Mesh.h" />
-        <option value="$PROJECT_DIR$/Model.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Model.h" />
+        <option value="$PROJECT_DIR$/Mesh.h" />
       </list>
     </option>
   </component>
@@ -1938,12 +472,12 @@
       <workItem from="1481016452069" duration="7484000" />
       <workItem from="1481042965269" duration="3520000" />
       <workItem from="1481067653201" duration="1391000" />
-      <workItem from="1481124395165" duration="4233000" />
+      <workItem from="1481124395165" duration="8231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50787000" />
+    <option name="totallyTimeSpent" value="54785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1989,25 +523,20 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Model.h</url>
-          <line>244</line>
+          <line>247</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Model.h</url>
+          <line>242</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#3781#4721#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2036,7 +565,7 @@
           <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1941#2100#0" expanded="false" />
+            <element signature="e#2034#2193#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2064,14 +593,14 @@
             <element signature="e#30#47#0" expanded="true" />
             <element signature="e#155#221#0" expanded="true" />
             <element signature="e#1205#1373#0" expanded="false" />
-            <element signature="e#2264#3089#0" expanded="false" />
-            <element signature="e#3095#4035#0" expanded="false" />
-            <element signature="e#4041#8170#0" expanded="false" />
-            <element signature="e#8176#9699#0" expanded="false" />
-            <element signature="e#9765#10368#0" expanded="false" />
-            <element signature="e#10680#10788#0" expanded="false" />
-            <element signature="e#11034#11677#0" expanded="false" />
-            <element signature="e#11715#12082#0" expanded="false" />
+            <element signature="e#2354#3179#0" expanded="false" />
+            <element signature="e#3185#4125#0" expanded="false" />
+            <element signature="e#4131#8260#0" expanded="false" />
+            <element signature="e#8266#9789#0" expanded="false" />
+            <element signature="e#9855#10458#0" expanded="false" />
+            <element signature="e#10768#10876#0" expanded="false" />
+            <element signature="e#11122#11765#0" expanded="false" />
+            <element signature="e#11803#12170#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2123,7 +652,7 @@
           <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1941#2100#0" expanded="false" />
+            <element signature="e#2034#2193#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2169,14 +698,14 @@
             <element signature="e#30#47#0" expanded="true" />
             <element signature="e#155#221#0" expanded="true" />
             <element signature="e#1205#1373#0" expanded="false" />
-            <element signature="e#2264#3089#0" expanded="false" />
-            <element signature="e#3095#4035#0" expanded="false" />
-            <element signature="e#4041#8170#0" expanded="false" />
-            <element signature="e#8176#9699#0" expanded="false" />
-            <element signature="e#9765#10368#0" expanded="false" />
-            <element signature="e#10680#10788#0" expanded="false" />
-            <element signature="e#11034#11677#0" expanded="false" />
-            <element signature="e#11715#12082#0" expanded="false" />
+            <element signature="e#2354#3179#0" expanded="false" />
+            <element signature="e#3185#4125#0" expanded="false" />
+            <element signature="e#4131#8260#0" expanded="false" />
+            <element signature="e#8266#9789#0" expanded="false" />
+            <element signature="e#9855#10458#0" expanded="false" />
+            <element signature="e#10768#10876#0" expanded="false" />
+            <element signature="e#11122#11765#0" expanded="false" />
+            <element signature="e#11803#12170#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2220,7 +749,7 @@
           <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1941#2100#0" expanded="false" />
+            <element signature="e#2034#2193#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2266,14 +795,14 @@
             <element signature="e#30#47#0" expanded="true" />
             <element signature="e#155#221#0" expanded="true" />
             <element signature="e#1205#1373#0" expanded="false" />
-            <element signature="e#2264#3089#0" expanded="false" />
-            <element signature="e#3095#4035#0" expanded="false" />
-            <element signature="e#4041#8170#0" expanded="false" />
-            <element signature="e#8176#9699#0" expanded="false" />
-            <element signature="e#9765#10368#0" expanded="false" />
-            <element signature="e#10680#10788#0" expanded="false" />
-            <element signature="e#11034#11677#0" expanded="false" />
-            <element signature="e#11715#12082#0" expanded="false" />
+            <element signature="e#2354#3179#0" expanded="false" />
+            <element signature="e#3185#4125#0" expanded="false" />
+            <element signature="e#4131#8260#0" expanded="false" />
+            <element signature="e#8266#9789#0" expanded="false" />
+            <element signature="e#9855#10458#0" expanded="false" />
+            <element signature="e#10768#10876#0" expanded="false" />
+            <element signature="e#11122#11765#0" expanded="false" />
+            <element signature="e#11803#12170#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2384,60 +913,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="e#30#47#0" expanded="true" />
-            <element signature="e#155#221#0" expanded="true" />
-            <element signature="e#1205#1373#0" expanded="false" />
-            <element signature="e#2264#3089#0" expanded="false" />
-            <element signature="e#3095#4035#0" expanded="false" />
-            <element signature="e#4041#8170#0" expanded="false" />
-            <element signature="e#8176#9699#0" expanded="false" />
-            <element signature="e#9765#10368#0" expanded="false" />
-            <element signature="e#10680#10788#0" expanded="false" />
-            <element signature="e#11034#11677#0" expanded="false" />
-            <element signature="e#11715#12082#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mesh.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#160#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1941#2100#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2453,9 +933,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Camera.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="330">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/glm/gtc/type_ptr.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="163" column="27" lean-forward="false" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#2034#2193#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="e#30#47#0" expanded="true" />
+            <element signature="e#155#221#0" expanded="true" />
+            <element signature="e#1205#1373#0" expanded="false" />
+            <element signature="e#2354#3179#0" expanded="false" />
+            <element signature="e#3185#4125#0" expanded="false" />
+            <element signature="e#4131#8260#0" expanded="false" />
+            <element signature="e#8266#9789#0" expanded="false" />
+            <element signature="e#9855#10458#0" expanded="false" />
+            <element signature="e#10768#10876#0" expanded="false" />
+            <element signature="e#11122#11765#0" expanded="false" />
+            <element signature="e#11803#12170#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mesh.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <folding>
+            <element signature="e#160#226#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

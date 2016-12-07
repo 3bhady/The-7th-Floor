@@ -15,7 +15,7 @@ using namespace std;
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
-
+#include <glm/gtc/type_ptr.hpp>
 struct Vertex {
     // Position
     glm::vec3 Position;
@@ -42,6 +42,7 @@ public:
     vector<GLuint> indices;
     vector<Texture> textures;
     GLuint VAO;
+    glm::mat4 modalMatrix_mesh =glm::mat4(1.0);
 
     /*  Functions  */
     // Constructor
@@ -54,10 +55,18 @@ public:
         // Now that we have all the required data, set the vertex buffers and its attribute pointers.
         this->setupMesh();
     }
-
+    void Scale(float x,float y ,float z){
+        glm::mat4 scalingMatrix=glm::scale(glm::mat4(), glm::vec3(x, y,z ));
+        //scaling=vec3(x,y,z);
+        // modalMatrix=
+        //   translate(mat4(), position)*scalingMatrix*translate(mat4(), -position)*modalMatrix;
+        modalMatrix_mesh=scalingMatrix*modalMatrix_mesh;
+    }
     // Render the mesh
-    void Draw(Shader* shader)
+    void Draw(Shader* shader,glm::mat4 &modalMatrix)
     {
+        glUniformMatrix4fv(glGetUniformLocation(shader->Program, "model"), 1, GL_FALSE, glm::value_ptr(modalMatrix_mesh*modalMatrix));
+
         // Bind appropriate textures
         GLuint diffuseNr = 1;
         GLuint specularNr = 1;
@@ -97,6 +106,7 @@ public:
             glActiveTexture(GL_TEXTURE0 + i);
             glBindTexture(GL_TEXTURE_2D, 0);
         }
+
     }
 
 private:
