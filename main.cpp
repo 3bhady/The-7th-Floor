@@ -26,7 +26,7 @@ int main() {
     Game_Manager GM;
     GM.Init();
    // Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
-    Model ourModel(FileSystem::getPath("objects/7th/gg.obj"));
+    Model ourModel(FileSystem::getPath("objects/nanosuit/nanosuit.obj"));
 // Set the required callback functions
 
     // Draw in wireframe

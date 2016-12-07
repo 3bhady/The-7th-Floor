@@ -17,7 +17,12 @@
 using namespace glm;
 //GLint TextureFromFile(const char* path, string directory, bool gamma = false);
 GLint TextureFromFile(const char* path, string directory, bool gamma);
-
+/*
+ * kol Model feh model keda dh ele by7aded el transformation bta3o
+ * lw 3ayz arsm el Model ba3ady 3ala kol mesh 3ndo w ab3tlo el model w kol mesh
+ * feh mn gwah model tany by7aded el transformation bta3 el mesh relative l el Model el kber
+ * w abl ma arsm el mesh dh ab3t l model ele hwa uniform mwgod f el shader 3lshan arsmo (y)
+ */
 class Model
 {
 public:
