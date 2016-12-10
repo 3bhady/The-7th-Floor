@@ -41,8 +41,8 @@ glm::mat4 first = camera.GetViewMatrix();
     glm::mat4 second = first;
 //ourModel.Scale(0.2f,0.2f,0.2f);
     // Game loop
-    ourModel.Scale(0.2f,0.2f,0.2f);
-    ourModel.SetPosition(glm::vec3(0.0f, -1.75f, 0.0f));
+    //ourModel.Scale(0.2f,0.2f,0.2f);
+    //ourModel.SetPosition(glm::vec3(0.0f, -1.75f, 0.0f));
     while(!glfwWindowShouldClose(window))
     {
 
@@ -79,9 +79,6 @@ glm::mat4 first = camera.GetViewMatrix();
         model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // Translate it down a bit so it's at the center of the scene
         model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));	// It's a bit too big for our scene, so scale it down
 
-
-        if(ourModel.modalMatrix==model)
-            cout<<"yes";
         glUniformMatrix4fv(glGetUniformLocation(GM.shader->Program, "model"), 1, GL_FALSE, glm::value_ptr(ourModel.modalMatrix));
         ourModel.Draw(GM.shader);
 

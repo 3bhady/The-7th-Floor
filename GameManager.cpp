@@ -57,6 +57,8 @@ void Game_Manager::Start() {
 
 void Game_Manager::Create_Object(std::string tag) {
 //todo:create an object using tag and add it to the list of objects
+//if(tag=="NanoSuit")
+   // this->Hierarchy.push_back(new Model());
 
 }
 

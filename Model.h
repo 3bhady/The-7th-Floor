@@ -43,10 +43,7 @@ public:
     void Draw(Shader* shader)
     {
         for(GLuint i = 0; i < this->meshes.size(); i++)
-        {
-            if(i==2)
-                meshes[i].Scale(2.f,2.f,2.f);
-            this->meshes[i].Draw(shader,modalMatrix);}
+        { this->meshes[i].Draw(shader,modalMatrix);}
     }
 //mvp matrices
     glm::mat4 modalMatrix = glm::mat4(1.0);
