@@ -1,15 +1,29 @@
 #pragma once
+#ifndef game
+#define game
 #include <vector>
 #include <string>
 #include "Model.h"
 #include <GLFW/glfw3.h>
+#include "Input.h"
+#include "Camera.h"
+#endif
 
 
-class Game_Manager {
+
+class GameManager {
 private:
     GLFWwindow * window;
-    std::vector<Model*>Hierarchy; //list of all the objects in the game
+  //  std::vector<Model*>GameModel; //list of all the objects in the game
+  GLfloat currentFrame ;//for deltatime
+
+    GLfloat lastFrame;//last frame for deltatime
+    GLuint screenWidth = 800, screenHeight = 600;
 public:
+    Camera* camera ;
+     Input *  input;
+    GLfloat deltaTime ;//last frame for delta time
+    GameManager();
     void Init();
     void Start();
     void Create_Object(std::string tag);
@@ -18,9 +32,16 @@ public:
     void LoadScene();
     void Destroy_Object();
     GLFWwindow* GetWindow();
-    void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
+    void UpdateDeltaTime();//updating deltatime
+    void UpdatePollEvents();
+    void Do_Movement()
+    {
+        // Camera controls
+        if(input->IsKeyDown(GLFW_KEY_W))
+         cout<<"W is down "<<endl;
+    }
 
-
+    void UpdateGameParameters();
     //shouldn't be public
     Shader* shader;
 

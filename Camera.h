@@ -2,13 +2,11 @@
 
 // Std. Includes
 #include <vector>
-
+#include"GameManager.h"
 // GL Includes
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-
-
 
 // Defines several possible options for camera movement. Used as abstraction to stay away from window-system specific input methods
 enum Camera_Movement {
@@ -25,12 +23,15 @@ const GLfloat SPEED      =  3.0f;
 const GLfloat SENSITIVTY =  0.25f;
 const GLfloat ZOOM       =  45.0f;
 
-
+class GameManaager;
 // An abstract camera class that processes input and calculates the corresponding Eular Angles, Vectors and Matrices for use in OpenGL
 class Camera
 {
 public:
     // Camera Attributes
+    glm::mat4 ProjectionMatrix=glm::mat4(1);
+    glm::mat4 ViewMatrix=glm::mat4(1);
+
     glm::vec3 Position;
     glm::vec3 Front;
     glm::vec3 Up;
@@ -52,6 +53,15 @@ public:
         this->Yaw = yaw;
         this->Pitch = pitch;
         this->updateCameraVectors();
+    }
+ void    Init(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), GLfloat yaw = YAW, GLfloat pitch = PITCH){
+
+     this->Position = position;
+     this->WorldUp = up;
+     this->Yaw = yaw;
+     this->Pitch = pitch;
+     this->updateCameraVectors();
+
     }
     // Constructor with scalar values
     Camera(GLfloat posX, GLfloat posY, GLfloat posZ, GLfloat upX, GLfloat upY, GLfloat upZ, GLfloat yaw, GLfloat pitch) : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVTY), Zoom(ZOOM)
@@ -130,4 +140,5 @@ private:
         this->Right = glm::normalize(glm::cross(this->Front, this->WorldUp));  // Normalize the vectors, because their length gets closer to 0 the more you look up or down which results in slower movement.
         this->Up    = glm::normalize(glm::cross(this->Right, this->Front));
     }
+
 };

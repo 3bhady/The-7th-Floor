@@ -3,15 +3,19 @@
 //
 
 #include "GameManager.h"
+
 //#include "Object.h"
 
 //class Object;//will be needed
+GameManager::GameManager(){
+    //definition of input
 
-void Game_Manager::Init() {
+}
+void GameManager::Init() {
 //todo:implement loading of the scene objects
     //load tag , position and orientation
-
-    GLuint screenWidth = 800, screenHeight = 600;
+    input=new Input(this);
+    camera=new Camera(glm::vec3(0.0f, 0.0f, 3.0f));
 
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -21,7 +25,14 @@ void Game_Manager::Init() {
 
     window = glfwCreateWindow(screenWidth, screenHeight, "7th-Floor", nullptr, nullptr); // Windowed
     glfwMakeContextCurrent(window);
+    glfwSetKeyCallback(window,input->key_callback);//setting keyboard call back
+    glfwSetCursorPosCallback(window, input->mouse_callback);//setting mouse movement call back
+    glfwSetScrollCallback(window, input->scroll_callback);//setting scrolling callback
 
+
+
+   // glfwSetCursorPosCallback(window, mouse_callback);
+    //glfwSetScrollCallback(window, scroll_callback);
 
 
     // Options
@@ -41,8 +52,34 @@ void Game_Manager::Init() {
     shader=new Shader("shader.vs", "shader.frag");
 
 }
+//updating delta time
+void GameManager::UpdateDeltaTime() {
 
-void Game_Manager::Start() {
+
+    GLfloat currentFrame = glfwGetTime();
+    this->deltaTime = currentFrame - lastFrame;
+    this->lastFrame = currentFrame;
+
+}
+void GameManager::UpdatePollEvents(){
+
+    glfwPollEvents();
+}
+void GameManager::UpdateGameParameters(){
+    UpdatePollEvents();
+    UpdateDeltaTime();
+   // camera->ProcessMouseMovement(input->xOffset,input->yOffset); //Update Camera will be removed to any of scripts soon :)
+    camera->ProjectionMatrix = glm::perspective(camera->Zoom, (float)screenWidth/(float)screenHeight, 0.1f, 100.0f);
+
+
+    camera->ViewMatrix= camera->GetViewMatrix()*glm::translate(glm::mat4(),glm::vec3(0.4,0.4,0.4));
+    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
+   glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
+
+
+}
+
+void GameManager::Start() {
     LoadScene();
     //todo:use LoadScene to create the objects of the scene
     //Create_Object()
@@ -55,34 +92,30 @@ void Game_Manager::Start() {
 
 //not sure if tag is string or not
 
-void Game_Manager::Create_Object(std::string tag) {
+void GameManager::Create_Object(std::string tag) {
 //todo:create an object using tag and add it to the list of objects
 //if(tag=="NanoSuit")
    // this->Hierarchy.push_back(new Model());
 
 }
 
-void Game_Manager::Update() {
+void GameManager::Update() {
 //todo:loop on the object list and call update function in every object
 }
 
-void Game_Manager::Check_Collision() {
+void GameManager::Check_Collision() {
 //todo:check for collisions in all the objects
 }
 
-void Game_Manager::LoadScene() {
+void GameManager::LoadScene() {
 //todo:implement loading scene objects data from file
 }
 
-void Game_Manager::Destroy_Object() {
+void GameManager::Destroy_Object() {
 //todo:implement how the object is removed from the list
 }
-void Game_Manager::key_callback(GLFWwindow* window, int key, int scancode, int action, int mode)
-{
-    if(key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, GL_TRUE);
-}
 
-GLFWwindow* Game_Manager::GetWindow(){
+
+GLFWwindow* GameManager::GetWindow(){
     return window;
 }
