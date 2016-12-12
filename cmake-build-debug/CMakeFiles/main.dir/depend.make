@@ -28,8 +28,14 @@ CMakeFiles/main.dir/Model.cpp.o: ../Model.h
 CMakeFiles/main.dir/Model.cpp.o: ../Script.h
 CMakeFiles/main.dir/Model.cpp.o: ../Shader.h
 
+CMakeFiles/main.dir/Script.cpp.o: ../Camera.h
+CMakeFiles/main.dir/Script.cpp.o: ../GameManager.h
+CMakeFiles/main.dir/Script.cpp.o: ../Input.h
+CMakeFiles/main.dir/Script.cpp.o: ../Mesh.h
+CMakeFiles/main.dir/Script.cpp.o: ../Model.h
 CMakeFiles/main.dir/Script.cpp.o: ../Script.cpp
 CMakeFiles/main.dir/Script.cpp.o: ../Script.h
+CMakeFiles/main.dir/Script.cpp.o: ../Shader.h
 
 CMakeFiles/main.dir/main.cpp.o: ../Camera.h
 CMakeFiles/main.dir/main.cpp.o: ../GameManager.h

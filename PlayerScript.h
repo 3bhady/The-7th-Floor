@@ -6,15 +6,56 @@
 #define JUNG_PLAYERSCRIPT_H
 #include"Script.h"
 #include"iostream"
+
 class PlayerScript:public Script {
 
 public:
 
 
     void Update(){
+      if(IsKeyDown(GLFW_KEY_W))
+        model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
+        if(IsKeyDown(GLFW_KEY_S))
+            model->gameManager->camera->ProcessKeyboard(BACKWARD, model->gameManager->deltaTime);
+        if(IsKeyDown(GLFW_KEY_A))
+            model->gameManager->camera->ProcessKeyboard(LEFT, model->gameManager->deltaTime);
+        if(IsKeyDown(GLFW_KEY_D))
+            model->gameManager->camera->ProcessKeyboard(RIGHT,model->gameManager->deltaTime);
+        if(IsKeyDown(GLFW_KEY_RIGHT))
+        {
+            vec3 pos=model->position;
+            vec3 movTemp=-model->right*0.1f;
+            model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
+        }
+        if(IsKeyDown(GLFW_KEY_LEFT))
+        {
+            vec3 pos=model->position;
+            vec3 movTemp=model->right*0.1f;
+            model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
+        }
+        if(IsKeyDown(GLFW_KEY_UP))
+        {
+            vec3 pos=model->position;
+            vec3 movTemp=-model->direction*0.1f;
+            model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
+        }
+        if(IsKeyDown(GLFW_KEY_DOWN))
+        {
+            vec3 pos=model->position;
+            vec3 movTemp=model->direction*0.1f;
+            model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
+        }
+        if(IsKeyDown(GLFW_KEY_Q))
+        {
+            model->Rotate(0,1,0,90*model->gameManager->deltaTime);
+        }
+        if(IsKeyDown(GLFW_KEY_E))
+        {
+            model->Rotate(0,1,0,-90*model->gameManager->deltaTime);
+        }
 
 
-        std::cout<<" hello it's me the script component Update!!!";
+
     }
     void Start(){
 

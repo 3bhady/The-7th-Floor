@@ -36,7 +36,7 @@ GLint TextureFromFile(const char* path, string directory, bool gamma);
  * feh mn gwah model tany by7aded el transformation bta3 el mesh relative l el Model el kber
  * w abl ma arsm el mesh dh ab3t l model ele hwa uniform mwgod f el shader 3lshan arsmo (y)
  */
-
+class GameManager;
 class Model
 {
 public:
@@ -44,6 +44,7 @@ public:
 
     //endtesting
     /*  Model Data */
+   static GameManager* gameManager;
     std::vector<Texture> textures_loaded;	// Stores all the textures loaded so far, optimization to make sure textures aren't loaded more than once.
     std::vector<Mesh> meshes;
     std::string directory;
@@ -243,13 +244,13 @@ public:
     //translating the object to a certain position;
 
     void Rotate(float x,float y ,float z,float angle){
-        rotationMatrix=rotate(mat4(),angle, vec3(x, y,z ));
+        rotationMatrix=rotate(mat4(),glm::radians(angle), vec3(x, y,z ));
 //rotation=vec3();
 //  converting vec3 to vec4 because rotation matrix is 4d and we want to get forward
 
 // storing rotation
         rotation=vec3(rotation.x+angle*x,rotation.y+angle*y,rotation.z+angle*z);
-        std::cout<<"x = "<<rotation.x<<" y= "<<rotation.y<<" z="<<rotation.z<<std::endl;
+
 //updating forward and right directions
         UpdateDirections();
         modalMatrix=
@@ -257,12 +258,12 @@ public:
 
 
     }
-    void Scale(float x,float y ,float z){
-        scalingMatrix=glm::scale(mat4(), vec3(x, y,z ));
-        scaling=vec3(x,y,z);
-       // modalMatrix=
-             //   translate(mat4(), position)*scalingMatrix*translate(mat4(), -position)*modalMatrix;
-       modalMatrix=scalingMatrix*modalMatrix;
+    void Scale(vec3 scal){
+        scalingMatrix=glm::scale(mat4(), scal);
+        scaling+=scal;
+        modalMatrix=
+        translate(mat4(), position)*scalingMatrix*translate(mat4(), -position)*modalMatrix;
+
     }
     void SetLightPosition(float xpos,float ypos,float zpos){
 
@@ -283,8 +284,8 @@ public:
 
 
 // multiplying all rotations in order YXZ
-        glm::mat4 newRotation=rotate(mat4(),rot.z, vec3(0, 0,1 ))*rotate(mat4(),rot.x, vec3(1,0,0 ))*rotate(mat4(),rot.y, vec3(0, 1,0 ));
-        glm::mat4 reverseOldRotation=rotate(mat4(),-rotation.y, vec3(0, 1,0 ))*rotate(mat4(),-rotation.x, vec3(1,0,0 ))*rotate(mat4(),-rotation.z, vec3(0, 0,1 ));
+        glm::mat4 newRotation=rotate(mat4(),glm::radians(rot.z), vec3(0, 0,1 ))*rotate(mat4(),glm::radians(rot.x), vec3(1,0,0 ))*rotate(mat4(),glm::radians(rot.y), vec3(0, 1,0 ));
+        glm::mat4 reverseOldRotation=rotate(mat4(),glm::radians(-rotation.y), vec3(0, 1,0 ))*rotate(mat4(),glm::radians(-rotation.x), vec3(1,0,0 ))*rotate(mat4(),glm::radians(-rotation.z), vec3(0, 0,1 ));
         rotationMatrix=newRotation*reverseOldRotation;
         modalMatrix=
                 translate(mat4(), position)*rotationMatrix*translate(mat4(), -position)*modalMatrix;
@@ -292,13 +293,22 @@ public:
         UpdateDirections();
         rotation=rot;
     }
-    void SetScaling(vec3 scal){}
+    void SetScaling(vec3 scal){
+        glm::mat4 scalMatrixTemp= glm::scale(mat4(),-scaling);
+        scalingMatrix=glm::scale(mat4(), scal);
+
+        scaling=scal;
+         modalMatrix=
+          translate(mat4(), position)*scalingMatrix*scalMatrixTemp*translate(mat4(), -position)*modalMatrix;
+
+
+    }
     void UpdateDirections(){
         vec4 directionTemp=vec4(direction,1);
         directionTemp=rotationMatrix*directionTemp;
-        directionTemp=glm::normalize(directionTemp);
+        //directionTemp=glm::normalize(directionTemp);
         direction=vec3(directionTemp.x,directionTemp.y,directionTemp.z);
-
+        direction=glm::normalize(direction);
 //setting up right vector
         right=glm::cross(direction,vec3(0,1,0));
         right=glm::normalize(right);

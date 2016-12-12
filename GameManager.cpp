@@ -11,23 +11,29 @@ GameManager::GameManager(){
     //definition of input
 
 }
-void GameManager::Init() {
+void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string windowName) {
 //todo:implement loading of the scene objects
     //load tag , position and orientation
     input=new Input(this);
-    camera=new Camera(glm::vec3(0.0f, 0.0f, 3.0f));
-
+    camera=new Camera(glm::vec3(0.0f, 0.0f, 0.0f));
+    this->screenHeight=screenHeight;
+    this->screenWidth=screenWidth;
+   this->windowName=windowName;
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
-    window = glfwCreateWindow(screenWidth, screenHeight, "7th-Floor", nullptr, nullptr); // Windowed
+    window = glfwCreateWindow(screenWidth, screenHeight, windowName.c_str(), nullptr, nullptr); // Windowed
     glfwMakeContextCurrent(window);
     glfwSetKeyCallback(window,input->key_callback);//setting keyboard call back
     glfwSetCursorPosCallback(window, input->mouse_callback);//setting mouse movement call back
     glfwSetScrollCallback(window, input->scroll_callback);//setting scrolling callback
+
+
+
+
 
 
 
@@ -51,6 +57,9 @@ void GameManager::Init() {
     // Setup and compile our shaders
     shader=new Shader("shader.vs", "shader.frag");
 
+
+    shader->Use();//use this shader that we initialized now  ( written by ali : 21  in math ) :) :) :)
+
 }
 //updating delta time
 void GameManager::UpdateDeltaTime() {
@@ -69,10 +78,10 @@ void GameManager::UpdateGameParameters(){
     UpdatePollEvents();
     UpdateDeltaTime();
    // camera->ProcessMouseMovement(input->xOffset,input->yOffset); //Update Camera will be removed to any of scripts soon :)
-    camera->ProjectionMatrix = glm::perspective(camera->Zoom, (float)screenWidth/(float)screenHeight, 0.1f, 100.0f);
+    camera->ProjectionMatrix = glm::perspective(camera->Zoom, (float)screenWidth/(float)screenHeight, 0.1f, 200.0f);
 
 
-    camera->ViewMatrix= camera->GetViewMatrix()*glm::translate(glm::mat4(),glm::vec3(0.4,0.4,0.4));
+    camera->ViewMatrix= camera->GetViewMatrix();
     glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
 
@@ -80,14 +89,35 @@ void GameManager::UpdateGameParameters(){
 }
 
 void GameManager::Start() {
-    LoadScene();
-    //todo:use LoadScene to create the objects of the scene
-    //Create_Object()
+    for(int i=0; i<gameModel.size(); i++)
+    {
+        gameModel[i]->script->Start();
+    }
+}
 
+void GameManager::Update() {
+    for(int i=0; i<gameModel.size(); i++)
+    {
+        gameModel[i]->script->Update();
+    }
+}
 
+void GameManager::Draw() {
+//order is very important , playing with it will be catastrophic !
+    glClearColor(0.5f, 0.05f, 0.5f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    for(int i=0; i<gameModel.size(); i++)
+    {
+        gameModel[i]->Draw(shader);
+    }
+    glfwSwapBuffers(window);
+}
+void GameManager::AddModel(Model*& m )
+{
+gameModel.push_back(m);
+    m->gameManager=this;
 
-    //todo:bind the program and do the necessary checks to opengl
 }
 
 //not sure if tag is string or not
@@ -99,9 +129,7 @@ void GameManager::Create_Object(std::string tag) {
 
 }
 
-void GameManager::Update() {
-//todo:loop on the object list and call update function in every object
-}
+
 
 void GameManager::Check_Collision() {
 //todo:check for collisions in all the objects

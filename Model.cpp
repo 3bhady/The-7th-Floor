@@ -1,7 +1,7 @@
 #include "Model.h"
 #include "GameManager.h"
 #include "Script.h"
-// GameManager*Model:: gameManager= new GameManager();
+ GameManager*Model:: gameManager= new GameManager();
 
 Model::Model(string const & path, bool gamma) : gammaCorrection(gamma)
         {
@@ -36,4 +36,5 @@ extern GLint TextureFromFile(const char* path, string directory, bool gamma= fal
 void Model::AttachScript(Script* scr) //attach script for the model ..
 {
     this->script=scr;
+    scr->model=this;
 }

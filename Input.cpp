@@ -32,7 +32,7 @@ Input::Input(GameManager* gmf){
  lastY = ypos;
 
  gameManager->camera->ProcessMouseMovement(xOffset,yOffset);
-std::cout<<"offset " <<xOffset<<std::endl;
+
 
 }
  void Input::scroll_callback(GLFWwindow* window, double xoffset, double yoffset){
