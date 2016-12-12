@@ -18,8 +18,18 @@ int main() {
 
 
 Script * player=new PlayerScript();
+
     Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"));
     GM->AddModel(ourModel);
+
+
+    // <-- Don't forget this one!
+   // Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+
+
+
+
+
 // Set the required callback functions
 GM->gameModel[0]->AttachScript(player);
   GM->Start(); //call start in all models script component

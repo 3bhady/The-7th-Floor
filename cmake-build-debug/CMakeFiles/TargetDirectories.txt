@@ -1,3 +1,0 @@
-/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/main.dir
