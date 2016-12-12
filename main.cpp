@@ -54,7 +54,7 @@ ourModel.AttachScript(player);
   //  glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 GLFWwindow* window = GM->GetWindow();
 
-  // glfwSetKeyCallback(window, key_callback);
+   glfwSetKeyCallback(window, key_callback);
   // glfwSetCursorPosCallback(window, mouse_callback);
    //glfwSetScrollCallback(window, scroll_callback);
 
