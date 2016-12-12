@@ -1,4 +1,14 @@
 #include "Model.h"
+#include "GameManager.h"
+#include "Script.h"
+// GameManager*Model:: gameManager= new GameManager();
+
+Model::Model(string const & path, bool gamma) : gammaCorrection(gamma)
+        {
+                this->loadModel(path);
+           this->script=new Script();//setting up the script component
+        }
+
 extern GLint TextureFromFile(const char* path, string directory, bool gamma= false)
 {
     //Generate texture ID and load texture data
@@ -21,4 +31,9 @@ extern GLint TextureFromFile(const char* path, string directory, bool gamma= fal
     glBindTexture(GL_TEXTURE_2D, 0);
     SOIL_free_image_data(image);
     return textureID;
+}
+
+void Model::AttachScript(Script* scr) //attach script for the model ..
+{
+    this->script=scr;
 }

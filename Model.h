@@ -8,12 +8,25 @@
 #include <vector>
 
 // GL Includes
+#ifndef gm
+#define gm
+
+
 #include <GL/glew.h> // Contains all the necessery OpenGL includes
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <SOIL/SOIL.h>
+
 #include <glm/gtx/euler_angles.hpp>
 #include "Mesh.h"
+#include <glm/gtc/type_ptr.hpp>
+#include <GLFW/glfw3.h>
+#include"Script.h"
+#endif
+
+
+
+
 using namespace glm;
 //GLint TextureFromFile(const char* path, string directory, bool gamma = false);
 GLint TextureFromFile(const char* path, string directory, bool gamma);
@@ -23,27 +36,31 @@ GLint TextureFromFile(const char* path, string directory, bool gamma);
  * feh mn gwah model tany by7aded el transformation bta3 el mesh relative l el Model el kber
  * w abl ma arsm el mesh dh ab3t l model ele hwa uniform mwgod f el shader 3lshan arsmo (y)
  */
+
 class Model
 {
 public:
+    //testing ::
+
+    //endtesting
     /*  Model Data */
     std::vector<Texture> textures_loaded;	// Stores all the textures loaded so far, optimization to make sure textures aren't loaded more than once.
     std::vector<Mesh> meshes;
     std::string directory;
     bool gammaCorrection;
+    Script *script;
     static  vec3 lightPos ;
     /*  Functions   */
     // Constructor, expects a filepath to a 3D model.
-    Model(string const & path, bool gamma = false) : gammaCorrection(gamma)
-    {
-        this->loadModel(path);
-    }
+    Model(string const & path, bool gamma = false);
 
     // Draws the model, and thus all its meshes
     void Draw(Shader* shader)
     {
+
         for(GLuint i = 0; i < this->meshes.size(); i++)
         { this->meshes[i].Draw(shader,modalMatrix);}
+
     }
 //mvp matrices
     glm::mat4 modalMatrix = glm::mat4(1.0);
@@ -65,6 +82,9 @@ public:
     glm::vec3 scaling= glm::vec3(0,0,0);
     glm::mat4 MVP;
 private:
+
+
+   /// static GameManager* gameManager; //pointer to gamemanager
     /*  Functions   */
     // Loads a model with supported ASSIMP extensions from file and stores the resulting meshes in the meshes vector.
     void loadModel(string path)
@@ -127,7 +147,7 @@ private:
             vector.z = mesh->mNormals[i].z;
             vertex.Normal = vector;
             // Texture Coordinates
-            if(mesh->mTextureCoords[0]) // Does the mesh contain texture coordinates?
+            if(mesh->mTextureCoords[0]) // Does the mesh coain texture coordinates?
             {
                 glm::vec2 vec;
                 // A vertex can contain up to 8 different texture coordinates. We thus make the assumption that we won't
@@ -283,6 +303,10 @@ public:
         right=glm::cross(direction,vec3(0,1,0));
         right=glm::normalize(right);
     }
+
+
+    void AttachScript(Script* scr); //attach script for the model ..
+
 
 
 

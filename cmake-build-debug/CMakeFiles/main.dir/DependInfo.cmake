@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mohamed/Documents/Jung/GameManager.cpp" "/home/mohamed/Documents/Jung/cmake-build-debug/CMakeFiles/main.dir/GameManager.cpp.o"
-  "/home/mohamed/Documents/Jung/Model.cpp" "/home/mohamed/Documents/Jung/cmake-build-debug/CMakeFiles/main.dir/Model.cpp.o"
-  "/home/mohamed/Documents/Jung/main.cpp" "/home/mohamed/Documents/Jung/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o"
+  "/home/mohamed/Desktop/Junglev1/The-7th-Floor/GameManager.cpp" "/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/main.dir/GameManager.cpp.o"
+  "/home/mohamed/Desktop/Junglev1/The-7th-Floor/Input.cpp" "/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/main.dir/Input.cpp.o"
+  "/home/mohamed/Desktop/Junglev1/The-7th-Floor/Model.cpp" "/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/main.dir/Model.cpp.o"
+  "/home/mohamed/Desktop/Junglev1/The-7th-Floor/Script.cpp" "/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/main.dir/Script.cpp.o"
+  "/home/mohamed/Desktop/Junglev1/The-7th-Floor/main.cpp" "/home/mohamed/Desktop/Junglev1/The-7th-Floor/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
