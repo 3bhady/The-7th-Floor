@@ -8,7 +8,10 @@ this->textures = textures;
 model=parent;
 // Now that we have all the required data, set the vertex buffers and its attribute pointers.
 this->setupMesh();
-    collider= new Collider(this);
+
+    Mesh * ptr=this;
+    collider= new Collider(ptr);
+    ptr = nullptr;
 this->CalculateCollider();
 }
 void Mesh::CalculateCollider(){
@@ -40,6 +43,8 @@ void Mesh::CalculateCollider(){
                 z2<vertices[i].Position.z?z2:vertices[i].Position.z;
 
     }
+    std::cout<<"max:"<<x1<<","<<y1<<","<<z1<<" |||"<<" min:";
+         std::cout<<x2<<","<<y2<<","<<z2<<std::endl;
     collider->SetValues(x1,y1,z1,x2,y2,z2);
 
 };
@@ -124,4 +129,16 @@ void Mesh::setupMesh()
     glVertexAttribPointer(4, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*)offsetof(Vertex, Bitangent));
 
     glBindVertexArray(0);
+}
+
+bool Mesh::IsCollide(Mesh  *mesh) {
+    return collider->IsCollide(mesh->collider);
+}
+
+void Mesh::RePosition() {
+    Mesh* ptr=this;
+    collider->SetMech(ptr);
+    ptr=NULL;
+    collider->RePosition();
+
 }

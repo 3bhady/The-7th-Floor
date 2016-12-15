@@ -17,7 +17,7 @@ enum Camera_Movement {
 };
 
 // Default camera values
-const GLfloat YAW        = -90.0f;
+const GLfloat YAW        =180.0f;
 const GLfloat PITCH      =  0.0f;
 const GLfloat SPEED      =  3.0f;
 const GLfloat SENSITIVTY =  0.25f;
@@ -130,7 +130,7 @@ private:
     // Calculates the front vector from the Camera's (updated) Eular Angles
     void updateCameraVectors()
     {
-        // Calculate the new Front vector
+        // RePosition the new Front vector
         glm::vec3 front;
         front.x = cos(glm::radians(this->Yaw)) * cos(glm::radians(this->Pitch));
         front.y = sin(glm::radians(this->Pitch));

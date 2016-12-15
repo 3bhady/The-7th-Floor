@@ -52,6 +52,7 @@ public:
     glm::mat4 modalMatrix_mesh =glm::mat4(1.0);
     Collider * collider;
     Model * model;
+    bool IsTrigger=false;
     /*  Functions  */
     // Constructor
     Mesh(vector<Vertex> vertices, vector<GLuint> indices, vector<Texture> textures,Model* parent);
@@ -59,7 +60,8 @@ public:
     void CalculateCollider();
     // Render the mesh
     void Draw(Shader* shader,glm::mat4 &modalMatrix);
-
+    bool IsCollide(Mesh *mesh);
+    void RePosition();
 private:
     /*  Render data  */
     GLuint VBO, EBO;

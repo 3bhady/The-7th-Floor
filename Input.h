@@ -36,7 +36,7 @@ public:
         else if(action == GLFW_RELEASE)
             keys[key]=false;
     }
-    bool IsKeyDown(int key)
+   static  bool IsKeyDown(int key)
     {
         return keys[key];
     }
