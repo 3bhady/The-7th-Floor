@@ -53,6 +53,22 @@ public:
         {
             model->Rotate(0,1,0,-90*model->gameManager->deltaTime);
         }
+        if(IsKeyDown(GLFW_KEY_F))
+        {
+            model->Scale(vec3(0.9f,0.9f,0.9f));
+        }
+        if(IsKeyDown(GLFW_KEY_G))
+        {
+            model->Scale(vec3(1.1f,1.1f,1.1f));
+        }
+        if(IsKeyDown(GLFW_KEY_M))
+        {
+            model->MoveTo(glm::vec3(5.f,5.f,5.f),1);
+        }
+        if(IsKeyDown(GLFW_KEY_N))
+        {
+            model->SetPosition(glm::vec3(5.f,5.f,5.f));
+        }
 
 
 

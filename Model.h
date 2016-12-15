@@ -22,6 +22,8 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <GLFW/glfw3.h>
 #include"Script.h"
+#include "GameManager.h"
+
 #endif
 
 
@@ -280,6 +282,8 @@ public:
         position=pos;
 
     }
+    //move to another position
+    bool MoveTo(vec3 target,GLfloat speed);
     void SetRotation(vec3 rot){
 
 

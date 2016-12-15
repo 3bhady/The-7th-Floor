@@ -20,7 +20,10 @@ int main() {
 Script * player=new PlayerScript();
 
     Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"));
+    Model *ourModel2=new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj"));
+
     GM->AddModel(ourModel);
+    GM->AddModel(ourModel2);
 
 
     // <-- Don't forget this one!

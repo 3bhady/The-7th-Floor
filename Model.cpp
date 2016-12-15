@@ -32,7 +32,24 @@ extern GLint TextureFromFile(const char* path, string directory, bool gamma= fal
     SOIL_free_image_data(image);
     return textureID;
 }
+bool Model::MoveTo(vec3 target,GLfloat speed){
+    //check collision , should check  if position =target
+    bool shouldReturn =true;
+    double xDifference=abs((target.x-position.x));
+    double yDifference=abs((target.y-position.y));
+    double zDifference=abs((target.z-position.z));
+    if((xDifference>=0&&xDifference<=0.19)&&(yDifference>=0&&yDifference<=0.19)&&(zDifference>=0&&zDifference<=0.19) ){
+        this->SetPosition(target);
+        std::cout<<" reached the target pos"<<std::endl;
+        return true;}
 
+
+    vec3 nextPosition= target*speed*gameManager->deltaTime+position*(1.f-speed*gameManager->deltaTime);
+    SetPosition(nextPosition);
+    return false;
+
+
+}
 void Model::AttachScript(Script* scr) //attach script for the model ..
 {
     this->script=scr;
