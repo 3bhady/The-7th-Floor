@@ -3,6 +3,8 @@
 //
 
 #include "GameManager.h"
+#include "Collision.h"
+#include "filesystem.h"
 
 //#include "Object.h"
 
@@ -42,7 +44,7 @@ void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string win
 
 
     // Options
-    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     // Initialize GLEW to setup the OpenGL Function pointers
     glewExperimental = GL_TRUE;
@@ -98,6 +100,7 @@ void GameManager::Start() {
 void GameManager::Update() {
     for(int i=0; i<gameModel.size(); i++)
     {
+        gameModel[i]->RePosition();
         gameModel[i]->script->Update();
     }
 }
@@ -127,12 +130,40 @@ void GameManager::Create_Object(std::string tag) {
 //if(tag=="NanoSuit")
    // this->Hierarchy.push_back(new Model());
 
+    if(tag=="cyborg")
+    gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/cyborg.obj")) );
+    if(tag=="nanosuit")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj")) );
+    if(tag=="scene")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj")));
+gameModel[gameModel.size()-1]->gameManager=this;
+
 }
 
 
 
 void GameManager::Check_Collision() {
 //todo:check for collisions in all the objects
+    for(int i=0;i<gameModel.size();i++)
+    {
+        for(int j=i+1;j<gameModel.size();j++)
+        {
+            //vector indicating collisions
+           std::vector<pair<Mesh*,Mesh*> >* CollVec= gameModel[i]->IsCollide(gameModel[j]);
+            if(CollVec->size()!=0)
+            {
+                for(int k=0;k<CollVec->size();k++)
+                {
+                    Collision * collision = new Collision((*CollVec)[k].first,(*CollVec)[k].second);
+                gameModel[i]->OnCollision(collision);
+                collision = new Collision((*CollVec)[k].second,(*CollVec)[k].first);
+                gameModel[j]->OnCollision(collision);
+
+                }
+            }
+
+        }
+    }
 }
 
 void GameManager::LoadScene() {

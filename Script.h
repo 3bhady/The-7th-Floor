@@ -13,10 +13,10 @@ public:
 
 Script();
 virtual void Start() {
-std::cout<<"this is the script base class Start";
+//std::cout<<"this is the script base class Start";
 }
  virtual    void Update(){
-     std::cout<<"this is the script base class Update";
+//     std::cout<<"this is the script base class Update";
     }
 bool IsKeyDown(int key);
 

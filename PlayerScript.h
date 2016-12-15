@@ -55,6 +55,7 @@ public:
         }
         if(IsKeyDown(GLFW_KEY_F))
         {
+
             model->Scale(vec3(0.9f,0.9f,0.9f));
         }
         if(IsKeyDown(GLFW_KEY_G))
@@ -69,6 +70,7 @@ public:
         {
             model->SetPosition(glm::vec3(5.f,5.f,5.f));
         }
+
 
 
 

@@ -1,7 +1,7 @@
 #include <iostream>
 #include "GameManager.h"
 #include "Camera.h"
-#include "filesystem.h"
+//#include "filesystem.h"
 #include"PlayerScript.h"
 #include<vector>
 #include <glm/gtc/type_ptr.hpp>
@@ -19,12 +19,14 @@ int main() {
 
 Script * player=new PlayerScript();
 
-    Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"));
-    Model *ourModel2=new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj"));
 
-    GM->AddModel(ourModel);
-    GM->AddModel(ourModel2);
 
+
+    //Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"));
+    //GM->AddModel(ourModel);
+GM->Create_Object("nanosuit");
+    GM->Create_Object("cyborg");
+    GM->Create_Object("scene");
 
     // <-- Don't forget this one!
    // Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
@@ -35,6 +37,10 @@ Script * player=new PlayerScript();
 
 // Set the required callback functions
 GM->gameModel[0]->AttachScript(player);
+    GM->gameModel[0]->Trigger(true);
+    GM->gameModel[1]->Trigger(true);
+GM->gameModel[2]->Trigger(true);
+  //  GM->gameModel[0]->SetPosition(glm::vec3(10.f,0,0));
   GM->Start(); //call start in all models script component
 
     // Draw in wireframe
@@ -43,6 +49,7 @@ GM->gameModel[0]->AttachScript(player);
     while(!glfwWindowShouldClose(GM->GetWindow()))
     {
      GM->UpdateGameParameters();
+        GM->Check_Collision();
         GM->Update();
         GM->Draw();
     }
