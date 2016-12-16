@@ -35,7 +35,7 @@ Script * player=new PlayerScript();
     GM->Create_Object("A");
     GM->gameModel[2]->Tag="Animated";
     GM->gameModel[2]->IsAnimated=true;
-    GM->gameModel[2]->FramesNumber=10;
+    GM->gameModel[2]->FramesNumber=11;
   //  GM->gameModel[2]->IsAnimated=true;
 
     // <-- Don't forget this one!

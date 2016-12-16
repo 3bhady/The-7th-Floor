@@ -139,7 +139,7 @@ void GameManager::Create_Object(std::string tag) {
     if(tag=="scene")
         gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj")));
     if(tag=="A")
-        gameModel.push_back(new Model(FileSystem::getPath("objects/New-Folder/Z_000003.obj")));
+        gameModel.push_back(new Model(FileSystem::getPath("objects/Animation/Walk.obj")));
 gameModel[gameModel.size()-1]->gameManager=this;
 
 }

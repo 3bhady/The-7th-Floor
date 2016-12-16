@@ -17,11 +17,16 @@ int x=70;
     void Update(){
         if(IsKeyDown(GLFW_KEY_O))
         {
-            model->IsAnimated=true;
+            model->Animate(false);
+            std::cout<<"O is pressed"<<std::endl;
         }
+
       if(IsKeyDown(GLFW_KEY_W))
-        model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
-        if(IsKeyDown(GLFW_KEY_S))
+      {
+          model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
+      }
+
+            if(IsKeyDown(GLFW_KEY_S))
             model->gameManager->camera->ProcessKeyboard(BACKWARD, model->gameManager->deltaTime);
         if(IsKeyDown(GLFW_KEY_A))
             model->gameManager->camera->ProcessKeyboard(LEFT, model->gameManager->deltaTime);

@@ -13,21 +13,26 @@ Model::Model(string const & path, bool gamma) : gammaCorrection(gamma)
 
 void Model::Draw(Shader* shader)
 {
-   /* int start =0;
+    int start =0;
 int size = (int)meshes.size();
 int endframe =size/FramesNumber;
     if(IsAnimated)
     {
+        //std::cout<<size<<std::endl;
+
         start =CurrentFrame*endframe;
         size = start+endframe;
+        endframe+= start;
+        std::cout<<CurrentFrame<<":"<<endframe<<std::endl;
         CurrentFrame++;
         if(CurrentFrame>=FramesNumber)
             CurrentFrame=0;
     }
-
-    for(GLuint i = start; i < size; i++)
+else
+        CurrentFrame=0;
+    for(GLuint i = start; i < endframe; i++)
     { this->meshes[i].Draw(shader,modalMatrix);}
-    */
+
    /* if(IsAnimated)
     {
         this->meshes[0].Draw(shader,modalMatrix);
@@ -35,10 +40,10 @@ int endframe =size/FramesNumber;
        // if(CurrentFrame>=FramesNumber)
          //   CurrentFrame=0;
     }
-    else */
+    else
     for(GLuint i = 0; i < meshes.size(); i++)
     { this->meshes[i].Draw(shader,modalMatrix);}
-
+*/
 
 }
 void Model::loadModel(string path)
@@ -370,4 +375,8 @@ void Model::RotateAround(vec3 target,vec3 axis, float angle) {
     posTemp=rotationMatrix*posTemp;
     position=vec3(posTemp.x,posTemp.y,posTemp.z);
 
+}
+
+void Model::Animate(bool state) {
+IsAnimated=state;
 }
