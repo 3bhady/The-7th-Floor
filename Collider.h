@@ -4,7 +4,7 @@
 #include "Mesh.h"
 
 class Collider {
-private:
+public:
     float x1,y1,z1, //max
             x2,y2,z2; //min
     float X1,Y1,Z1, //max
@@ -20,4 +20,6 @@ public:
     void SetMech(Mesh* & parent){
         this->mesh=parent;
     }
+
+    ~Collider();
 };

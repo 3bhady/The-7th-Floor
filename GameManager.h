@@ -41,12 +41,6 @@ public:
     GLFWwindow* GetWindow();
     void UpdateDeltaTime();//updating deltatime
     void UpdatePollEvents();
-    void Do_Movement()
-    {
-        // Camera controls
-        if(input->IsKeyDown(GLFW_KEY_W))
-         cout<<"W is down "<<endl;
-    }
 
     void UpdateGameParameters();//updating parameters like deltatime
     void Update();
@@ -59,7 +53,7 @@ public:
     Shader* shader;
     Shader* shader2D;
 
-
+  Model* Inistatiate(string tag);
     void CreateObject2D(string tag);
 };
 

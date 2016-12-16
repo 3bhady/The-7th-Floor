@@ -24,3 +24,7 @@ void Script::MousePosition(float &x,float& y)
   x=  model->gameManager->input->mouseXPosition;
   y=model->gameManager->input->mouseYposition;
 }
+
+ void Script::OnCollision(Collision *collision) {
+
+}

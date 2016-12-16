@@ -44,6 +44,9 @@ void Mesh::CalculateCollider(){
 
     }
 
+  //  std::cout<<"max:"<<x1<<","<<y1<<","<<z1<<" |||"<<" min:";
+    //     std::cout<<x2<<","<<y2<<","<<z2<<std::endl;
+
     collider->SetValues(x1,y1,z1,x2,y2,z2);
 
 };

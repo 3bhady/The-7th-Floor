@@ -11,18 +11,53 @@
 
 
 
-Model::Model(string const & path, bool gamma) : gammaCorrection(gamma)
-        {
+Model::Model(string const & path,string tag, bool gamma) : gammaCorrection(gamma)
+        {this->Tag=tag;
                 this->loadModel(path);
            this->script=new Script();//setting up the script component
         }
+Model::Model( bool gamma) : gammaCorrection(gamma)
+{
+
+    this->script=new Script();//setting up the script component
+}
 
 
 void Model::Draw(Shader* shader)
 {
+    int start =0;
+int size = (int)meshes.size();
+int endframe =size/FramesNumber;
 
-    for(GLuint i = 0; i < this->meshes.size(); i++)
+    if(IsAnimated==true)
+    {
+        std::cout<<" is Animated"<<std::endl;
+        //std::cout<<size<<std::endl;
+
+        start =CurrentFrame*endframe;
+        size = start+endframe;
+        endframe+= start;
+        std::cout<<CurrentFrame<<":"<<endframe<<std::endl;
+        CurrentFrame++;
+        if(CurrentFrame>=FramesNumber)
+            CurrentFrame=0;
+    }
+else
+        CurrentFrame=0;
+    for(GLuint i = start; i < endframe; i++)
     { this->meshes[i].Draw(shader,modalMatrix);}
+
+   /* if(IsAnimated)
+    {
+        this->meshes[0].Draw(shader,modalMatrix);
+       // CurrentFrame++;
+       // if(CurrentFrame>=FramesNumber)
+         //   CurrentFrame=0;
+    }
+    else
+    for(GLuint i = 0; i < meshes.size(); i++)
+    { this->meshes[i].Draw(shader,modalMatrix);}
+*/
 
 }
 void Model::loadModel(string path)
@@ -216,6 +251,7 @@ void Model::SetPosition(vec3 pos){
     position=pos;
 
 }
+
 void Model::SetRotation(vec3 rot){
 
 
@@ -239,6 +275,7 @@ void Model::SetScaling(vec3 scal){
 
 
 }
+
 void Model::UpdateDirections(){
     vec4 directionTemp=vec4(direction,1);
     directionTemp=rotationMatrix*directionTemp;
@@ -273,7 +310,10 @@ vector< pair<Mesh*,Mesh*> >* Model::IsCollide(Model* model) {
 void Model::OnCollision(Collision * collision) {
 //this is implemented by the classes which derive Model class
     //for testing only now
- // std::cout<<collision->ownmesh->tag<<std::endl;
+this->script->OnCollision(collision);
+    std::cout<<"OnCollision is called now"<<std::endl;
+    //delete collision;
+
 }
 
 void Model::Trigger(bool trigger) {
@@ -339,7 +379,7 @@ void Model::RotateAround(vec3 target,vec3 axis, float angle) {
 //rotation=vec3();
 //  converting vec3 to vec4 because rotation matrix is 4d and we want to get forward
 
-// storing rotation
+// storing rotationbool IsAnimated=false;
  //   rotation=vec3(rotation.x+angle*axis.x,rotation.y+angle*axis.y,rotation.z+angle*rotation.z);
 
 //updating forward and right directions
@@ -350,4 +390,8 @@ void Model::RotateAround(vec3 target,vec3 axis, float angle) {
     posTemp=rotationMatrix*posTemp;
     position=vec3(posTemp.x,posTemp.y,posTemp.z);
 
+}
+
+void Model::Animate(bool state) {
+//this->IsAnimated=state;
 }

@@ -49,6 +49,8 @@ public:
     //testing ::
 
     //endtesting
+    Model(bool gamma=false);
+
     /*  Model Data */
    static GameManager* gameManager;
     std::vector<Texture> textures_loaded;	// Stores all the textures loaded so far, optimization to make sure textures aren't loaded more than once.
@@ -57,6 +59,10 @@ public:
     bool gammaCorrection;
     Script *script;
     bool IsTrigger;
+    string Tag;
+    bool IsAnimated=false;
+    int FramesNumber=1; //cannot be less than 0 frames
+    int CurrentFrame=0; //0 is the begining
    // static  vec3 lightPos ;
 
 //mvp matrices
@@ -81,8 +87,8 @@ public:
 
     /*  Functions   */
     // Constructor, expects a filepath to a 3D model.
-    Model(string const & path, bool gamma = false);
-
+    Model(string const & path,string tg, bool gamma = false);
+    void Animate(bool state);
     // Draws the model, and thus all its meshes
     void Draw(Shader* shader);
 private:

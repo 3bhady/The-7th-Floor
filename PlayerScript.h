@@ -14,15 +14,35 @@ class PlayerScript:public Script {
 public:
 
 float x,y;
+    bool bol=true;
     void Update(){
+
 
 MousePosition(x,y);
 
+        if(IsKeyDown(GLFW_KEY_O))
+        {
+            this->model->IsAnimated=false;
+        }
+        if(IsKeyDown(GLFW_KEY_P))
+        {
+            this->model->IsAnimated=true;
+        }
 
+        if(IsKeyDown(GLFW_KEY_I))
+        {bol=false;
+          Model* temp =  model->gameManager->Inistatiate("Walk");
+            temp->SetPosition(model->position+model->direction*2.0f);
+            temp->IsAnimated=true;
+
+        }
 
       if(IsKeyDown(GLFW_KEY_W))
-        model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
-        if(IsKeyDown(GLFW_KEY_S))
+      {
+          model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
+      }
+
+            if(IsKeyDown(GLFW_KEY_S))
             model->gameManager->camera->ProcessKeyboard(BACKWARD, model->gameManager->deltaTime);
         if(IsKeyDown(GLFW_KEY_A))
             model->gameManager->camera->ProcessKeyboard(LEFT, model->gameManager->deltaTime);
@@ -53,13 +73,21 @@ MousePosition(x,y);
         {
             vec3 pos=model->position;
             vec3 movTemp=model->direction*0.1f;
+
             model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
         }
         if(IsKeyDown(GLFW_KEY_DOWN))
         {
             vec3 pos=model->position;
             vec3 movTemp=-model->direction*0.1f;
+
             model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
+        }
+        if(IsKeyDown(GLFW_KEY_J))
+        {
+
+
+            model->SetPosition(vec3(model->position.x,model->position.y+0.09f,model->position.z));
         }
         if(IsKeyDown(GLFW_KEY_Q))
         {
@@ -112,21 +140,20 @@ MousePosition(x,y);
             vec2 camVec1=vec2(camVec.x,camVec.z);
             vec2 modelVec1=vec2(modelVec.x,modelVec.z);
             //model->gameManager->camera->RotateAround(model->position,glm::vec3(0,1.,0),model->gameManager->camera->Yaw*model->gameManager->deltaTime);
-            model->gameManager->camera->Position=Lerp(model->gameManager->camera->Position,model->position-model->direction*6.f+vec3(0,5.f,0.f),model->gameManager->deltaTime*3);
-
-
-
-
-
-
-
+            model->gameManager->camera->Position=Lerp(model->gameManager->camera->Position,model->position-model->direction*2.f+vec3(0,5.f,0.f),model->gameManager->deltaTime*3);
 
         }
 
 
 
 
+
+
     }
+  void  OnCollision(Collision* collision )
+  {
+  std::cout<<"Collision in on collision";
+  }
     void Start(){
 
         std::cout<<" hello it's me the script component Start!!!";

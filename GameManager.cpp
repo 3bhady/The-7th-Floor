@@ -125,7 +125,7 @@ void GameManager::Draw() {
         gameModel2D[i]->Draw(shader2D);
     }
 
-    //glfwSwapBuffers(window);
+    glfwSwapBuffers(window);
 }
 void GameManager::AddModel(Model*& m )
 {
@@ -144,15 +144,29 @@ void GameManager::Create_Object(std::string tag) {
 //todo:create an object using tag and add it to the list of objects
 //if(tag=="NanoSuit")
    // this->Hierarchy.push_back(new Model());
-
+for(int i=0; i<gameModel.size(); i++)
+{
+    if(gameModel[i]->Tag==tag){
+   Model* model= new Model();
+        model->textures_loaded=gameModel[i]->textures_loaded;
+        model->Tag=tag;
+        model->FramesNumber=gameModel[i]->FramesNumber;
+        model->meshes=gameModel[i]->meshes;
+       AddModel(model);
+    return;
+    }
+}
     if(tag=="cyborg")
-    gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/cyborg.obj")) );
+    gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"),"cyborg") );
     if(tag=="test")
-        gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/test.obj")) );
+        gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/test.obj"),"test") );
     if(tag=="nanosuit")
-        gameModel.push_back(new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj")) );
+        gameModel.push_back(new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj"),"nanosuit") );
     if(tag=="scene")
-        gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj")));
+        gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj"),"scene"));
+
+    if(tag=="Walk")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/Animation/Walk.obj"),"Walk"));
 
 gameModel[gameModel.size()-1]->gameManager=this;
 
@@ -199,4 +213,9 @@ void GameManager::Destroy_Object() {
 
 GLFWwindow* GameManager::GetWindow(){
     return window;
+}
+
+Model *GameManager::Inistatiate(string tag) {
+   Create_Object( tag);
+    return gameModel[gameModel.size()-1];
 }
