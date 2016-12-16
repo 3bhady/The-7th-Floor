@@ -53,6 +53,7 @@ public:
     Collider * collider;
     Model * model;
     bool IsTrigger=false;
+    int tag;
     /*  Functions  */
     // Constructor
     Mesh(vector<Vertex> vertices, vector<GLuint> indices, vector<Texture> textures,Model* parent);

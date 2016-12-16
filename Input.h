@@ -40,7 +40,22 @@ public:
     {
         return keys[key];
     }
+     glm::vec3 Lerp(glm::vec3 start,glm::vec3 end,float  interpolationValue){
 
+         bool shouldReturn =true;
+         double xDifference=abs((end.x-start.x));
+         double yDifference=abs((end.y-start.y));
+         double zDifference=abs((end.z-start.z));
+         if((xDifference>=0&&xDifference<=0.1)&&(yDifference>=0&&yDifference<=0.19)&&(zDifference>=0&&zDifference<=0.1) ){
+             return start;
+         }
+
+
+
+         glm::vec3 nextPosition= start+interpolationValue*(end-start);
+
+       return nextPosition;
+     }
 
 
 

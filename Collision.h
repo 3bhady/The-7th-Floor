@@ -3,7 +3,7 @@ class Mesh;
 class Collider;
 class Model;
 class Collision {
-private:
+public:
     Mesh * ownmesh, *mesh;
     Collider * owncollider,*collider;
     Model * model;

@@ -18,11 +18,17 @@
 //#include <SOIL/SOIL.h>
 
 #include <glm/gtx/euler_angles.hpp>
-#endif
+
 #include "Mesh.h"
 #include <glm/gtc/type_ptr.hpp>
 #include <GLFW/glfw3.h>
 #include"Script.h"
+
+#include "GameManager.h"
+
+#endif
+
+
 class Collision;
 
 
@@ -67,7 +73,7 @@ public:
     glm::mat4 scalingMatrix =scale(mat4(), vec3(1.0f, 1.0f, 1.0f));
     //for test only
     //glm::vec4 forward= glm::vec4(0,0,1,1);
-    glm::vec3 direction= glm::vec3(0,0,-1);
+    glm::vec3 direction= glm::vec3(0,0,1);
     //right direction
     glm::vec3 right=glm::vec3(1,0,0);
 
@@ -101,9 +107,17 @@ public:
     //translating the object to a certain position;
 
     void Rotate(float x,float y ,float z,float angle);
+    void RotateAround(vec3 target,vec3 axis,float angle);
     void Scale(vec3 scal);
    // void SetLightPosition(float xpos,float ypos,float zpos);
     //setting up  rotation,translation ,scaling
+
+
+
+    //move to another position
+    bool MoveTo(vec3 target,GLfloat speed);
+
+
     void RePosition();
     void SetPosition(vec3 pos);
     void SetRotation(vec3 rot);
@@ -113,6 +127,7 @@ public:
 
     //virtual??
     void OnCollision(Collision * collision);
+
     void AttachScript(Script* scr); //attach script for the model ..
     void Trigger(bool trigger);
 

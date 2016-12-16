@@ -15,3 +15,7 @@ bool Script::IsKeyDown(int key)
 {
     model->gameManager->input->IsKeyDown(key);
 }
+glm::vec3 Script::Lerp(vec3 start,vec3 end,float  interpolationValue)
+{
+return model->gameManager->input->Lerp(start,end,interpolationValue);
+}

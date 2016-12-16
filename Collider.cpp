@@ -66,10 +66,10 @@ int counter =0;
 
 void Collider::RePosition() {
 
-    if(this->mesh==nullptr)
-        std::cout<<"mesh in collider is null"<<std::endl;
-    if(this->mesh->model== nullptr)
-        std::cout<<"model in mesh is null"<<std::endl;
+    //if(this->mesh==nullptr)
+      //  std::cout<<"mesh in collider is null"<<std::endl;
+    //if(this->mesh->model== nullptr)
+        //std::cout<<"model in mesh is null"<<std::endl;
     glm::mat4 modalMatrix = (mesh->modalMatrix_mesh)*(mesh->model->modalMatrix) ;
     std::vector<glm::vec4> temp;
   //  temp.push_back(glm::vec4(0,0,0,1.f));
