@@ -80,12 +80,7 @@ void GameManager::UpdateGameParameters(){
     UpdatePollEvents();
     UpdateDeltaTime();
    // camera->ProcessMouseMovement(input->xOffset,input->yOffset); //Update Camera will be removed to any of scripts soon :)
-    camera->ProjectionMatrix = glm::perspective(camera->Zoom, (float)screenWidth/(float)screenHeight, 0.1f, 200.0f);
 
-
-    camera->ViewMatrix= camera->GetViewMatrix();
-    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
-   glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
 
 
 }
@@ -103,9 +98,16 @@ void GameManager::Update() {
         gameModel[i]->RePosition();
         gameModel[i]->script->Update();
     }
+    camera->ProjectionMatrix = glm::perspective(camera->Zoom, (float)screenWidth/(float)screenHeight, 0.1f, 200.0f);
+
+//custom view matrix
+    camera->ViewMatrix= camera->GetViewMatrix(1);
+    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
+    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
 }
 
 void GameManager::Draw() {
+
 //order is very important , playing with it will be catastrophic !
     glClearColor(0.5f, 0.05f, 0.5f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

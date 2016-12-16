@@ -69,7 +69,7 @@ public:
     glm::mat4 scalingMatrix =scale(mat4(), vec3(1.0f, 1.0f, 1.0f));
     //for test only
     //glm::vec4 forward= glm::vec4(0,0,1,1);
-    glm::vec3 direction= glm::vec3(0,0,-1);
+    glm::vec3 direction= glm::vec3(0,0,1);
     //right direction
     glm::vec3 right=glm::vec3(1,0,0);
 
@@ -103,6 +103,7 @@ public:
     //translating the object to a certain position;
 
     void Rotate(float x,float y ,float z,float angle);
+    void RotateAround(vec3 target,vec3 axis,float angle);
     void Scale(vec3 scal);
    // void SetLightPosition(float xpos,float ypos,float zpos);
     //setting up  rotation,translation ,scaling

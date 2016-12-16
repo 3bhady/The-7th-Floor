@@ -45,6 +45,8 @@ public:
     GLfloat MouseSensitivity;
     GLfloat Zoom;
 
+
+
     // Constructor with vectors
     Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), GLfloat yaw = YAW, GLfloat pitch = PITCH) : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVTY), Zoom(ZOOM)
     {
@@ -78,6 +80,11 @@ public:
     {
         return glm::lookAt(this->Position, this->Position + this->Front, this->Up);
     }
+    glm::mat4 GetViewMatrix(int parameter)
+    {
+        return this->ViewMatrix;
+    }
+
 
     // Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
     void ProcessKeyboard(Camera_Movement direction, GLfloat deltaTime)
@@ -124,6 +131,22 @@ public:
             this->Zoom = 1.0f;
         if (this->Zoom >= 45.0f)
             this->Zoom = 45.0f;
+    }
+
+    void RotateAround(glm::vec3  target, glm::vec3  axis, float angle) {
+        glm::mat4 rotationMatrix=rotate(glm::mat4(),glm::radians(angle), axis);
+//rotation=vec3();
+//  converting vec3 to vec4 because rotation matrix is 4d and we want to get forward
+
+// storing rotation
+        //   rotation=vec3(rotation.x+angle*axis.x,rotation.y+angle*axis.y,rotation.z+angle*rotation.z);
+
+//updating forward and right directions
+      glm::vec4 tempPos=glm::vec4(Position.x,Position.y,Position.z,1.0f);
+
+               tempPos= translate(glm::mat4(), target)*rotationMatrix*translate(glm::mat4(), -target)*tempPos;
+
+        Position=glm::vec3(tempPos.x,tempPos.y,tempPos.z);
     }
 
 private:

@@ -45,6 +45,7 @@ void Model::processNode(aiNode* node, const aiScene* scene)
         // The scene contains all the data, node is just to keep stuff organized (like relations between nodes).
         aiMesh* mesh = scene->mMeshes[node->mMeshes[i]];
         this->meshes.push_back(this->processMesh(mesh, scene));
+        meshes[i].tag=i;
     }
     // After we've processed all of the meshes (if any) we then recursively process each of the children nodes
     for(GLuint i = 0; i < node->mNumChildren; i++)
@@ -172,7 +173,7 @@ vector<Texture> Model::loadMaterialTextures(aiMaterial* mat, aiTextureType type,
     return textures;
 }
 void Model::Rotate(float x,float y ,float z,float angle){
-    rotationMatrix=rotate(mat4(),glm::radians(angle), vec3(x, y,z ));
+    rotationMatrix=rotate(mat4(1.0f),glm::radians(angle), vec3(x, y,z ));
 //rotation=vec3();
 //  converting vec3 to vec4 because rotation matrix is 4d and we want to get forward
 
@@ -212,8 +213,8 @@ void Model::SetRotation(vec3 rot){
 
 
 // multiplying all rotations in order YXZ
-    glm::mat4 newRotation=rotate(mat4(),glm::radians(rot.z), vec3(0, 0,1 ))*rotate(mat4(),glm::radians(rot.x), vec3(1,0,0 ))*rotate(mat4(),glm::radians(rot.y), vec3(0, 1,0 ));
-    glm::mat4 reverseOldRotation=rotate(mat4(),glm::radians(-rotation.y), vec3(0, 1,0 ))*rotate(mat4(),glm::radians(-rotation.x), vec3(1,0,0 ))*rotate(mat4(),glm::radians(-rotation.z), vec3(0, 0,1 ));
+    glm::mat4 newRotation=rotate(mat4(1.0f),glm::radians(rot.z), vec3(0, 0,1 ))*rotate(mat4(),glm::radians(rot.x), vec3(1,0,0 ))*rotate(mat4(),glm::radians(rot.y), vec3(0, 1,0 ));
+    glm::mat4 reverseOldRotation=rotate(mat4(1.0f),glm::radians(-rotation.y), vec3(0, 1,0 ))*rotate(mat4(),glm::radians(-rotation.x), vec3(1,0,0 ))*rotate(mat4(),glm::radians(-rotation.z), vec3(0, 0,1 ));
     rotationMatrix=newRotation*reverseOldRotation;
     modalMatrix=
             translate(mat4(), position)*rotationMatrix*translate(mat4(), -position)*modalMatrix;
@@ -265,7 +266,7 @@ vector< pair<Mesh*,Mesh*> >* Model::IsCollide(Model* model) {
 void Model::OnCollision(Collision * collision) {
 //this is implemented by the classes which derive Model class
     //for testing only now
-  //  std::cout<<"OnCollision is called now"<<std::endl;
+ // std::cout<<collision->ownmesh->tag<<std::endl;
 }
 
 void Model::Trigger(bool trigger) {
@@ -316,9 +317,30 @@ bool Model::MoveTo(vec3 target,GLfloat speed){
         return true;}
 
 
-    vec3 nextPosition= target*speed*gameManager->deltaTime+position*(1.f-speed*gameManager->deltaTime);
+    //cout << position.x << " " << position.y << " " <<position.z << " "<<endl;
+    vec3 nextPosition= target*speed+position*(1.f-speed);
+
     SetPosition(nextPosition);
     return false;
 
+
+}
+
+void Model::RotateAround(vec3 target,vec3 axis, float angle) {
+
+    rotationMatrix=rotate(mat4(),glm::radians(angle), axis);
+//rotation=vec3();
+//  converting vec3 to vec4 because rotation matrix is 4d and we want to get forward
+
+// storing rotation
+ //   rotation=vec3(rotation.x+angle*axis.x,rotation.y+angle*axis.y,rotation.z+angle*rotation.z);
+
+//updating forward and right directions
+    UpdateDirections();
+    modalMatrix=
+            translate(mat4(), target)*rotationMatrix*translate(mat4(), -target)*modalMatrix;
+    vec4 posTemp=vec4(position.x,position.y,position.z,1.f);
+    posTemp=rotationMatrix*posTemp;
+    position=vec3(posTemp.x,posTemp.y,posTemp.z);
 
 }

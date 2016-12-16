@@ -153,6 +153,8 @@ GameManager.h
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/GameManager.h
 
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/PlayerScript.h
+math.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/math.h
 Script.h
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/Script.h
 iostream
@@ -167,6 +169,8 @@ GameManager.h
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/GameManager.h
 
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/Script.h
+glm/vec3.hpp
+-
 iostream
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/iostream
 
