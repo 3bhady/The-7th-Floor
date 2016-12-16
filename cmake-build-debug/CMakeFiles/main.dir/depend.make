@@ -8,6 +8,7 @@ CMakeFiles/main.dir/Collider.cpp.o: ../GameManager.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Input.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Model.h
+CMakeFiles/main.dir/Collider.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Script.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Shader.h
 
@@ -23,6 +24,7 @@ CMakeFiles/main.dir/GameManager.cpp.o: ../GameManager.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Input.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Model.h
+CMakeFiles/main.dir/GameManager.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Script.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Shader.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../filesystem.h
@@ -34,6 +36,7 @@ CMakeFiles/main.dir/Input.cpp.o: ../Input.cpp
 CMakeFiles/main.dir/Input.cpp.o: ../Input.h
 CMakeFiles/main.dir/Input.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/Input.cpp.o: ../Model.h
+CMakeFiles/main.dir/Input.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/Input.cpp.o: ../Script.h
 CMakeFiles/main.dir/Input.cpp.o: ../Shader.h
 
@@ -49,14 +52,20 @@ CMakeFiles/main.dir/Model.cpp.o: ../Input.h
 CMakeFiles/main.dir/Model.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/Model.cpp.o: ../Model.cpp
 CMakeFiles/main.dir/Model.cpp.o: ../Model.h
+CMakeFiles/main.dir/Model.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/Model.cpp.o: ../Script.h
 CMakeFiles/main.dir/Model.cpp.o: ../Shader.h
+
+CMakeFiles/main.dir/Model2D.cpp.o: ../Model2D.cpp
+CMakeFiles/main.dir/Model2D.cpp.o: ../Model2D.h
+CMakeFiles/main.dir/Model2D.cpp.o: ../Shader.h
 
 CMakeFiles/main.dir/Script.cpp.o: ../Camera.h
 CMakeFiles/main.dir/Script.cpp.o: ../GameManager.h
 CMakeFiles/main.dir/Script.cpp.o: ../Input.h
 CMakeFiles/main.dir/Script.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/Script.cpp.o: ../Model.h
+CMakeFiles/main.dir/Script.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/Script.cpp.o: ../Script.cpp
 CMakeFiles/main.dir/Script.cpp.o: ../Script.h
 CMakeFiles/main.dir/Script.cpp.o: ../Shader.h
@@ -66,6 +75,7 @@ CMakeFiles/main.dir/main.cpp.o: ../GameManager.h
 CMakeFiles/main.dir/main.cpp.o: ../Input.h
 CMakeFiles/main.dir/main.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/main.cpp.o: ../Model.h
+CMakeFiles/main.dir/main.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/main.cpp.o: ../PlayerScript.h
 CMakeFiles/main.dir/main.cpp.o: ../Script.h
 CMakeFiles/main.dir/main.cpp.o: ../Shader.h

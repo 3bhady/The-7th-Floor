@@ -44,7 +44,7 @@ void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string win
 
 
     // Options
-    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     // Initialize GLEW to setup the OpenGL Function pointers
     glewExperimental = GL_TRUE;
@@ -58,7 +58,7 @@ void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string win
 
     // Setup and compile our shaders
     shader=new Shader("shader.vs", "shader.frag");
-
+    shader2D=new Shader("shader2D.vs","shader2D.frag");
 
     shader->Use();//use this shader that we initialized now  ( written by ali : 21  in math ) :) :) :)
 
@@ -111,18 +111,31 @@ void GameManager::Draw() {
 //order is very important , playing with it will be catastrophic !
     glClearColor(0.5f, 0.05f, 0.5f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-    for(int i=0; i<gameModel.size(); i++)
+    shader->Use();
+   glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
+    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
+   for(int i=0; i<gameModel.size(); i++)
     {
         gameModel[i]->Draw(shader);
     }
-    glfwSwapBuffers(window);
+    //now 2d objects
+    shader2D->Use();
+    for(int i=0; i<gameModel2D.size(); i++)
+    {
+        gameModel2D[i]->Draw(shader2D);
+    }
+
+    //glfwSwapBuffers(window);
 }
 void GameManager::AddModel(Model*& m )
 {
 gameModel.push_back(m);
     m->gameManager=this;
 
+}
+void GameManager::AddModel2D(Model2D*& m)
+{
+    gameModel2D.push_back(m);
 }
 
 //not sure if tag is string or not
@@ -134,12 +147,19 @@ void GameManager::Create_Object(std::string tag) {
 
     if(tag=="cyborg")
     gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/cyborg.obj")) );
+    if(tag=="test")
+        gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/test.obj")) );
     if(tag=="nanosuit")
         gameModel.push_back(new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj")) );
     if(tag=="scene")
         gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj")));
+
 gameModel[gameModel.size()-1]->gameManager=this;
 
+}
+void GameManager::CreateObject2D(std::string tag)
+{
+    gameModel2D.push_back(new Model2D(tag));
 }
 
 

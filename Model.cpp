@@ -3,6 +3,13 @@
 #include "GameManager.h"
 #include "Collision.h"
  GameManager*Model:: gameManager= new GameManager();
+//render text
+
+
+//end rendering text
+
+
+
 
 Model::Model(string const & path, bool gamma) : gammaCorrection(gamma)
         {

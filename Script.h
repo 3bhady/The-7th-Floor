@@ -22,6 +22,7 @@ virtual void Start() {
     }
 bool IsKeyDown(int key);
     glm::vec3 Lerp(glm::vec3 start,glm::vec3 end,float  interpolationValue);
+    void MousePosition(float &x,float & y);
 
 };
 

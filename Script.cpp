@@ -17,5 +17,10 @@ bool Script::IsKeyDown(int key)
 }
 glm::vec3 Script::Lerp(vec3 start,vec3 end,float  interpolationValue)
 {
-return model->gameManager->input->Lerp(start,end,interpolationValue);
+return Script::model->gameManager->input->Lerp(start,end,interpolationValue);
+}
+void Script::MousePosition(float &x,float& y)
+{
+  x=  model->gameManager->input->mouseXPosition;
+  y=model->gameManager->input->mouseYposition;
 }

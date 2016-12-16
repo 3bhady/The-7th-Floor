@@ -13,8 +13,13 @@ class PlayerScript:public Script {
 
 public:
 
-int x=70;
+float x,y;
     void Update(){
+
+MousePosition(x,y);
+
+
+
       if(IsKeyDown(GLFW_KEY_W))
         model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
         if(IsKeyDown(GLFW_KEY_S))
