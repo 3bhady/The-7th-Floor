@@ -14,4 +14,11 @@ public:
     Model* GetModel();
     Collider* GetOwnCollider();
     Collider* GetCollider();
+    ~Collision(){
+        owncollider= nullptr;
+        ownmesh= nullptr;
+        mesh= nullptr;
+        collider= nullptr;
+        model=nullptr;
+    }
 };

@@ -51,6 +51,7 @@ public:
     bool gammaCorrection;
     Script *script;
     bool IsTrigger;
+    string Tag;
    // static  vec3 lightPos ;
 
 //mvp matrices

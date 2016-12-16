@@ -8,9 +8,12 @@ CMakeFiles/main.dir/Collider.cpp.o: ../Model.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Script.h
 CMakeFiles/main.dir/Collider.cpp.o: ../Shader.h
 
+CMakeFiles/main.dir/Collision.cpp.o: ../Collider.h
 CMakeFiles/main.dir/Collision.cpp.o: ../Collision.cpp
 CMakeFiles/main.dir/Collision.cpp.o: ../Collision.h
 CMakeFiles/main.dir/Collision.cpp.o: ../Mesh.h
+CMakeFiles/main.dir/Collision.cpp.o: ../Model.h
+CMakeFiles/main.dir/Collision.cpp.o: ../Script.h
 CMakeFiles/main.dir/Collision.cpp.o: ../Shader.h
 
 CMakeFiles/main.dir/GameManager.cpp.o: ../Camera.h

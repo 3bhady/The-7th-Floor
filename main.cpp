@@ -21,9 +21,11 @@ Script * player=new PlayerScript();
 
     //Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"));
     //GM->AddModel(ourModel);
-GM->Create_Object("nanosuit");
+    //GM->Create_Object("nanosuit");
     GM->Create_Object("cyborg");
+    GM->gameModel[0]->Tag="cyborg";
     GM->Create_Object("scene");
+    GM->gameModel[1]->Tag="scene";
     // <-- Don't forget this one!
    // Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
 
@@ -35,12 +37,12 @@ GM->Create_Object("nanosuit");
 GM->gameModel[0]->AttachScript(player);
     GM->gameModel[0]->Trigger(true);
     GM->gameModel[1]->Trigger(true);
-GM->gameModel[2]->Trigger(true);
-  //  GM->gameModel[0]->SetPosition(glm::vec3(10.f,0,0));
+//GM->gameModel[2]->Trigger(true);
+    GM->gameModel[0]->SetPosition(glm::vec3(0.f,2.f,0));
   GM->Start(); //call start in all models script component
 
     // Draw in wireframe
-  //  glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+   // glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
     while(!glfwWindowShouldClose(GM->GetWindow()))
     {

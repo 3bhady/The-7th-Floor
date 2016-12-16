@@ -36,13 +36,13 @@ public:
         if(IsKeyDown(GLFW_KEY_UP))
         {
             vec3 pos=model->position;
-            vec3 movTemp=-model->direction*0.1f;
+            vec3 movTemp=-model->direction*0.01f;
             model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
         }
         if(IsKeyDown(GLFW_KEY_DOWN))
         {
             vec3 pos=model->position;
-            vec3 movTemp=model->direction*0.1f;
+            vec3 movTemp=model->direction*0.01f;
             model->SetPosition(vec3(model->position.x+movTemp.x,model->position.y+movTemp.y,model->position.z+movTemp.z));
         }
         if(IsKeyDown(GLFW_KEY_Q))

@@ -208,6 +208,7 @@ void Model::SetPosition(vec3 pos){
     position=pos;
 
 }
+
 void Model::SetRotation(vec3 rot){
 
 
@@ -265,7 +266,8 @@ vector< pair<Mesh*,Mesh*> >* Model::IsCollide(Model* model) {
 void Model::OnCollision(Collision * collision) {
 //this is implemented by the classes which derive Model class
     //for testing only now
-  //  std::cout<<"OnCollision is called now"<<std::endl;
+    std::cout<<"OnCollision is called now"<<std::endl;
+    //delete collision;
 }
 
 void Model::Trigger(bool trigger) {
