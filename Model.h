@@ -52,6 +52,9 @@ public:
     Script *script;
     bool IsTrigger;
     string Tag;
+    bool IsAnimated=false;
+    int FramesNumber=1; //cannot be less than 0 frames
+    int CurrentFrame=0; //0 is the begining
    // static  vec3 lightPos ;
 
 //mvp matrices

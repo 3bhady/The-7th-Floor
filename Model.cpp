@@ -13,9 +13,32 @@ Model::Model(string const & path, bool gamma) : gammaCorrection(gamma)
 
 void Model::Draw(Shader* shader)
 {
+   /* int start =0;
+int size = (int)meshes.size();
+int endframe =size/FramesNumber;
+    if(IsAnimated)
+    {
+        start =CurrentFrame*endframe;
+        size = start+endframe;
+        CurrentFrame++;
+        if(CurrentFrame>=FramesNumber)
+            CurrentFrame=0;
+    }
 
-    for(GLuint i = 0; i < this->meshes.size(); i++)
+    for(GLuint i = start; i < size; i++)
     { this->meshes[i].Draw(shader,modalMatrix);}
+    */
+   /* if(IsAnimated)
+    {
+        this->meshes[0].Draw(shader,modalMatrix);
+       // CurrentFrame++;
+       // if(CurrentFrame>=FramesNumber)
+         //   CurrentFrame=0;
+    }
+    else */
+    for(GLuint i = 0; i < meshes.size(); i++)
+    { this->meshes[i].Draw(shader,modalMatrix);}
+
 
 }
 void Model::loadModel(string path)

@@ -13,6 +13,10 @@ public:
 
 
     void Update(){
+        if(IsKeyDown(GLFW_KEY_O))
+        {
+            model->IsAnimated=true;
+        }
       if(IsKeyDown(GLFW_KEY_W))
         model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
         if(IsKeyDown(GLFW_KEY_S))

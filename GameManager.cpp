@@ -136,6 +136,8 @@ void GameManager::Create_Object(std::string tag) {
         gameModel.push_back(new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj")) );
     if(tag=="scene")
         gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj")));
+    if(tag=="A")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/New-Folder/Z_000000.obj")));
 gameModel[gameModel.size()-1]->gameManager=this;
 
 }
