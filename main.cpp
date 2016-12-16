@@ -42,7 +42,7 @@ Script * player=new PlayerScript();
 
 
 // Set the required callback functions
-GM->gameModel[2]->AttachScript(player);
+GM->gameModel[0]->AttachScript(player);
   //  GM->gameModel[0]->Trigger(true);
   //  GM->gameModel[1]->Trigger(true);
 //GM->gameModel[2]->Trigger(true);
