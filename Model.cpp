@@ -23,8 +23,11 @@ int endframe =size/FramesNumber;
         start =CurrentFrame*endframe;
         size = start+endframe;
         endframe+= start;
-        std::cout<<CurrentFrame<<":"<<endframe<<std::endl;
-        CurrentFrame++;
+        //std::cout<<CurrentFrame<<":"<<endframe<<std::endl;
+        deltaTime+=gameManager->deltaTime;
+        if(deltaTime>0.01f)
+        {deltaTime=0;
+        CurrentFrame++;}
         if(CurrentFrame>=FramesNumber)
             CurrentFrame=0;
     }

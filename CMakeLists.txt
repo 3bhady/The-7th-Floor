@@ -13,7 +13,7 @@ set(SOURCE_FILES main.cpp GameManager.cpp GameManager.h Mesh.h Shader.h Model.h 
 add_executable(main ${SOURCE_FILES} GameManager.cpp GameManager.h Script.cpp Script.h PlayerScript.h)
 
 target_link_libraries(main
-        -lGLEW -lglfw -lGL -lSOIL -lX11 -lpthread -lXrandr -lXi -lassimp
+        -lGLEW -lglfw -lGL -lSOIL -lX11 -lpthread -lXrandr -lXi -lassimp -lIrrKlang -lfreetype
         )
 
 include_directories(${CMAKE_BINARY_DIR}/configuration)

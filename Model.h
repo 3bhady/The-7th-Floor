@@ -91,7 +91,7 @@ public:
     void Draw(Shader* shader);
 private:
 
-
+double deltaTime=0;
    /// static GameManager* gameManager; //pointer to gamemanager
     /*  Functions   */
     // Loads a model with supported ASSIMP extensions from file and stores the resulting meshes in the meshes vector.

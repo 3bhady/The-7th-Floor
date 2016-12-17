@@ -106,7 +106,7 @@ int x=70;
         {
             model->RotateAround(vec3(0.f,0.f,0.f),vec3(0.f,1.f,0.f),1.f);
         }
-        model->SetRotation(vec3(0, -model->gameManager->camera->Yaw+90 , 0));
+       // model->SetRotation(vec3(0, -model->gameManager->camera->Yaw+90 , 0));
         if(IsKeyDown(GLFW_KEY_X)) {
 
         }

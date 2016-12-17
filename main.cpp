@@ -3,6 +3,7 @@
 #include "Camera.h"
 //#include "filesystem.h"
 #include"PlayerScript.h"
+#include <irrKlang.h>
 #include<vector>
 #include <glm/gtc/type_ptr.hpp>
 
@@ -10,8 +11,16 @@
 
 GameManager *GM=new GameManager();
 
-
+//using namespace irrklang;
+//#pragma comment(lib, "irrKlang.lib")
 int main() {
+
+  //  ISoundEngine* engine = irrklang::createIrrKlangDevice();
+   // if (!engine)
+   // {
+   //     printf("Could not startup engine\n");
+   //     return 0; // error starting up the engine
+   // }
 
 
     GM->Init();
@@ -25,28 +34,25 @@ Script * player=new PlayerScript();
     //Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"));
     //GM->AddModel(ourModel);
     //GM->Create_Object("nanosuit");
-    GM->Create_Object("cyborg");
-    GM->gameModel[0]->Tag="cyborg";
-    //GM->gameModel[0]->IsAnimated=true;
-    GM->gameModel[0]->FramesNumber=1;
+   // GM->Create_Object("cyborg");
+   // GM->gameModel[0]->Tag="cyborg";
+  //  GM->gameModel[0]->FramesNumber=1;
+
+
     GM->Create_Object("scene");
-    GM->gameModel[1]->Tag="scene";
+    GM->gameModel[0]->Tag="scene";
 
-    GM->Create_Object("A");
-    GM->gameModel[2]->Tag="Animated";
-    GM->gameModel[2]->IsAnimated=true;
-    GM->gameModel[2]->FramesNumber=11;
-  //  GM->gameModel[2]->IsAnimated=true;
 
-    // <-- Don't forget this one!
-   // Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
 
+    GM->Create_Object("nano");
+    GM->gameModel[1]->IsAnimated=true;
+    GM->gameModel[1]->FramesNumber=61;
 
 
 
 
 // Set the required callback functions
-GM->gameModel[0]->AttachScript(player);
+GM->gameModel[1]->AttachScript(player);
   //  GM->gameModel[0]->Trigger(true);
   //  GM->gameModel[1]->Trigger(true);
 //GM->gameModel[2]->Trigger(true);

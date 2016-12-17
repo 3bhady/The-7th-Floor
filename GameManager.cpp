@@ -140,6 +140,8 @@ void GameManager::Create_Object(std::string tag) {
         gameModel.push_back(new Model(FileSystem::getPath("objects/7th/X.obj")));
     if(tag=="A")
         gameModel.push_back(new Model(FileSystem::getPath("objects/Animation/Walk.obj")));
+    if(tag=="nano")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/zombie/untitled.obj")) );
 gameModel[gameModel.size()-1]->gameManager=this;
 
 }
