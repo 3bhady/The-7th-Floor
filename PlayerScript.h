@@ -28,7 +28,7 @@ bool shouldAttack=true;
 
     void Update() {
         //setting sword position and collision;;;
- model->child[0]->SetPosition(model->position+model->direction*2.0f+vec3(0.,2.,0.));
+ model->child[0]->SetPosition(model->position+model->direction*3.0f+vec3(0.,2.,0.));
 
 
 
@@ -171,7 +171,7 @@ bool shouldAttack=true;
         if(IsKeyDown(GLFW_KEY_X)) {
 
         }
-     //   model->gameManager->camera->ViewMatrix=glm::lookAt(model->position-model->direction*4.5f+vec3(0,5.f,0.f),model->position+model->direction+vec3(0,4.f,0),  model->gameManager->camera->Up);
+      // model->gameManager->camera->ViewMatrix=glm::lookAt(model->position-model->direction*4.5f+vec3(0,5.f,0.f),model->position+model->direction+vec3(0,4.f,0),  model->gameManager->camera->Up);
         if(IsKeyDown(GLFW_KEY_C))
         {
             vec3 camVec = model->gameManager->camera->Front;
@@ -201,6 +201,7 @@ model->modalMatrix=model->lastModalMatrix;
       {
         //  cout<<endl<<"found the fuckin enemy !! "<<endl;
       }
+      cout<<collision->model->Tag<<endl;
 
   }
     void Start(){

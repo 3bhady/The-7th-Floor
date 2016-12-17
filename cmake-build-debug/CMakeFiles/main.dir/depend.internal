@@ -33,10 +33,11 @@ CMakeFiles/main.dir/GameManager.cpp.o
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Mesh.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Model.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Model2D.h
+ /home/mohamed/Desktop/Junglev1/The-7th-Floor/PlayerScript.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Script.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Shader.h
+ /home/mohamed/Desktop/Junglev1/The-7th-Floor/SwordScript.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/filesystem.h
- configuration/root_directory.h
 CMakeFiles/main.dir/Input.cpp.o
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Camera.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/GameManager.h
@@ -90,3 +91,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/Shader.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/SwordScript.h
  /home/mohamed/Desktop/Junglev1/The-7th-Floor/main.cpp
+CMakeFiles/main.dir/meshesTemp.cpp.o
+ /home/mohamed/Desktop/Junglev1/The-7th-Floor/meshesTemp.cpp
+ /home/mohamed/Desktop/Junglev1/The-7th-Floor/meshesTemp.h

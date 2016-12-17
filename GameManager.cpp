@@ -148,12 +148,15 @@ void GameManager::Create_Object(std::string tag) {
 for(int i=0; i<gameModel.size(); i++)
 {
     if(gameModel[i]->Tag==tag){
-   Model* model= new Model();
-        model->textures_loaded=gameModel[i]->textures_loaded;
-        model->Tag=tag;
+   Model* m= new Model();
+        m->textures_loaded=gameModel[i]->textures_loaded;
+        m->Tag=tag;
        // model->FramesNumber=gameModel[i]->FramesNumber;
-        model->meshes=gameModel[i]->meshes;
-       AddModel(model);
+        for(int j=0; j<gameModel[i]->meshes.size(); j++)
+            m->meshes.push_back(gameModel[i]->meshes[j].CreateMeshInstanse(m));
+
+
+       AddModel(m);
 
     return;
     }
@@ -169,8 +172,13 @@ for(int i=0; i<gameModel.size(); i++)
 
     if(tag=="Walk")
         gameModel.push_back(new Model(FileSystem::getPath("objects/Animation/Walk.obj"),"Walk"));
+
     if(tag=="swordfront")
         gameModel.push_back(new Model(FileSystem::getPath("objects/swordfront/swordfront.obj"),"swordfront"));
+
+    if(tag=="zombie")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/zombie/untitled.obj"),"zombie"));
+
 
 gameModel[gameModel.size()-1]->gameManager=this;
 

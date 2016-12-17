@@ -32,10 +32,11 @@ CMakeFiles/main.dir/GameManager.cpp.o: ../Input.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Mesh.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Model.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Model2D.h
+CMakeFiles/main.dir/GameManager.cpp.o: ../PlayerScript.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Script.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../Shader.h
+CMakeFiles/main.dir/GameManager.cpp.o: ../SwordScript.h
 CMakeFiles/main.dir/GameManager.cpp.o: ../filesystem.h
-CMakeFiles/main.dir/GameManager.cpp.o: configuration/root_directory.h
 
 CMakeFiles/main.dir/Input.cpp.o: ../Camera.h
 CMakeFiles/main.dir/Input.cpp.o: ../GameManager.h
@@ -89,4 +90,7 @@ CMakeFiles/main.dir/main.cpp.o: ../Script.h
 CMakeFiles/main.dir/main.cpp.o: ../Shader.h
 CMakeFiles/main.dir/main.cpp.o: ../SwordScript.h
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/main.dir/meshesTemp.cpp.o: ../meshesTemp.cpp
+CMakeFiles/main.dir/meshesTemp.cpp.o: ../meshesTemp.h
 

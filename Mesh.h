@@ -44,6 +44,8 @@ class Collider;
 
 class Mesh {
 public:
+//    Mesh( const Mesh& m);
+
     /*  Mesh Data  */
     vector<Vertex> vertices;
     vector<GLuint> indices;
@@ -58,7 +60,7 @@ public:
     /*  Functions  */
     // Constructor
     Mesh(vector<Vertex> vertices, vector<GLuint> indices, vector<Texture> textures,Model* parent);
-
+   Mesh CreateMeshInstanse(Model* p);
     void CalculateCollider();
     // Render the mesh
     void Draw(Shader* shader,glm::mat4 &modalMatrix);

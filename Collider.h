@@ -13,8 +13,10 @@ public:
     Mesh* mesh;
 
 public:
+
     void SetValues(float _x1,float _y1,float _z1, float _x2,float _y2,float _z2 );
     Collider(Mesh  * parent);
+
     bool IsCollide(Collider * collider);
     void RePosition();
     void SetMech(Mesh* & parent){

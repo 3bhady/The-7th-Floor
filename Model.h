@@ -50,6 +50,7 @@ public:
 
     //endtesting
     Model(bool gamma=false);
+
   glm::mat4 lastModalMatrix=glm::mat4(1.0);
     glm::vec3 lastPosition;
     glm::vec3 lastRotation;
@@ -102,7 +103,7 @@ public:
     void Draw(Shader* shader);
 private:
 
-
+double deltaTime=0;
    /// static GameManager* gameManager; //pointer to gamemanager
     /*  Functions   */
     // Loads a model with supported ASSIMP extensions from file and stores the resulting meshes in the meshes vector.

@@ -34,7 +34,8 @@ void OnCollision(Collision* collision)
 
 //cout<<collision->model->Tag;
     if(((PlayerScript*)model->parent->script)->shouldAttack){
-        cout<<" should i attack nehahahaha "<<endl;
+        cout<<"   "<<collision->model->Tag<<endl;
+        cout<<model->Tag<<endl;
     }
 
 }
