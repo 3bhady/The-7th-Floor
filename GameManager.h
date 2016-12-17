@@ -9,6 +9,8 @@
 #include "Camera.h"
 #include "Input.h"
 #include"Model.h"
+#include "Model2D.h"
+
 #endif
 
 
@@ -24,6 +26,7 @@ private:
    string  windowName;
 public:
     std::vector<Model*>gameModel; //list of all the objects in the game
+    std::vector<Model2D*>gameModel2D;
     Camera* camera ;
      Input *  input;
     GLfloat deltaTime ;//last frame for delta time
@@ -38,21 +41,19 @@ public:
     GLFWwindow* GetWindow();
     void UpdateDeltaTime();//updating deltatime
     void UpdatePollEvents();
-    void Do_Movement()
-    {
-        // Camera controls
-        if(input->IsKeyDown(GLFW_KEY_W))
-         cout<<"W is down "<<endl;
-    }
 
     void UpdateGameParameters();//updating parameters like deltatime
     void Update();
     void Start();
     void Draw();
     void AddModel(Model*& m);
+    void AddModel2D(Model2D*& m);
 
     //shouldn't be public
     Shader* shader;
+    Shader* shader2D;
 
+  Model* Inistatiate(string tag);
+    void CreateObject2D(string tag);
 };
 

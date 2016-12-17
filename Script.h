@@ -7,6 +7,7 @@
 
 #include <glm/vec3.hpp>
 #include"iostream"
+class Collision;
 
 class Model;
 class Script {
@@ -22,6 +23,9 @@ virtual void Start() {
     }
 bool IsKeyDown(int key);
     glm::vec3 Lerp(glm::vec3 start,glm::vec3 end,float  interpolationValue);
+    void MousePosition(float &x,float & y);
+
+    virtual void OnCollision(Collision* collision);
 
 };
 
