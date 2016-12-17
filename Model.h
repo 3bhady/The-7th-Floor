@@ -50,7 +50,11 @@ public:
 
     //endtesting
     Model(bool gamma=false);
-
+  glm::mat4 lastModalMatrix=glm::mat4(1.0);
+    glm::vec3 lastPosition;
+    glm::vec3 lastRotation;
+    glm::vec3 lastDirection;
+    glm::vec3 lastRight;
     /*  Model Data */
    static GameManager* gameManager;
     std::vector<Texture> textures_loaded;	// Stores all the textures loaded so far, optimization to make sure textures aren't loaded more than once.
@@ -81,6 +85,7 @@ public:
 
     //position,scale,rotation
     glm::vec3 position= glm::vec3(0,0,0);
+
     glm::vec3 rotation= glm::vec3(0,0,0);
     glm::vec3 scaling= glm::vec3(0,0,0);
     glm::mat4 MVP;
@@ -121,8 +126,8 @@ public:
 
 
     void RePosition();
-    void SetPosition(vec3 pos);
-    void SetRotation(vec3 rot);
+    void SetPosition(vec3 pos,int type=0);
+    void SetRotation(vec3 rot,int type=0);
     void SetScaling(vec3 scal);
     void UpdateDirections();
     vector< pair<Mesh*,Mesh*> >* IsCollide(Model* model);

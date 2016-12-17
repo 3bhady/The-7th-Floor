@@ -78,6 +78,7 @@ CMakeFiles/main.dir/Script.cpp.o: ../Script.h
 CMakeFiles/main.dir/Script.cpp.o: ../Shader.h
 
 CMakeFiles/main.dir/main.cpp.o: ../Camera.h
+CMakeFiles/main.dir/main.cpp.o: ../Collision.h
 CMakeFiles/main.dir/main.cpp.o: ../GameManager.h
 CMakeFiles/main.dir/main.cpp.o: ../Input.h
 CMakeFiles/main.dir/main.cpp.o: ../Mesh.h

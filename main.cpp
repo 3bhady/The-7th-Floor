@@ -59,6 +59,11 @@ int main() {
     GM->gameModel[1]->Trigger(1);
     GM->gameModel[4]->FramesNumber=11;
 
+
+
+       GM->gameModel[2]->meshes[8].IsTrigger=false;
+
+
   //  GM->gameModel[2]->IsAnimated=true;
 
     // <-- Don't forget this one!
@@ -84,8 +89,10 @@ int main() {
     while(!glfwWindowShouldClose(GM->GetWindow()))
     {
     GM->UpdateGameParameters();
-        GM->Check_Collision();
+
         GM->Update();
+        GM->Check_Collision();
+
       //  GM->gameModel[4]->IsAnimated=false;
       GM->Draw();
 

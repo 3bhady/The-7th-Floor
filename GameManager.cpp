@@ -95,8 +95,9 @@ void GameManager::Start() {
 void GameManager::Update() {
     for(int i=0; i<gameModel.size(); i++)
     {
-        gameModel[i]->RePosition();
+
         gameModel[i]->script->Update();
+        gameModel[i]->RePosition();
     }
     camera->ProjectionMatrix = glm::perspective(camera->Zoom, (float)screenWidth/(float)screenHeight, 0.1f, 200.0f);
 

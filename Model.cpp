@@ -31,13 +31,13 @@ int endframe =size/FramesNumber;
 
     if(IsAnimated==true)
     {
-        std::cout<<" is Animated"<<std::endl;
+      //  std::cout<<" is Animated"<<std::endl;
         //std::cout<<size<<std::endl;
 
         start =CurrentFrame*endframe;
         size = start+endframe;
         endframe+= start;
-        std::cout<<CurrentFrame<<":"<<endframe<<std::endl;
+    //    std::cout<<CurrentFrame<<":"<<endframe<<std::endl;
         CurrentFrame++;
         if(CurrentFrame>=FramesNumber)
             CurrentFrame=0;
@@ -243,7 +243,11 @@ void Model::Scale(vec3 scal){
 }*/
 //setting up  rotation,translation ,scaling
 
-void Model::SetPosition(vec3 pos){
+void Model::SetPosition(vec3 pos,int type){
+  //  if(type==0)
+   // lastPosition=position;
+
+
     translationMatrix=translate(mat4(), pos);
 
     modalMatrix=translationMatrix*translate(mat4(),-position)*modalMatrix;
@@ -252,7 +256,8 @@ void Model::SetPosition(vec3 pos){
 
 }
 
-void Model::SetRotation(vec3 rot){
+void Model::SetRotation(vec3 rot,int type){
+
 
 
 // multiplying all rotations in order YXZ
@@ -311,7 +316,7 @@ void Model::OnCollision(Collision * collision) {
 //this is implemented by the classes which derive Model class
     //for testing only now
 this->script->OnCollision(collision);
-    std::cout<<"OnCollision is called now"<<std::endl;
+    //std::cout<<"OnCollision is called now"<<std::endl;
     //delete collision;
 
 }
