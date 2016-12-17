@@ -8,6 +8,7 @@
 
 #include"PlayerScript.h"
 #include "Model2D.h"
+#include "SwordScript.h"
 
 #include<vector>
 #include <glm/gtc/type_ptr.hpp>
@@ -20,6 +21,7 @@ int main() {
     GM->Init();
 
     Script * player=new PlayerScript();
+    Script* sword=new SwordScript();
    // Model *ourModel=new Model(FileSystem::getPath("objects/cyborg/test.obj"));
    // GM->AddModel(ourModel);
    GM->Create_Object("nanosuit");
@@ -52,6 +54,17 @@ int main() {
     GM->gameModel[1]->Tag="scene";
 
     GM->Create_Object("Walk");
+
+
+    GM->Create_Object("cyborg");
+    GM->gameModel[5]->Trigger(1);
+    GM->gameModel[5]->FramesNumber=1;
+    GM->gameModel[5]->AttachScript(sword);
+    GM->gameModel[5]->Tag="sword";
+
+
+
+//GM->gameModel[5]->SetPosition(vec3(0,0,4.0f));
     GM->gameModel[1]->AttachScript(player);
     GM->gameModel[4]->Tag="Animated";
     GM->gameModel[4]->IsAnimated=true;
@@ -64,21 +77,6 @@ int main() {
        GM->gameModel[2]->meshes[8].IsTrigger=false;
 
 
-  //  GM->gameModel[2]->IsAnimated=true;
-
-    // <-- Don't forget this one!
-   // Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
-
-
-
-
-
-// Set the required callback functions
-
-  //  GM->gameModel[0]->Trigger(true);
-  //  GM->gameModel[1]->Trigger(true);
-//GM->gameModel[2]->Trigger(true);
-    //GM->gameModel[0]->SetPosition(glm::vec3(0.f,2.f,0));
 
   GM->Start(); //call start in all models script component
 

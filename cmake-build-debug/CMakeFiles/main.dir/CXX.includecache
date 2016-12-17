@@ -226,6 +226,20 @@ sstream
 iostream
 -
 
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/SwordScript.h
+math.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/math.h
+Script.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/Script.h
+iostream
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/iostream
+Collision.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/Collision.h
+Model.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/Model.h
+PlayerScript.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/PlayerScript.h
+
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/filesystem.h
 string
 -
@@ -243,6 +257,8 @@ PlayerScript.h
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/PlayerScript.h
 Model2D.h
 /home/mohamed/Desktop/Junglev1/The-7th-Floor/Model2D.h
+SwordScript.h
+/home/mohamed/Desktop/Junglev1/The-7th-Floor/SwordScript.h
 vector
 -
 glm/gtc/type_ptr.hpp

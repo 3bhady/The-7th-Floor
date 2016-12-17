@@ -54,6 +54,7 @@ public:
     Shader* shader2D;
 
   Model* Inistatiate(string tag);
+    Model* GetModelByTag(string tag);
     void CreateObject2D(string tag);
 };
 

@@ -151,9 +151,10 @@ for(int i=0; i<gameModel.size(); i++)
    Model* model= new Model();
         model->textures_loaded=gameModel[i]->textures_loaded;
         model->Tag=tag;
-        model->FramesNumber=gameModel[i]->FramesNumber;
+       // model->FramesNumber=gameModel[i]->FramesNumber;
         model->meshes=gameModel[i]->meshes;
        AddModel(model);
+
     return;
     }
 }
@@ -168,6 +169,8 @@ for(int i=0; i<gameModel.size(); i++)
 
     if(tag=="Walk")
         gameModel.push_back(new Model(FileSystem::getPath("objects/Animation/Walk.obj"),"Walk"));
+    if(tag=="swordfront")
+        gameModel.push_back(new Model(FileSystem::getPath("objects/swordfront/swordfront.obj"),"swordfront"));
 
 gameModel[gameModel.size()-1]->gameManager=this;
 
@@ -219,4 +222,12 @@ GLFWwindow* GameManager::GetWindow(){
 Model *GameManager::Inistatiate(string tag) {
    Create_Object( tag);
     return gameModel[gameModel.size()-1];
+}
+
+Model *GameManager::GetModelByTag(string tag) {
+    for(int i=0; i<gameModel.size(); i++)
+    {
+        if(gameModel[i]->Tag==tag)return  gameModel[i];
+    }
+    return nullptr;
 }

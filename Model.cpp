@@ -15,11 +15,16 @@ Model::Model(string const & path,string tag, bool gamma) : gammaCorrection(gamma
         {this->Tag=tag;
                 this->loadModel(path);
            this->script=new Script();//setting up the script component
+            this->parent= nullptr;
+            this->child.clear();
+
         }
 Model::Model( bool gamma) : gammaCorrection(gamma)
 {
 
     this->script=new Script();//setting up the script component
+    this->parent=nullptr;
+    this->child.clear();
 }
 
 
@@ -44,8 +49,11 @@ int endframe =size/FramesNumber;
     }
 else
         CurrentFrame=0;
+
     for(GLuint i = start; i < endframe; i++)
-    { this->meshes[i].Draw(shader,modalMatrix);}
+    {
+
+        this->meshes[i].Draw(shader,modalMatrix);}
 
    /* if(IsAnimated)
     {
@@ -399,4 +407,24 @@ void Model::RotateAround(vec3 target,vec3 axis, float angle) {
 
 void Model::Animate(bool state) {
 //this->IsAnimated=state;
+}
+
+void Model::AddChild(Model *Child) {
+Child->parent=this;
+    this->child.push_back(Child);
+    Child->parent=this;
+}
+
+void Model::AddParent(Model *Parent) {
+this->parent=Parent;
+    Model* temp=this;
+    Parent->child.push_back(temp);
+}
+
+Model *Model::GetChild(int index) {
+    return child[index];
+}
+
+Model *Model::GetParent() {
+    return parent;
 }
