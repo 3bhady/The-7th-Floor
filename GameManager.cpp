@@ -39,8 +39,6 @@ void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string win
 
 
 
-   // glfwSetCursorPosCallback(window, mouse_callback);
-    //glfwSetScrollCallback(window, scroll_callback);
 
 
     // Options
@@ -108,13 +106,15 @@ void GameManager::Update() {
 }
 
 void GameManager::Draw() {
-
+    glm::vec3 lightPos=gameModel[1]->position;
+    lightPos+=glm::vec3(0,15,0);
 //order is very important , playing with it will be catastrophic !
     glClearColor(0.5f, 0.05f, 0.5f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     shader->Use();
    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
     glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
+    glUniform3fv(glGetUniformLocation(shader->Program, "lightPos"), 1, &(lightPos[0]));
    for(int i=0; i<gameModel.size(); i++)
     {
         gameModel[i]->Draw(shader);
@@ -159,8 +159,6 @@ for(int i=0; i<gameModel.size(); i++)
 }
     if(tag=="cyborg")
     gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"),"cyborg") );
-    if(tag=="test")
-        gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/test.obj"),"test") );
     if(tag=="nanosuit")
         gameModel.push_back(new Model(FileSystem::getPath("objects/nanosuit/nanosuit.obj"),"nanosuit") );
     if(tag=="scene")
@@ -170,7 +168,8 @@ for(int i=0; i<gameModel.size(); i++)
         gameModel.push_back(new Model(FileSystem::getPath("objects/Animation/Walk.obj"),"Walk"));
     if(tag=="zombie")
         gameModel.push_back(new Model(FileSystem::getPath("objects/zombie/untitled.obj"),"zombie"));
-
+if(tag=="test")
+    gameModel.push_back(new Model(FileSystem::getPath("objects/TEST/TEST.obj"),"test"));
 gameModel[gameModel.size()-1]->gameManager=this;
 
 }

@@ -1,0 +1,6102 @@
+# Blender MTL File: 'None'
+# Material Count: 488
+
+newmtl Material__193
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.001
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.002
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.003
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.004
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.005
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.006
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.007
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.008
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.009
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.010
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.011
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.012
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.013
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.014
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.015
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.016
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.017
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.018
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.019
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.020
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.021
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.022
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.023
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.024
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.025
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.026
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.027
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.028
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.029
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.030
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.031
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.032
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.033
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.034
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.035
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.036
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.037
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.038
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.039
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.040
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.041
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.042
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.043
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.044
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.045
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.046
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.047
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.048
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.049
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.050
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.051
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.052
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.053
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.054
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.055
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.056
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.057
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.058
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.059
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl Material__193.060
+Ns 74.509804
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.108000 0.108000 0.108000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd dagger4.png
+map_Bump dagger10.png
+map_Ka dagger10.png
+
+newmtl head_material_2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_2.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_00_head_BM.bmp
+map_Bump pl0400_00_head_NM.bmp
+map_Ks pl0400_00_head_MM.bmp
+
+newmtl head_material_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl head_material_3.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0400_01_eye_BM.bmp
+map_Bump pl0400_01_eye_NM.bmp
+map_Ks pl0400_01_eye_MM.bmp
+
+newmtl material_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_1.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_23_boots_BM.bmp
+map_Ks pl0420_23_boots_MM.bmp
+
+newmtl material_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_3.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_21_pants_BM.bmp
+map_Bump pl0420_21_pants_NM.bmp
+map_Ks pl0420_21_pants_MM.bmp
+
+newmtl material_4
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_4.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_22_glove_BM.bmp
+map_Ks pl0420_22_glove_MM.bmp
+
+newmtl material_5
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_5.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_20_shirts_BM.bmp
+map_Ks pl0420_20_shirts_MM.bmp
+
+newmtl material_7
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.017
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.021
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.022
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.024
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.029
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.033
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.034
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.035
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.036
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.038
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.039
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.040
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.041
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.042
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.043
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.044
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.045
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.047
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.050
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.051
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.053
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.054
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.055
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.056
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.057
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.058
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.059
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp
+
+newmtl material_7.060
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pl0420_27_skin_BM.bmp
+map_Ks pl0420_27_skin_MM.bmp

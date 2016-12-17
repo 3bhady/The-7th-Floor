@@ -11,6 +11,7 @@
 #include <irrKlang.h>
 
 #include "Model2D.h"
+#include "Spawner.h"
 
 #include<vector>
 #include <glm/gtc/type_ptr.hpp>
@@ -28,26 +29,29 @@ int main() {
     GM->Init();
 
     Script * player=new PlayerScript();
-
+ //   Script * spawner = new Spawner();
   // GM->Create_Object("nanosuit");
 
     GM->Create_Object("scene");
 
-    //GM->Create_Object("test");
-    GM->CreateObject2D("cursor");
-
-    Model2D *model2D = new Model2D(std::__cxx11::string());
-
     GM->gameModel[0]->Tag="scene";
+    // GM->gameModel[0]->AttachScript(spawner);
+    GM->gameModel[0]->Trigger(1);
 
-    GM->Create_Object("cyborg");
+
+    GM->Create_Object("test");
+    GM->gameModel[1]->Animate(1);
+    GM->gameModel[1]->IsAnimated=1;
+    GM->gameModel[1]->FramesNumber=61;
+    GM->gameModel[1]->Trigger(1);
     GM->gameModel[1]->AttachScript(player);
-    GM->gameModel[1]->Tag="Animated";
+
+
+  //  GM->Create_Object("cyborg");
+   // GM->gameModel[1]->AttachScript(player);
+   // GM->gameModel[1]->Tag="Animated";
     //GM->gameModel[1]->IsAnimated=true;
     //GM->gameModel[1]->FramesNumber=2;
-
-    GM->gameModel[0]->Trigger(1);
-    GM->gameModel[1]->Trigger(1);
 
 
 

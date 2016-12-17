@@ -9,7 +9,7 @@ configure_file(configuration/root_directory.h.in configuration/root_directory.h)
 #sets the build directory to be in the same file
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin/")
 
-set(SOURCE_FILES main.cpp GameManager.cpp GameManager.h Mesh.h Shader.h Model.h Camera.h Model.cpp filesystem.h Input.cpp Input.h Script.cpp Script.h PlayerScript.h Collider.cpp Collider.h Mesh.cpp Collision.cpp Collision.h Model2D.cpp Model2D.h)
+set(SOURCE_FILES main.cpp GameManager.cpp GameManager.h Mesh.h Shader.h Model.h Camera.h Model.cpp filesystem.h Input.cpp Input.h Script.cpp Script.h PlayerScript.h Collider.cpp Collider.h Mesh.cpp Collision.cpp Collision.h Model2D.cpp Model2D.h Spawner.h ZombieBrain.h)
 add_executable(main ${SOURCE_FILES} GameManager.cpp GameManager.h Script.cpp Script.h PlayerScript.h Model2D.cpp Model2D.h)
 
 target_link_libraries(main

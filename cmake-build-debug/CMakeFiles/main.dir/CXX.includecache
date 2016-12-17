@@ -226,6 +226,12 @@ sstream
 iostream
 -
 
+/home/mohamed/Documents/Jung/Spawner.h
+Script.h
+/home/mohamed/Documents/Jung/Script.h
+Model.h
+/home/mohamed/Documents/Jung/Model.h
+
 /home/mohamed/Documents/Jung/filesystem.h
 string
 -
@@ -245,6 +251,8 @@ irrKlang.h
 -
 Model2D.h
 /home/mohamed/Documents/Jung/Model2D.h
+Spawner.h
+/home/mohamed/Documents/Jung/Spawner.h
 vector
 -
 glm/gtc/type_ptr.hpp

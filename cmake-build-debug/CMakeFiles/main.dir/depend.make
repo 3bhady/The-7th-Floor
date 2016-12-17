@@ -87,5 +87,6 @@ CMakeFiles/main.dir/main.cpp.o: ../Model2D.h
 CMakeFiles/main.dir/main.cpp.o: ../PlayerScript.h
 CMakeFiles/main.dir/main.cpp.o: ../Script.h
 CMakeFiles/main.dir/main.cpp.o: ../Shader.h
+CMakeFiles/main.dir/main.cpp.o: ../Spawner.h
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
 

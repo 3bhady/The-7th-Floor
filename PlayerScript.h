@@ -40,15 +40,15 @@ float x,y;
         }
 
         if (IsKeyDown(GLFW_KEY_W)) {
-            model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime);
+            model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime*7);
         }
 
         if (IsKeyDown(GLFW_KEY_S))
-            model->gameManager->camera->ProcessKeyboard(BACKWARD, model->gameManager->deltaTime);
+            model->gameManager->camera->ProcessKeyboard(BACKWARD, model->gameManager->deltaTime*7);
         if (IsKeyDown(GLFW_KEY_A))
-            model->gameManager->camera->ProcessKeyboard(LEFT, model->gameManager->deltaTime);
+            model->gameManager->camera->ProcessKeyboard(LEFT, model->gameManager->deltaTime*7);
         if (IsKeyDown(GLFW_KEY_D))
-            model->gameManager->camera->ProcessKeyboard(RIGHT, model->gameManager->deltaTime);
+            model->gameManager->camera->ProcessKeyboard(RIGHT, model->gameManager->deltaTime*7);
         //  model->gameManager->camera->Position=this->model->position+vec3(0.f,5.f,-2.f);
         if (IsKeyDown(GLFW_KEY_T)) {
 
@@ -59,7 +59,7 @@ float x,y;
                                                              model->gameManager->camera->Position +
                                                              model->gameManager->camera->Front,
                                                              model->gameManager->camera->Up);
-        model->gameManager->camera->ViewMatrix=glm::lookAt(model->gameManager->camera->Position,model->position ,  model->gameManager->camera->Up);
+       // model->gameManager->camera->ViewMatrix=glm::lookAt(model->gameManager->camera->Position,model->position ,  model->gameManager->camera->Up);
 
 
         if (IsKeyDown(GLFW_KEY_RIGHT)) {
@@ -135,11 +135,11 @@ float x,y;
         {
             model->RotateAround(vec3(0.f,0.f,0.f),vec3(0.f,1.f,0.f),1.f);
         }
-        model->SetRotation(vec3(0, -model->gameManager->camera->Yaw+90 , 0));
+      //  model->SetRotation(vec3(0, -model->gameManager->camera->Yaw+90 , 0));
         if(IsKeyDown(GLFW_KEY_X)) {
 
         }
-       model->gameManager->camera->ViewMatrix=glm::lookAt(model->position-model->direction*4.5f+vec3(0,5.f,0.f),model->position+model->direction+vec3(0,4.f,0),  model->gameManager->camera->Up);
+       //model->gameManager->camera->ViewMatrix=glm::lookAt(model->position-model->direction*4.5f+vec3(0,5.f,0.f),model->position+model->direction+vec3(0,4.f,0),  model->gameManager->camera->Up);
         if(IsKeyDown(GLFW_KEY_C))
         {
             vec3 camVec = model->gameManager->camera->Front;
