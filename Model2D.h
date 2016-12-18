@@ -27,18 +27,20 @@ using namespace glm;
 
 class Model2D {
 public:
+
+    vec3 rgb=vec3(0,1,0);
     std::string tag;
     glm::mat4 modelMatrix = glm::mat4(1.0);
-    vec3 positition=vec3(0.,0.,0.);
+    vec3 position=vec3(-0.5,.0,0.);
     vec3 scaling=vec3(1.,1.,1.);
 
     float vertices[18] = {
-          0.5f,0.0f,0.0f,
-          0.0f,0.0f,0.0f,
-          0.5f,0.5f,0.0f,
-          0.5f,0.5f,0.0f,
-          -0.0f,0.5f,0.0f,
-          0.0f,0.0f,0.0f
+            0.5f,  0.5f, 0.0f,
+            0.5f, -0.5f, 0.0f,
+            -0.5f,  0.5f, 0.0f,
+            0.5f, -0.5f, 0.0f,
+            -0.5f, -0.5f, 0.0f,
+            -0.5f,  0.5f, 0.0f
 
     };
 
@@ -48,8 +50,14 @@ public:
       //  modelMatrix=glm::rotate(glm::mat4(1.0),glm::radians(30.0f),glm::vec3(0,0,1.0))*modelMatrix;
        // modelMatrix=glm::scale(glm::mat4(1.),glm::vec3(1,0.3f,1));
       //  modelMatrix=glm::translate(modelMatrix,glm::vec3(.5f,0.5f,0.0))*modelMatrix;
+        SetPosition(vec3 ( 0.3,0.95f,0.0));
+        Scale(vec3(1.,0.2,1.));
+        scaling=vec3(1.,0.2,1.);
+
+
 
     }
+
     void Draw(Shader* shader){
         GLuint VBOs, VAOs;
         glGenVertexArrays(1,& VAOs); // We can also generate multiple VAOs or buffers at the same time
@@ -57,6 +65,10 @@ public:
         // ================================
         // First Triangle setup
         // ===============================
+        GLint vertexColorLocation = glGetUniformLocation(shader->Program, "ourColor");
+
+        glUniform4f(vertexColorLocation, rgb.x,rgb.y,rgb.z, 1.0f);
+
         glBindVertexArray(VAOs);
        GLuint transformLoc = glGetUniformLocation(shader->Program, "transform");
         glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(modelMatrix));
@@ -72,7 +84,27 @@ public:
         glDrawArrays(GL_TRIANGLES, 0,6);
 
     }
+    void Scale(vec3 scal){
+        glm::mat4 sclTemp=glm::scale(mat4(), vec3(1,1,1)+vec3(1,1,1)-scaling);
+        glm::mat4 scl=glm::scale(mat4(), scal);
 
+        scaling=scal;
+        modelMatrix=
+                translate(mat4(), position)*scl*translate(mat4(), -position)*modelMatrix;
+
+    }
+    void SetPosition(vec3 pos){
+        //  if(type==0)
+        // lastPosition=position;
+
+
+     mat4    translationMatrix=translate(mat4(), pos);
+
+        modelMatrix=translationMatrix*translate(mat4(),-position)*modelMatrix;
+
+        position=pos;
+
+    }
 };
 
 

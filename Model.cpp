@@ -433,3 +433,14 @@ Model *Model::GetParent() {
     return parent;
 }
 
+void Model::Destroy() {
+for(int i=0; i<gameManager->gameModel.size(); i++)
+{
+    if(gameManager->gameModel[i]==this)
+    {
+        gameManager->gameModel.erase(gameManager->gameModel.begin()+i);
+
+    }
+}
+}
+

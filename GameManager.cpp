@@ -116,7 +116,7 @@ void GameManager::Draw() {
    glUniformMatrix4fv(glGetUniformLocation(shader->Program, "projection"), 1, GL_FALSE, glm::value_ptr(camera->ProjectionMatrix));
     glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
    for(int i=0; i<gameModel.size(); i++)
-    {
+    { if(gameModel[i]->hidden==false)
         gameModel[i]->Draw(shader);
     }
     //now 2d objects
@@ -236,6 +236,14 @@ Model *GameManager::GetModelByTag(string tag) {
     for(int i=0; i<gameModel.size(); i++)
     {
         if(gameModel[i]->Tag==tag)return  gameModel[i];
+    }
+    return nullptr;
+}
+
+Model2D *GameManager::GetModel2DByTag(string tag) {
+    for(int i=0; i<gameModel2D.size(); i++)
+    {
+        if(gameModel2D[i]->tag==tag)return  gameModel2D[i];
     }
     return nullptr;
 }

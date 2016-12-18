@@ -56,5 +56,6 @@ public:
   Model* Inistatiate(string tag);
     Model* GetModelByTag(string tag);
     void CreateObject2D(string tag);
+    Model2D* GetModel2DByTag(string tag);
 };
 

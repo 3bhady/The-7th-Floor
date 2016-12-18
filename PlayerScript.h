@@ -15,7 +15,6 @@ class PlayerScript:public Script {
 
 public:
     PlayerScript(){
-
     }
     glm::vec3 lastPosition;
 string lastColliderTag=" x";
@@ -24,6 +23,9 @@ float x,y;
     bool bol=true,colliding=false;
     Model* sword=nullptr;
 bool shouldAttack=true;
+    Model2D *healthBar=nullptr;
+
+int playerHealth=100;
 
 
     void Update() {
@@ -69,6 +71,24 @@ bool shouldAttack=true;
             temp=nullptr;
 
         }
+        if (IsKeyDown(GLFW_KEY_KP_7)) {
+
+        healthBar->Scale(vec3(0.9,1.,1.));
+
+        }
+        if (IsKeyDown(GLFW_KEY_KP_9)) {
+
+            healthBar->Scale(vec3(1.1,1.,1.));
+
+        }
+        if (IsKeyDown(GLFW_KEY_KP_3)) {
+       if(sword->hidden==false)
+            sword->hidden=true;
+            else sword->hidden=false;
+
+
+        }
+
 
 
         if (IsKeyDown(GLFW_KEY_W)) {
@@ -201,6 +221,7 @@ model->modalMatrix=model->lastModalMatrix;
       {
         //  cout<<endl<<"found the fuckin enemy !! "<<endl;
       }
+      collision->model->Destroy();
       cout<<collision->model->Tag<<endl;
 
   }
@@ -210,6 +231,7 @@ model->SetPosition(glm::vec3(0.,0.,0.f));
         std::cout<<" hello it's me the script component Start!!!";
 sword=   model->gameManager->GetModelByTag("sword");
  model->AddChild(sword);
+       healthBar= model->gameManager->GetModel2DByTag("healthBar");
 
     }
 void StoreParameters()
