@@ -62,6 +62,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SwordScript.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SwordScript.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GameManager.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,19 +80,6 @@
               <folding>
                 <element signature="e#42#66#0" expanded="true" />
                 <element signature="e#5719#6504#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mesh.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mesh.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-              <folding>
-                <element signature="e#456#671#1" expanded="false" />
-                <element signature="e#675#744#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -121,8 +118,8 @@
       <file leaf-file-name="PlayerScript.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PlayerScript.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="3431">
+              <caret line="251" column="52" lean-forward="false" selection-start-line="251" selection-start-column="52" selection-end-line="251" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -197,7 +194,6 @@
         <option value="$PROJECT_DIR$/OGLFT.h" />
         <option value="$PROJECT_DIR$/OGLFT.cpp" />
         <option value="$PROJECT_DIR$/shader2D.vs" />
-        <option value="$PROJECT_DIR$/SwordScript.h" />
         <option value="$PROJECT_DIR$/Collider.h" />
         <option value="$PROJECT_DIR$/Mesh.h" />
         <option value="$PROJECT_DIR$/Mesh.cpp" />
@@ -208,6 +204,7 @@
         <option value="$PROJECT_DIR$/Model.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Model2D.h" />
+        <option value="$PROJECT_DIR$/SwordScript.h" />
         <option value="$PROJECT_DIR$/PlayerScript.h" />
       </list>
     </option>
@@ -496,12 +493,12 @@
       <workItem from="1481911614319" duration="186000" />
       <workItem from="1481999515648" duration="9220000" />
       <workItem from="1482008894192" duration="5006000" />
-      <workItem from="1482014009014" duration="13443000" />
+      <workItem from="1482014009014" duration="15529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210252000" />
+    <option name="totallyTimeSpent" value="212338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +549,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/PlayerScript.h</url>
-          <line>75</line>
+          <line>100</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
@@ -810,14 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SwordScript.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -915,10 +904,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model2D.h">
+    <entry file="file://$PROJECT_DIR$/SwordScript.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="92" column="47" lean-forward="false" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -931,10 +920,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Model2D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="92" column="47" lean-forward="false" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PlayerScript.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="3431">
+          <caret line="251" column="52" lean-forward="false" selection-start-line="251" selection-start-column="52" selection-end-line="251" selection-end-column="52" />
           <folding />
         </state>
       </provider>

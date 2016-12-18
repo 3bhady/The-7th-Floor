@@ -14,6 +14,7 @@ using namespace std;
 class PlayerScript:public Script {
 
 public:
+    int attacks=0;
     PlayerScript(){
     }
     glm::vec3 lastPosition;
@@ -22,16 +23,40 @@ float x,y;
     int i=0;
     bool bol=true,colliding=false;
     Model* sword=nullptr;
-bool shouldAttack=true;
-    Model2D *healthBar=nullptr;
 
-int playerHealth=100;
+    Model2D *healthBar=nullptr;
+//player properties
+     bool shouldAttack=false;
+    bool canAttack=true;
+     int playerHealth=100;
+     double deltaTime=3;
+     double time=0;
 
 
     void Update() {
+        if(!canAttack){
+        deltaTime+=model->gameManager->deltaTime;
+            if(deltaTime>=3)
+            {canAttack=true;
+                deltaTime=0;
+            }
+        }
+
         //setting sword position and collision;;;
  model->child[0]->SetPosition(model->position+model->direction*3.0f+vec3(0.,2.,0.));
 
+//attacking
+        shouldAttack=false;
+        if(IsKeyDown(GLFW_KEY_SPACE))
+        {
+            if(canAttack)
+            {shouldAttack=true;
+
+                canAttack=false;
+
+               attacks++;
+            }
+        }
 
 
 
@@ -221,8 +246,11 @@ model->modalMatrix=model->lastModalMatrix;
       {
         //  cout<<endl<<"found the fuckin enemy !! "<<endl;
       }
-      collision->model->Destroy();
-      cout<<collision->model->Tag<<endl;
+     // collision->model->Destroy();
+      if(collision->model->Tag=="zombie") {
+       cout<<" attack number :: "<<attacks<<endl;
+          cout<<" Should I Attack :: "<<shouldAttack<<endl;
+      }
 
   }
     void Start(){
