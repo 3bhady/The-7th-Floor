@@ -26,7 +26,8 @@ bool IsKeyDown(int key);
     void MousePosition(float &x,float & y);
 
     virtual void OnCollision(Collision* collision);
-
+    void StoreParameters();
+    void Translate(glm::vec3 Target , float step);
 };
 
 

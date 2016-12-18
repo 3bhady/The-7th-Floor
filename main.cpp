@@ -8,10 +8,13 @@
 
 #include"PlayerScript.h"
 
-#include <irrKlang.h>
+//#include <irrKlang.h>
 
 #include "Model2D.h"
 #include "Spawner.h"
+#include "SwordScript.h"
+#include "ZombieBrain.h"
+
 
 #include<vector>
 #include <glm/gtc/type_ptr.hpp>
@@ -27,16 +30,22 @@ GameManager *GM=new GameManager();
 
 int main() {
     GM->Init();
-
+    //GM->CreateObject2D("cursor");
     Script * player=new PlayerScript();
- //   Script * spawner = new Spawner();
-  // GM->Create_Object("nanosuit");
 
+    //Script* sword=new SwordScript();
+
+    //GM->Create_Object("cyborg");
     GM->Create_Object("scene");
-
-    GM->gameModel[0]->Tag="scene";
-    // GM->gameModel[0]->AttachScript(spawner);
     GM->gameModel[0]->Trigger(1);
+    GM->gameModel[0]->meshes[8].IsTrigger=false;
+    GM->gameModel[0]->Tag="scene";
+   // GM->gameModel[0]->AttachScript(new Spawner());
+    //GM->Create_Object("cyborg");
+    //GM->gameModel[0]->Tag="x";
+    //GM->gameModel[2]->Tag="sword";
+    //Model2D *model2D = new Model2D(std::__cxx11::string());
+//GM->gameModel[2]->SetPosition(vec3(0,0,3.));
 
 
     GM->Create_Object("test");
@@ -45,18 +54,51 @@ int main() {
     GM->gameModel[1]->FramesNumber=61;
     GM->gameModel[1]->Trigger(1);
     GM->gameModel[1]->AttachScript(player);
+    GM->gameModel[1]->Tag="player";
+
+GM->Create_Object("cyborg");
+    GM->gameModel[2]->Tag="sword";
+
+ //GM->gameModel[2]->AttachScript(sword);
+   //GM->gameModel[2]->Trigger(1);
+  //GM->gameModel[0]->Trigger(1);
+  //GM->gameModel[1]->Trigger(1);
+
+GM->Create_Object("zombie");
+    GM->gameModel[3]->Animate(1);
+    GM->gameModel[3]->IsAnimated=1;
+    GM->gameModel[3]->FramesNumber=61;
+    GM->gameModel[3]->Trigger(1);
+    GM->gameModel[3]->Tag="zombie";
+    GM->gameModel[3]->SetPosition(glm::vec3(70.f,0.0f,10.f));
+    GM->gameModel[3]->AttachScript(new ZombieBrain());
 
 
-  //  GM->Create_Object("cyborg");
-   // GM->gameModel[1]->AttachScript(player);
-   // GM->gameModel[1]->Tag="Animated";
-    //GM->gameModel[1]->IsAnimated=true;
-    //GM->gameModel[1]->FramesNumber=2;
 
 
 
 
-       GM->gameModel[0]->meshes[8].IsTrigger=false;
+
+
+
+
+    //GM->gameModel[1]->Tag="scene";
+
+
+
+
+
+    // GM->gameModel[0]->AttachScript(spawner);
+
+
+
+
+
+
+
+//GM->gameModel[5]->SetPosition(vec3(0,0,4.0f));
+
+
 
 
 

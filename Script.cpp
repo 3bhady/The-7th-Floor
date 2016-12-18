@@ -28,3 +28,26 @@ void Script::MousePosition(float &x,float& y)
  void Script::OnCollision(Collision *collision) {
 
 }
+void Script::StoreParameters()
+{
+    model->lastModalMatrix=model->modalMatrix;
+    model->lastPosition=model->position;
+    model->lastRotation=model->rotation;
+    model->lastDirection=model->direction;
+    model->lastRight=model->right;
+
+}
+
+void Script::Translate(glm::vec3 Target, float step) {
+    glm::vec3 distanceVec =Target  - model->position;
+
+    float x=distanceVec.x;
+    float y=distanceVec.y;
+    float z=distanceVec.z;
+    float distance = x*x + y*y + z*z;
+    distance = sqrt(distance);
+    if(distance<=0.1f)
+        return;
+    distanceVec=glm::normalize(distanceVec);
+    model->SetPosition(model->position+distanceVec*step);
+}

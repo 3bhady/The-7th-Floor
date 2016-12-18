@@ -88,5 +88,10 @@ CMakeFiles/main.dir/main.cpp.o: ../PlayerScript.h
 CMakeFiles/main.dir/main.cpp.o: ../Script.h
 CMakeFiles/main.dir/main.cpp.o: ../Shader.h
 CMakeFiles/main.dir/main.cpp.o: ../Spawner.h
+CMakeFiles/main.dir/main.cpp.o: ../SwordScript.h
+CMakeFiles/main.dir/main.cpp.o: ../ZombieBrain.h
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/main.dir/meshesTemp.cpp.o: ../meshesTemp.cpp
+CMakeFiles/main.dir/meshesTemp.cpp.o: ../meshesTemp.h
 

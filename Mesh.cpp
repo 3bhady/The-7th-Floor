@@ -144,3 +144,40 @@ void Mesh::RePosition() {
     collider->RePosition();
 
 }
+
+Mesh Mesh::CreateMeshInstanse(Model* p) {
+
+
+
+
+
+    cout<<"sadsad"<<endl;
+    Mesh newMesh(this->vertices,this->indices,this->textures,p);
+    Collider* tempColl=new Collider(&newMesh);
+    int temp=collider->vertices.size();
+    tempColl->SetValues(collider->vertices[0].x,collider->vertices[0].y,collider->vertices[0].z, collider->vertices[temp-1].x,collider->vertices[temp-1].y,collider->vertices[temp-1].z );
+newMesh.collider=tempColl;
+    newMesh.VAO=VAO;
+    newMesh.modalMatrix_mesh =glm::mat4(1.0);
+
+    tempColl= nullptr;
+    delete tempColl;
+    return newMesh;
+}
+/*
+Mesh::Mesh( const Mesh &m) {
+int temp=m.collider->vertices.size();
+        collider=new Collider(this);
+    collider->SetValues(m.collider->vertices[0].x,m.collider->vertices[0].y,m.collider->vertices[0].z, m.collider->vertices[temp-1].x,m.collider->vertices[temp-1].y,m.collider->vertices[temp-1].z );
+
+     this->vertices=m.vertices;
+    this->indices=m.indices;
+    this-> textures=m.textures;
+    this-> VAO=m.VAO;
+     modalMatrix_mesh =glm::mat4(1.0);
+
+
+
+
+}
+*/
