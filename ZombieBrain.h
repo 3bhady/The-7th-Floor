@@ -3,6 +3,7 @@
 #include "Script.h"
 #include "Model.h"
 #include "Collision.h"
+#include "Mesh.h"
 
 class ZombieBrain : public Script{
 public:
@@ -12,12 +13,12 @@ public:
     void Start() override {
         lastpos=model->position;
 
-        int  a =random()%100;
+          a =random()%100;
         a = random()%2?-1*a:a;
 
-        int b =random()%100;
+         b =random()%100;
         b= random()%2?-1*b:b;
-        int c =random()%100;
+         c =random()%100;
         c=random()%2?-1*c:c;
 
 
@@ -48,7 +49,7 @@ int size =model->gameManager->gameModel.size();
         distance = sqrt(distance);
         //  std::cout<<distance<<endl;
 
-if(distance <2)
+if(distance <1)
 {
     return;
 }
@@ -94,7 +95,21 @@ if(distance <2)
     }
 
     void OnCollision(Collision *collision) override {
-      //  std::cout<<collision->model->Tag<<std::endl;
+        /*Mesh * mesh=collision->mesh;
+        Model * mod=collision->model;
+        int size =mod->meshes.size();
+        for(int i=0;i<size;i++)
+        {
+            if(&mod->meshes[i]==mesh)
+                cout<<i<<endl;
+        }
+        mesh= nullptr;
+        mod= nullptr;*/
+        //std::cout<<collision->model->Tag<<std::endl;
+        if(collision->model->Tag=="player")
+        {
+
+        }
         model->modalMatrix=model->lastModalMatrix;
         model->position=model->lastPosition;
         model->rotation=model->lastRotation;

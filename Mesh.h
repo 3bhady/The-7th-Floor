@@ -17,6 +17,7 @@ using namespace std;
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 #include <glm/gtc/type_ptr.hpp>
+#include <glm/gtx/euler_angles.hpp>
 
 struct Vertex {
     // Position
@@ -44,6 +45,31 @@ class Collider;
 
 class Mesh {
 public:
+
+    //mvp matrices
+    //glm::mat4 modalMatrix = glm::mat4(1.0);
+    glm::mat4 projectionMatrix_mesh;
+    glm::mat4 viewMatrix_mesh;
+
+    glm::mat4 rotationMatrix_mesh = glm::eulerAngleYXZ(1.0f, 0.0f, 0.0f);
+    glm::mat4 translationMatrix_mesh = glm::translate(glm::mat4(), glm::vec3(0, 0,0.0f ));
+    glm::mat4 scalingMatrix_mesh =glm::scale(glm::mat4(), glm::vec3(1.0f, 1.0f, 1.0f));
+    //for test only
+    //glm::vec4 forward= glm::vec4(0,0,1,1);
+    glm::vec3 direction_mesh= glm::vec3(0,0,1);
+    //right direction
+    glm::vec3 right_mesh=glm::vec3(1,0,0);
+
+    //position,scale,rotation
+    glm::vec3 position_mesh= glm::vec3(0,0,0);
+
+    glm::vec3 rotation_mesh= glm::vec3(0,0,0);
+    glm::vec3 scaling_mesh= glm::vec3(0,0,0);
+    glm::mat4 MVP_mesh;
+
+
+
+
 //    Mesh( const Mesh& m);
 
     /*  Mesh Data  */
@@ -66,6 +92,8 @@ public:
     void Draw(Shader* shader,glm::mat4 &modalMatrix);
     bool IsCollide(Mesh *mesh);
     void RePosition();
+    bool MoveTo(glm::vec3 target,GLfloat speed);
+    void SetPosition(glm::vec3 pos,int type=0);
 private:
     /*  Render data  */
     GLuint VBO, EBO;

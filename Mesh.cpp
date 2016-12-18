@@ -164,6 +164,38 @@ newMesh.collider=tempColl;
     delete tempColl;
     return newMesh;
 }
+bool Mesh::MoveTo(glm::vec3 target,GLfloat speed){
+    //check collision , should check  if position =target
+    bool shouldReturn =true;
+    double xDifference=abs((target.x-position_mesh.x));
+    double yDifference=abs((target.y-position_mesh.y));
+    double zDifference=abs((target.z-position_mesh.z));
+    if((xDifference>=0&&xDifference<=0.19)&&(yDifference>=0&&yDifference<=0.19)&&(zDifference>=0&&zDifference<=0.19) ){
+        this->SetPosition(target);
+        // std::cout<<" reached the target pos"<<std::endl;
+        return true;}
+
+
+    //cout << position.x << " " << position.y << " " <<position.z << " "<<endl;
+   glm:: vec3 nextPosition= target*speed+position_mesh*(1.f-speed);
+
+    SetPosition(nextPosition);
+    return false;
+
+
+}
+void Mesh::SetPosition(glm::vec3 pos,int type){
+    //  if(type==0)
+    // lastPosition=position;
+
+
+    translationMatrix_mesh=translate(glm::mat4(), pos);
+
+    modalMatrix_mesh=translationMatrix_mesh*translate(glm::mat4(),-position_mesh)*modalMatrix_mesh;
+
+    position_mesh=pos;
+
+}
 /*
 Mesh::Mesh( const Mesh &m) {
 int temp=m.collider->vertices.size();

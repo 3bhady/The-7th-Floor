@@ -42,7 +42,7 @@ void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string win
 
 
     // Options
-    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     // Initialize GLEW to setup the OpenGL Function pointers
     glewExperimental = GL_TRUE;
@@ -161,6 +161,10 @@ for(int i=0; i<gameModel.size(); i++)
     return;
     }
 }
+    //if(tag=="player")
+   // {
+     //   gameModel.push_back( new Model(FileSystem::getPath("objects/CharacterAnimation/CharacterAnimation.obj"),"player") );
+   // }
     if(tag=="cyborg")
     gameModel.push_back( new Model(FileSystem::getPath("objects/cyborg/cyborg.obj"),"cyborg") );
     if(tag=="nanosuit")
@@ -175,8 +179,9 @@ for(int i=0; i<gameModel.size(); i++)
         gameModel.push_back(new Model(FileSystem::getPath("objects/swordfront/swordfront.obj"),"swordfront"));
 
     if(tag=="zombie")
-    {gameModel.push_back(new Model(FileSystem::getPath("objects/zombie/untitled.obj"),"zombie"));
-    gameModel[gameModel.size()-1]->Animate(1);
+    {
+        gameModel.push_back(new Model(FileSystem::getPath("objects/zombie/untitled.obj"),"zombie"));
+     gameModel[gameModel.size()-1]->Animate(1);
         gameModel[gameModel.size()-1]->FramesNumber=61;
     }
 

@@ -49,18 +49,19 @@ float x,y;
  model->child[0]->SetPosition(model->position+model->direction*3.0f+vec3(0.,2.,0.));
 
 //attacking
-        shouldAttack=false;
+
         if(IsKeyDown(GLFW_KEY_SPACE))
         {
             if(canAttack)
-            {shouldAttack=true;
+            {
+                shouldAttack=true;
 
-                canAttack=false;
 
-               attacks++;
             }
         }
-
+        /*else {
+            shouldAttack = false;
+        }*/
 
 
 
@@ -69,10 +70,17 @@ float x,y;
         MousePosition(x, y);
 
         if (IsKeyDown(GLFW_KEY_O)) {
-            this->model->IsAnimated = false;
+           // this->model->IsAnimated = false;
+            this->model->CurrentSprite+=1;
+            if(this->model->CurrentSprite>=this->model->SpritesNumber)
+                this->model->CurrentSprite-=1;
         }
         if (IsKeyDown(GLFW_KEY_P)) {
-            this->model->IsAnimated = true;
+            this->model->CurrentSprite-=1;
+            if(this->model->CurrentSprite<0)
+                this->model->CurrentSprite=0;
+            //this->model->IsAnimated = true;
+           // this->model->CurrentSprite=!this->model->CurrentSprite;
         }
 
         if (IsKeyDown(GLFW_KEY_I)) {
@@ -264,14 +272,26 @@ float x,y;
     }
   void  OnCollision(Collision* collision )
   {
+      if(collision->mesh->Tag=="None_Door.bmp")
+      {
+          glm::vec3 target = collision->mesh->position_mesh;
+          target +=glm::vec3(0.,20.,0.);
+          collision->mesh->MoveTo(target,0.8f);
+          return;
+      }
   //    cout<<endl<<" current position "<<" x - y - z  "<<model->position.x<<" "<<model->position.y<<" "<<model->position.z<<endl;
 //     cout<<" old  position "<<" x - y - z  "<<model->lastPosition.x<<" "<<model->lastPosition.y<<" "<<model->lastPosition.z<<endl;
-model->modalMatrix=model->lastModalMatrix;
+     if(collision->model->Tag=="scene")
+     {
+
+      model->modalMatrix=model->lastModalMatrix;
       model->position=model->lastPosition;
       model->rotation=model->lastRotation;
       model->direction=model->lastDirection;
       model->right=model->lastRight;
-      if(collision->model->Tag=="Walk")
+
+     }
+         if(collision->model->Tag=="Walk")
       {
         //  cout<<endl<<"found the fuckin enemy !! "<<endl;
       }
@@ -279,7 +299,7 @@ model->modalMatrix=model->lastModalMatrix;
      // collision->model->Destroy();
       if(collision->model->Tag=="zombie") {
        cout<<" attack number :: "<<attacks<<endl;
-          cout<<" Should I Attack :: "<<shouldAttack<<endl;
+       cout<<" Should I Attack :: "<<shouldAttack<<endl;
       }
 
 
@@ -287,7 +307,7 @@ model->modalMatrix=model->lastModalMatrix;
     void Start(){
 model->SetPosition(glm::vec3(0.,0.,0.f));
 
-        std::cout<<" hello it's me the script component Start!!!";
+       // std::cout<<" hello it's me the script component Start!!!";
 sword=   model->gameManager->GetModelByTag("sword");
  model->AddChild(sword);
 
@@ -296,12 +316,11 @@ sword=   model->gameManager->GetModelByTag("sword");
     }
 void StoreParameters()
 {
-model->lastModalMatrix=model->modalMatrix;
+    model->lastModalMatrix=model->modalMatrix;
     model->lastPosition=model->position;
     model->lastRotation=model->rotation;
     model->lastDirection=model->direction;
     model->lastRight=model->right;
-
 
     }
 

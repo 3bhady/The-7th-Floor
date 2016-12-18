@@ -18,7 +18,7 @@ using namespace std;
 class SwordScript:public Script {
 
     void Start(){
-model->Scale(vec3(0.2,0.2,0.2));
+model->Scale(vec3(0.1,0.1,0.1));
         model->SetPosition(vec3(0.,0.,5.0));
 
 
@@ -33,12 +33,8 @@ void OnCollision(Collision* collision)
 {
 
 //cout<<collision->model->Tag;
-
-    if(((PlayerScript*)model->parent->script)->shouldAttack){
-
-    }
-
-
+if(collision->model->Tag=="zombie")
+    ((PlayerScript*)model->parent->script)->canAttack=true;
 }
 
 

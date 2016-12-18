@@ -47,18 +47,30 @@ int main() {
 
     GM->Create_Object("cyborg");
     GM->Create_Object("scene");
+    //GM->gameModel[1]->AttachScript(new Spawner());
     GM->Create_Object("cyborg");
     GM->CreateObject2D("healthBar");
     GM->CreateObject2D("healthBarBackGround");
     GM->gameModel2D[1]->rgb=glm::vec3(1.,0.1,0.1);
-    GM->gameModel[0]->Tag="x";
+    GM->gameModel[0]->Tag="player";
     GM->gameModel[2]->Tag="sword";
-    GM->Create_Object("zombie");
+
+   /* GM->Create_Object("zombie");
     GM->gameModel[3]->Trigger(1);
     GM->gameModel[3]->IsAnimated=true;
-    GM->gameModel[3]->FramesNumber=11;
+    GM->gameModel[3]->FramesNumber=61;
     GM->gameModel[3]->SetPosition(vec3(70.0f,0.0,3.0));
     GM->gameModel[3]->AttachScript(new ZombieBrain());
+    GM->gameModel[3]->Tag="zombie";
+
+    GM->Create_Object("zombie");
+    GM->gameModel[4]->Trigger(1);
+    GM->gameModel[4]->IsAnimated=true;
+    GM->gameModel[4]->FramesNumber=61;
+    GM->gameModel[4]->SetPosition(vec3(50.0f,0.0,3.0));
+    GM->gameModel[4]->AttachScript(new ZombieBrain());
+    GM->gameModel[4]->Tag="zombie";*/
+  //  GM->gameModel[3]->AttachScript(new ZombieBrain());
     // Model2D *model2D = new Model2D(std::__cxx11::string());
 GM->gameModel[2]->SetPosition(vec3(0,0,3.));
 
@@ -69,17 +81,21 @@ GM->gameModel[2]->SetPosition(vec3(0,0,3.));
    GM->gameModel[2]->Trigger(1);
   GM->gameModel[0]->Trigger(1);
   GM->gameModel[1]->Trigger(1);
+    GM->gameModel[2]->Trigger(1);
 
 
 
+    GM->gameModel[0]->FramesNumber=61;
+    GM->gameModel[0]->SpritesNumber=16;
+    GM->gameModel[0]->IsAnimated=true;
 
 
 
 
 
     GM->gameModel[1]->meshes[8].IsTrigger=false;
-
-
+    GM->gameModel[1]->meshes[31].IsTrigger=false;
+    GM->gameModel[1]->meshes[55].IsTrigger=false;
 
     GM->gameModel[1]->Tag="scene";
 

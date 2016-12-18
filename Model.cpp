@@ -30,7 +30,7 @@ Model::Model( bool gamma) : gammaCorrection(gamma)
 
 void Model::Draw(Shader* shader)
 {
-
+/*
     int start =0;
 int size = meshes.size();
 int endframe =size/FramesNumber;
@@ -53,12 +53,44 @@ int endframe =size/FramesNumber;
             CurrentFrame=0;
     }
 else
+    { CurrentFrame=0; }
+*/
+  //  if(Tag=="player")
+     //   std::cout<<meshes.size()<<std::endl;
+int start =0;
+    int size=meshes.size()/(FramesNumber*SpritesNumber);
+
+if(IsAnimated)
+{
+    //start=CurrentFrame*CurrentSprite*size;
+    start=CurrentSprite*FramesNumber*size;
+    start*=CurrentFrame;
+    size+=start;
+    deltaTime+=gameManager->deltaTime;
+    if(deltaTime>0.01f)
+    {deltaTime=0;
+        CurrentFrame++;}
+
+    if(CurrentFrame>=SpritesNumber*FramesNumber)
         CurrentFrame=0;
-
-    for(GLuint i = start; i < endframe; i++)
+}
+    else
+{
+    CurrentFrame=0;
+}
+    for(GLuint i = start; i < size; i++)
     {
-
-        this->meshes[i].Draw(shader,modalMatrix);}
+       /* if(Tag=="scene")
+        {
+            //std::cout<<meshes[i].Tag<<std::endl;
+            if(meshes[i].Tag=="None_Door.bmp")
+            {//meshes[i].IsTrigger=0;
+                continue;}
+            //this->meshes[71].Draw(shader,modalMatrix);
+            //return;
+        }*/
+        this->meshes[i].Draw(shader,modalMatrix);
+    }
 
 
 }
@@ -178,7 +210,9 @@ Mesh Model::processMesh(aiMesh* mesh, const aiScene* scene)
     }
 
     // Return a mesh object created from the extracted mesh data
-    return Mesh(vertices, indices, textures,this);
+    Mesh * ptr = new Mesh(vertices, indices, textures,this);
+    ptr->Tag=mesh->mName.C_Str();
+    return *ptr;
 }
 
 void Model::AttachScript(Script* scr) //attach script for the model ..

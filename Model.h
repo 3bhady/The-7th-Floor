@@ -73,9 +73,11 @@ public:
 
     bool IsTrigger;
     string Tag;
-    bool IsAnimated=false;
+    bool IsAnimated=true;
     int FramesNumber=1; //cannot be less than 0 frames
     int CurrentFrame=0; //0 is the begining
+    int SpritesNumber=1; //number of animations available for object
+    int CurrentSprite=0;
    // static  vec3 lightPos ;
 
 //mvp matrices
