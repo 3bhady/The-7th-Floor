@@ -33,7 +33,7 @@ int size =model->gameManager->gameModel.size();
             break;
             }
         }
-
+    GM= nullptr;
     }
 
     void Update() override {

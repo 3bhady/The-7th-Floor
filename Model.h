@@ -50,11 +50,11 @@ public:
 
     //endtesting
     Model(bool gamma=false);
-<<<<<<< HEAD
 
-=======
+
  bool hidden=false;
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
+
+
   glm::mat4 lastModalMatrix=glm::mat4(1.0);
     glm::vec3 lastPosition;
     glm::vec3 lastRotation;
@@ -150,10 +150,9 @@ public:
     void AddParent(Model*Parent);
     Model* GetParent();
     Model* GetChild(int index);
-<<<<<<< HEAD
-=======
+
     void Destroy();
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
+
 
 
 

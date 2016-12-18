@@ -246,8 +246,7 @@ Model *GameManager::GetModelByTag(string tag) {
     }
     return nullptr;
 }
-<<<<<<< HEAD
-=======
+
 
 Model2D *GameManager::GetModel2DByTag(string tag) {
     for(int i=0; i<gameModel2D.size(); i++)
@@ -256,4 +255,4 @@ Model2D *GameManager::GetModel2DByTag(string tag) {
     }
     return nullptr;
 }
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
+

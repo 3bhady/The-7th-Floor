@@ -151,7 +151,7 @@ Mesh Mesh::CreateMeshInstanse(Model* p) {
 
 
 
-    cout<<"sadsad"<<endl;
+    //cout<<"sadsad"<<endl;
     Mesh newMesh(this->vertices,this->indices,this->textures,p);
     Collider* tempColl=new Collider(&newMesh);
     int temp=collider->vertices.size();

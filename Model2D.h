@@ -31,18 +31,7 @@ public:
     vec3 rgb=vec3(0,1,0);
     std::string tag;
     glm::mat4 modelMatrix = glm::mat4(1.0);
-<<<<<<< HEAD
-    vec3 positition=vec3(0.,0.,0.);
-    vec3 scaling=vec3(1.,1.,1.);
 
-    float vertices[18] = {
-          0.5f,0.0f,0.0f,
-          0.0f,0.0f,0.0f,
-          0.5f,0.5f,0.0f,
-          0.5f,0.5f,0.0f,
-          -0.0f,0.5f,0.0f,
-          0.0f,0.0f,0.0f
-=======
     vec3 position=vec3(-0.5,.0,0.);
     vec3 scaling=vec3(1.,1.,1.);
 
@@ -53,7 +42,7 @@ public:
             0.5f, -0.5f, 0.0f,
             -0.5f, -0.5f, 0.0f,
             -0.5f,  0.5f, 0.0f
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
+
 
     };
 
@@ -63,14 +52,12 @@ public:
       //  modelMatrix=glm::rotate(glm::mat4(1.0),glm::radians(30.0f),glm::vec3(0,0,1.0))*modelMatrix;
        // modelMatrix=glm::scale(glm::mat4(1.),glm::vec3(1,0.3f,1));
       //  modelMatrix=glm::translate(modelMatrix,glm::vec3(.5f,0.5f,0.0))*modelMatrix;
-<<<<<<< HEAD
-=======
+
         SetPosition(vec3 ( 0.3,0.95f,0.0));
         Scale(vec3(1.,0.2,1.));
         scaling=vec3(1.,0.2,1.);
 
 
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
     }
 

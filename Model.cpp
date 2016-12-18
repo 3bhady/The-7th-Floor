@@ -54,14 +54,6 @@ int endframe =size/FramesNumber;
     }
 else
         CurrentFrame=0;
-<<<<<<< HEAD
-=======
-
-    for(GLuint i = start; i < endframe; i++)
-    {
-
-        this->meshes[i].Draw(shader,modalMatrix);}
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
     for(GLuint i = start; i < endframe; i++)
     {
@@ -432,8 +424,6 @@ Model *Model::GetParent() {
     return parent;
 }
 
-<<<<<<< HEAD
-=======
 void Model::Destroy() {
 for(int i=0; i<gameManager->gameModel.size(); i++)
 {
@@ -445,4 +435,3 @@ for(int i=0; i<gameManager->gameModel.size(); i++)
 }
 }
 
->>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
