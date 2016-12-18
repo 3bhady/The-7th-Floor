@@ -33,10 +33,16 @@ void OnCollision(Collision* collision)
 {
 
 //cout<<collision->model->Tag;
+<<<<<<< HEAD
    // if(((PlayerScript*)model->parent->script)->shouldAttack){
         //cout<<"   "<<collision->model->Tag<<endl;
        // cout<<model->Tag<<endl;
    // }
+=======
+    if(((PlayerScript*)model->parent->script)->shouldAttack){
+
+    }
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
 }
 

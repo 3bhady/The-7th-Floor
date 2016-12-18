@@ -42,7 +42,7 @@ void GameManager::Init( GLuint screenWidth , GLuint screenHeight,std::string win
 
 
     // Options
-    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     // Initialize GLEW to setup the OpenGL Function pointers
     glewExperimental = GL_TRUE;
@@ -116,7 +116,7 @@ void GameManager::Draw() {
     glUniformMatrix4fv(glGetUniformLocation(shader->Program, "view"), 1, GL_FALSE, glm::value_ptr(camera->ViewMatrix));
     glUniform3fv(glGetUniformLocation(shader->Program, "lightPos"), 1, &(lightPos[0]));
    for(int i=0; i<gameModel.size(); i++)
-    {
+    { if(gameModel[i]->hidden==false)
         gameModel[i]->Draw(shader);
     }
     //now 2d objects
@@ -186,6 +186,7 @@ if(tag=="test")
     gameModel[gameModel.size()-1]->FramesNumber=61;
 }
 
+
 gameModel[gameModel.size()-1]->gameManager=this;
 
 }
@@ -245,3 +246,14 @@ Model *GameManager::GetModelByTag(string tag) {
     }
     return nullptr;
 }
+<<<<<<< HEAD
+=======
+
+Model2D *GameManager::GetModel2DByTag(string tag) {
+    for(int i=0; i<gameModel2D.size(); i++)
+    {
+        if(gameModel2D[i]->tag==tag)return  gameModel2D[i];
+    }
+    return nullptr;
+}
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b

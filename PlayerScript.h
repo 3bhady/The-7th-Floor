@@ -14,8 +14,13 @@ using namespace std;
 class PlayerScript:public Script {
 
 public:
+<<<<<<< HEAD
     PlayerScript(){
 
+=======
+    int attacks=0;
+    PlayerScript(){
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
     }
     glm::vec3 lastPosition;
 string lastColliderTag=" x";
@@ -23,6 +28,7 @@ float x,y;
     int i=0;
     bool bol=true,colliding=false;
     Model* sword=nullptr;
+<<<<<<< HEAD
 bool shouldAttack=true;
 
 
@@ -30,6 +36,42 @@ bool shouldAttack=true;
         //setting sword position and collision;;;
  model->child[0]->SetPosition(model->position+model->direction*3.0f+vec3(0.,2.,0.));
 
+=======
+
+    Model2D *healthBar=nullptr;
+//player properties
+     bool shouldAttack=false;
+    bool canAttack=true;
+     int playerHealth=100;
+     double deltaTime=3;
+     double time=0;
+
+
+    void Update() {
+        if(!canAttack){
+        deltaTime+=model->gameManager->deltaTime;
+            if(deltaTime>=3)
+            {canAttack=true;
+                deltaTime=0;
+            }
+        }
+
+        //setting sword position and collision;;;
+ model->child[0]->SetPosition(model->position+model->direction*3.0f+vec3(0.,2.,0.));
+
+//attacking
+        shouldAttack=false;
+        if(IsKeyDown(GLFW_KEY_SPACE))
+        {
+            if(canAttack)
+            {shouldAttack=true;
+
+                canAttack=false;
+
+               attacks++;
+            }
+        }
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
 
 
@@ -46,6 +88,12 @@ bool shouldAttack=true;
 
         if (IsKeyDown(GLFW_KEY_I)) {
 
+<<<<<<< HEAD
+            Model *temp = model->gameManager->Inistatiate("Walk");
+
+            temp->Trigger(1);
+            temp->FramesNumber=11;
+=======
             Model *temp = model->gameManager->Inistatiate("Walk");
 
             temp->Trigger(1);
@@ -55,6 +103,40 @@ bool shouldAttack=true;
            temp->SetPosition(model->position + model->direction*-3.0f );
             temp= nullptr;
            // delete temp;
+
+        }
+        if (IsKeyDown(GLFW_KEY_KP_5)) {
+
+            Model *temp = model->gameManager->Inistatiate("Walk");
+
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
+            temp->IsAnimated = true;
+           temp->AddParent(model);
+           temp->SetPosition(model->position + model->direction*-3.0f );
+            temp= nullptr;
+           // delete temp;
+
+            temp->FramesNumber=11;
+            temp->Trigger(1);
+            temp->SetPosition(model->position+model->direction*5.0f);
+            temp=nullptr;
+
+        }
+        if (IsKeyDown(GLFW_KEY_KP_7)) {
+
+        healthBar->Scale(vec3(0.9,1.,1.));
+
+        }
+        if (IsKeyDown(GLFW_KEY_KP_9)) {
+
+            healthBar->Scale(vec3(1.1,1.,1.));
+
+        }
+        if (IsKeyDown(GLFW_KEY_KP_3)) {
+       if(sword->hidden==false)
+            sword->hidden=true;
+            else sword->hidden=false;
+
 
         }
         if (IsKeyDown(GLFW_KEY_KP_5)) {
@@ -71,7 +153,10 @@ bool shouldAttack=true;
         }
 
 
+
+
         if (IsKeyDown(GLFW_KEY_W)) {
+<<<<<<< HEAD
 
             model->gameManager->camera->ProcessKeyboard(FORWARD, model->gameManager->deltaTime*7);
         }
@@ -83,6 +168,17 @@ bool shouldAttack=true;
         if (IsKeyDown(GLFW_KEY_D))
             model->gameManager->camera->ProcessKeyboard(RIGHT, model->gameManager->deltaTime*7);
 
+=======
+            model->gameManager->camera->ProcessKeyboard(FORWARD, 2.0f*model->gameManager->deltaTime);
+        }
+
+        if (IsKeyDown(GLFW_KEY_S))
+            model->gameManager->camera->ProcessKeyboard(BACKWARD, 2.0f*model->gameManager->deltaTime);
+        if (IsKeyDown(GLFW_KEY_A))
+            model->gameManager->camera->ProcessKeyboard(LEFT, 2.0f*model->gameManager->deltaTime);
+        if (IsKeyDown(GLFW_KEY_D))
+            model->gameManager->camera->ProcessKeyboard(RIGHT,2.0f* model->gameManager->deltaTime);
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
         //  model->gameManager->camera->Position=this->model->position+vec3(0.f,5.f,-2.f);
         if (IsKeyDown(GLFW_KEY_T)) {
 
@@ -93,9 +189,13 @@ bool shouldAttack=true;
                                                              model->gameManager->camera->Position +
                                                              model->gameManager->camera->Front,
                                                              model->gameManager->camera->Up);
+<<<<<<< HEAD
 
         //model->gameManager->camera->ViewMatrix=glm::lookAt(model->gameManager->camera->Position,model->position ,  model->gameManager->camera->Up);
 
+=======
+        //model->gameManager->camera->ViewMatrix=glm::lookAt(model->gameManager->camera->Position,model->position ,  model->gameManager->camera->Up);
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
 
         if (IsKeyDown(GLFW_KEY_RIGHT)) {
@@ -175,9 +275,13 @@ bool shouldAttack=true;
         if(IsKeyDown(GLFW_KEY_X)) {
 
         }
+<<<<<<< HEAD
 
        //model->gameManager->camera->ViewMatrix=glm::lookAt(model->position-model->direction*4.5f+vec3(0,5.f,0.f),model->position+model->direction+vec3(0,4.f,0),  model->gameManager->camera->Up);
 
+=======
+      // model->gameManager->camera->ViewMatrix=glm::lookAt(model->position-model->direction*4.5f+vec3(0,5.f,0.f),model->position+model->direction+vec3(0,4.f,0),  model->gameManager->camera->Up);
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
         if(IsKeyDown(GLFW_KEY_C))
         {
             vec3 camVec = model->gameManager->camera->Front;
@@ -207,7 +311,15 @@ model->modalMatrix=model->lastModalMatrix;
       {
         //  cout<<endl<<"found the fuckin enemy !! "<<endl;
       }
+<<<<<<< HEAD
      // cout<<collision->model->Tag<<endl;
+=======
+     // collision->model->Destroy();
+      if(collision->model->Tag=="zombie") {
+       cout<<" attack number :: "<<attacks<<endl;
+          cout<<" Should I Attack :: "<<shouldAttack<<endl;
+      }
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
   }
     void Start(){
@@ -216,6 +328,19 @@ model->SetPosition(glm::vec3(0.,0.,0.f));
         std::cout<<" hello it's me the script component Start!!!";
 sword=   model->gameManager->GetModelByTag("sword");
  model->AddChild(sword);
+<<<<<<< HEAD
+=======
+       healthBar= model->gameManager->GetModel2DByTag("healthBar");
+
+    }
+void StoreParameters()
+{
+model->lastModalMatrix=model->modalMatrix;
+    model->lastPosition=model->position;
+    model->lastRotation=model->rotation;
+    model->lastDirection=model->direction;
+    model->lastRight=model->right;
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
     }
 

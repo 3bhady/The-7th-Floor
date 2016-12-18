@@ -9,10 +9,15 @@ configure_file(configuration/root_directory.h.in configuration/root_directory.h)
 #sets the build directory to be in the same file
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin/")
 
+<<<<<<< HEAD
 
 set(SOURCE_FILES main.cpp GameManager.cpp GameManager.h Mesh.h Shader.h Model.h Camera.h Model.cpp filesystem.h Input.cpp Input.h Script.cpp Script.h PlayerScript.h Collider.cpp Collider.h Mesh.cpp Collision.cpp Collision.h Model2D.cpp Model2D.h Spawner.h ZombieBrain.h SwordScript.h meshesTemp.cpp meshesTemp.h)
 add_executable(main ${SOURCE_FILES} GameManager.cpp GameManager.h Script.cpp Script.h PlayerScript.h Model2D.cpp Model2D.h SwordScript.h meshesTemp.cpp meshesTemp.h)
 
+=======
+set(SOURCE_FILES main.cpp GameManager.cpp GameManager.h Mesh.h Shader.h Model.h Camera.h Model.cpp filesystem.h Input.cpp Input.h Script.cpp Script.h PlayerScript.h Collider.cpp Collider.h Mesh.cpp Collision.cpp Collision.h Model2D.cpp Model2D.h SwordScript.h meshesTemp.cpp meshesTemp.h)
+add_executable(main ${SOURCE_FILES} GameManager.cpp GameManager.h Script.cpp Script.h PlayerScript.h Model2D.cpp Model2D.h SwordScript.h meshesTemp.cpp meshesTemp.h)
+>>>>>>> d8bcd81f851b8111f66ca3871f08c46241240e7b
 
 target_link_libraries(main
         -lGLEW -lglfw -lGL -lSOIL -lX11 -lpthread -lXrandr -lXi -lassimp  -lfreetype
